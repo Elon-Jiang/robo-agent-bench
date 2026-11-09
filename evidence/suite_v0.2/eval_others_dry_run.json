@@ -1,0 +1,768 @@
+{
+  "suite_version": "0.2",
+  "scene_versions": {
+    "pilot_spill_cleanup": 1,
+    "pilot_clear_dishes": 1,
+    "pilot_toys": 1,
+    "pilot_breakfast": 1
+  },
+  "models": [
+    "gpt-6-astra",
+    "gpt-5.6-luna"
+  ],
+  "seeds": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "tasks": [
+    "pilot_spill_cleanup",
+    "pilot_clear_dishes",
+    "pilot_toys",
+    "pilot_breakfast"
+  ],
+  "lanes": 3,
+  "ports": [
+    8096,
+    8097,
+    8098
+  ],
+  "turn_cap": 30,
+  "time_cap_s": 1500,
+  "pending": [
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-6-astra",
+      "seed": 5,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-6-astra__s5"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-5.6-luna",
+      "seed": 5,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-5.6-luna__s5"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-6-astra",
+      "seed": 5,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-6-astra__s5"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-5.6-luna",
+      "seed": 5,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-5.6-luna__s5"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-6-astra",
+      "seed": 5,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-6-astra__s5"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-5.6-luna",
+      "seed": 5,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-5.6-luna__s5"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-6-astra",
+      "seed": 5,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-6-astra__s5"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-5.6-luna",
+      "seed": 5,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-5.6-luna__s5"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-6-astra",
+      "seed": 6,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-6-astra__s6"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-5.6-luna",
+      "seed": 6,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-5.6-luna__s6"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-6-astra",
+      "seed": 6,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-6-astra__s6"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-5.6-luna",
+      "seed": 6,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-5.6-luna__s6"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-6-astra",
+      "seed": 6,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-6-astra__s6"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-5.6-luna",
+      "seed": 6,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-5.6-luna__s6"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-6-astra",
+      "seed": 6,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-6-astra__s6"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-5.6-luna",
+      "seed": 6,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-5.6-luna__s6"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-6-astra",
+      "seed": 7,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-6-astra__s7"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-5.6-luna",
+      "seed": 7,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-5.6-luna__s7"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-6-astra",
+      "seed": 7,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-6-astra__s7"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-5.6-luna",
+      "seed": 7,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-5.6-luna__s7"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-6-astra",
+      "seed": 7,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-6-astra__s7"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-5.6-luna",
+      "seed": 7,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-5.6-luna__s7"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-6-astra",
+      "seed": 7,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-6-astra__s7"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-5.6-luna",
+      "seed": 7,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-5.6-luna__s7"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-6-astra",
+      "seed": 8,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-6-astra__s8"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-5.6-luna",
+      "seed": 8,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-5.6-luna__s8"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-6-astra",
+      "seed": 8,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-6-astra__s8"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-5.6-luna",
+      "seed": 8,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-5.6-luna__s8"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-6-astra",
+      "seed": 8,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-6-astra__s8"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-5.6-luna",
+      "seed": 8,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-5.6-luna__s8"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-6-astra",
+      "seed": 8,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-6-astra__s8"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-5.6-luna",
+      "seed": 8,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-5.6-luna__s8"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-6-astra",
+      "seed": 9,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-6-astra__s9"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-5.6-luna",
+      "seed": 9,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-5.6-luna__s9"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-6-astra",
+      "seed": 9,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-6-astra__s9"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-5.6-luna",
+      "seed": 9,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-5.6-luna__s9"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-6-astra",
+      "seed": 9,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-6-astra__s9"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-5.6-luna",
+      "seed": 9,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-5.6-luna__s9"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-6-astra",
+      "seed": 9,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-6-astra__s9"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-5.6-luna",
+      "seed": 9,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-5.6-luna__s9"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-6-astra",
+      "seed": 10,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-6-astra__s10"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-5.6-luna",
+      "seed": 10,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-5.6-luna__s10"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-6-astra",
+      "seed": 10,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-6-astra__s10"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-5.6-luna",
+      "seed": 10,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-5.6-luna__s10"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-6-astra",
+      "seed": 10,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-6-astra__s10"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-5.6-luna",
+      "seed": 10,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-5.6-luna__s10"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-6-astra",
+      "seed": 10,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-6-astra__s10"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-5.6-luna",
+      "seed": 10,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-5.6-luna__s10"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-6-astra",
+      "seed": 11,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-6-astra__s11"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-5.6-luna",
+      "seed": 11,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-5.6-luna__s11"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-6-astra",
+      "seed": 11,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-6-astra__s11"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-5.6-luna",
+      "seed": 11,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-5.6-luna__s11"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-6-astra",
+      "seed": 11,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-6-astra__s11"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-5.6-luna",
+      "seed": 11,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-5.6-luna__s11"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-6-astra",
+      "seed": 11,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-6-astra__s11"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-5.6-luna",
+      "seed": 11,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-5.6-luna__s11"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-6-astra",
+      "seed": 12,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-6-astra__s12"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-5.6-luna",
+      "seed": 12,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-5.6-luna__s12"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-6-astra",
+      "seed": 12,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-6-astra__s12"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-5.6-luna",
+      "seed": 12,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-5.6-luna__s12"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-6-astra",
+      "seed": 12,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-6-astra__s12"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-5.6-luna",
+      "seed": 12,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-5.6-luna__s12"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-6-astra",
+      "seed": 12,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-6-astra__s12"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-5.6-luna",
+      "seed": 12,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-5.6-luna__s12"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-6-astra",
+      "seed": 13,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-6-astra__s13"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-5.6-luna",
+      "seed": 13,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-5.6-luna__s13"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-6-astra",
+      "seed": 13,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-6-astra__s13"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-5.6-luna",
+      "seed": 13,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-5.6-luna__s13"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-6-astra",
+      "seed": 13,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-6-astra__s13"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-5.6-luna",
+      "seed": 13,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-5.6-luna__s13"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-6-astra",
+      "seed": 13,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-6-astra__s13"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-5.6-luna",
+      "seed": 13,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-5.6-luna__s13"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-6-astra",
+      "seed": 14,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-6-astra__s14"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-5.6-luna",
+      "seed": 14,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-5.6-luna__s14"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-6-astra",
+      "seed": 14,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-6-astra__s14"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-5.6-luna",
+      "seed": 14,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-5.6-luna__s14"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-6-astra",
+      "seed": 14,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-6-astra__s14"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-5.6-luna",
+      "seed": 14,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-5.6-luna__s14"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-6-astra",
+      "seed": 14,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-6-astra__s14"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-5.6-luna",
+      "seed": 14,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-5.6-luna__s14"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-6-astra",
+      "seed": 15,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-6-astra__s15"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-5.6-luna",
+      "seed": 15,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-5.6-luna__s15"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-6-astra",
+      "seed": 15,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-6-astra__s15"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-5.6-luna",
+      "seed": 15,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-5.6-luna__s15"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-6-astra",
+      "seed": 15,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-6-astra__s15"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-5.6-luna",
+      "seed": 15,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-5.6-luna__s15"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-6-astra",
+      "seed": 15,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-6-astra__s15"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-5.6-luna",
+      "seed": 15,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-5.6-luna__s15"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-6-astra",
+      "seed": 16,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-6-astra__s16"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-5.6-luna",
+      "seed": 16,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-5.6-luna__s16"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-6-astra",
+      "seed": 16,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-6-astra__s16"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-5.6-luna",
+      "seed": 16,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-5.6-luna__s16"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-6-astra",
+      "seed": 16,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-6-astra__s16"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-5.6-luna",
+      "seed": 16,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-5.6-luna__s16"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-6-astra",
+      "seed": 16,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-6-astra__s16"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-5.6-luna",
+      "seed": 16,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-5.6-luna__s16"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-6-astra",
+      "seed": 17,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-6-astra__s17"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-5.6-luna",
+      "seed": 17,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-5.6-luna__s17"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-6-astra",
+      "seed": 17,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-6-astra__s17"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-5.6-luna",
+      "seed": 17,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-5.6-luna__s17"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-6-astra",
+      "seed": 17,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-6-astra__s17"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-5.6-luna",
+      "seed": 17,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-5.6-luna__s17"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-6-astra",
+      "seed": 17,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-6-astra__s17"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-5.6-luna",
+      "seed": 17,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-5.6-luna__s17"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-6-astra",
+      "seed": 18,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-6-astra__s18"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-5.6-luna",
+      "seed": 18,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-5.6-luna__s18"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-6-astra",
+      "seed": 18,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-6-astra__s18"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-5.6-luna",
+      "seed": 18,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-5.6-luna__s18"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-6-astra",
+      "seed": 18,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-6-astra__s18"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-5.6-luna",
+      "seed": 18,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-5.6-luna__s18"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-6-astra",
+      "seed": 18,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-6-astra__s18"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-5.6-luna",
+      "seed": 18,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-5.6-luna__s18"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-6-astra",
+      "seed": 19,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-6-astra__s19"
+    },
+    {
+      "task": "pilot_spill_cleanup",
+      "model": "gpt-5.6-luna",
+      "seed": 19,
+      "path": "outputs/suites/suite_v0.2/pilot_spill_cleanup__gpt-5.6-luna__s19"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-6-astra",
+      "seed": 19,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-6-astra__s19"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "model": "gpt-5.6-luna",
+      "seed": 19,
+      "path": "outputs/suites/suite_v0.2/pilot_clear_dishes__gpt-5.6-luna__s19"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-6-astra",
+      "seed": 19,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-6-astra__s19"
+    },
+    {
+      "task": "pilot_toys",
+      "model": "gpt-5.6-luna",
+      "seed": 19,
+      "path": "outputs/suites/suite_v0.2/pilot_toys__gpt-5.6-luna__s19"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-6-astra",
+      "seed": 19,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-6-astra__s19"
+    },
+    {
+      "task": "pilot_breakfast",
+      "model": "gpt-5.6-luna",
+      "seed": 19,
+      "path": "outputs/suites/suite_v0.2/pilot_breakfast__gpt-5.6-luna__s19"
+    }
+  ],
+  "skipped": [],
+  "dry_run": true
+}

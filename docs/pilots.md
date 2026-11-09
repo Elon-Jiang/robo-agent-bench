@@ -123,7 +123,18 @@ making it fixed or graspable for the task. The blue rectangular basin appearance
 
 Prompt: **“Please put away the stationery on my desk.”**
 
-Loose marker, cap and scissors, a movable screwdriver distractor, a **22 × 19 × 2.8 cm desk tray**, and a fixed
+> **Current version: scene v4 (suite v0.2.1).** The scene below is the historical
+> **v1** tray layout. v2+ replaced it with a two-compartment wooden organizer and five
+> stationery pieces (marker, pencil → pen trough; eraser, sticky notes, cap → flat
+> compartment), plus phone, coffee mug, screwdriver and laptop that must be left out
+> and undisturbed. Knocking the coffee is critical; dropped stationery costs only the
+> unweighted `nothing_dropped` item. v4 fixes a contact-solver artifact that ejected
+> small stationery (primitive colliders, pad-contact compliance). Full definition,
+> weights and validation: [suite v0.2 — Tidy desk](suite_v0.2.md#tidy-desk--scene-version-2)
+> and [v0.2.1 patch](suite_v0.2.md#v021-patch-2026-11-09-tidy_desk-scene-v4-done).
+> Results from v1–v3 are not comparable with v4.
+
+**Historical v1 scene.** Loose marker, cap and scissors, a movable screwdriver distractor, a **22 × 19 × 2.8 cm desk tray**, and a fixed
 open laptop. The tray has 6 mm walls, a 20.8 × 17.8 cm interior and rubber feet. It weighs
 **300 g**, the same as the old cup. Tools lie flat; cap storage replaces capping.
 Containment uses the actual wall interior with 1 mm contact tolerance, rather than the
@@ -175,8 +186,8 @@ the screwdriver. Current 20-seed results are in [suite v0.1](suite_v0.1.md).
 The remaining seed-1 failure is the screwdriver slipping during transport. Item totals:
 marker 5/5, cap 5/5, scissors 5/5, screwdriver 4/5, laptop 5/5.
 
-Evidence: [final results](../outputs/pilots/tidy_oracle_results.json),
-[original-cup baseline](../outputs/pilots/round2/tidy_cup_baseline.json),
+Evidence: [final results](../evidence/pilots/tidy_oracle_results.json),
+[original-cup baseline](../evidence/pilots/round2/tidy_cup_baseline.json),
 [oracle source](../scripts/oracle_tidy_desk.py). Per-seed traces sit beside each results file.
 To reproduce the original geometry/weights with the same baseline plan:
 
@@ -250,9 +261,9 @@ The earlier `1107_221418` run predates the placemat: its final wrist image has n
 its three plans never move the plate. Its failure is not evidence of a current mat bug.
 
 Evidence: [reconstruction fixture](../tests/fixtures/pilot_breakfast_astra_round2.json),
-[upright control render](../outputs/pilots/round2/plate_inverted_False.png),
-[flipped render](../outputs/pilots/round2/plate_inverted_True.png),
-[diagnostic replay](../outputs/pilots/round2/pilot_breakfast__gpt-6-astra__1107_233100_replay_s0.json).
+[upright control render](../evidence/pilots/round2/plate_inverted_False.png),
+[flipped render](../evidence/pilots/round2/plate_inverted_True.png),
+[diagnostic replay](../evidence/pilots/round2/pilot_breakfast__gpt-6-astra__1107_233100_replay_s0.json).
 The regression also covers all four inset edges, hovering, randomized diner frames,
 near-rim/right, left and too-distant mugs, and the pre-mat plate location.
 
@@ -317,14 +328,14 @@ are unchanged. The tray replaces the cup at the same mass.
 
 
 YAM's measured maximum pad clearance is 95 mm. Plates still require rim grasps.
-Use [current collision measurements](../outputs/pilots/round2/measurements.json), which
+Use [current collision measurements](../evidence/pilots/round2/measurements.json), which
 separate true collision-vertex dimensions from upstream AABB bounds. The older
 `outputs/pilots/measurements.json` is historical and includes the removed cup.
 
 ## Round-2 image/item audit
 
 All **10** original round-2 episode records were compared to final wrist and overview
-images. [Full item-by-item audit, original scores and source links](../outputs/pilots/round2/item_sanity_check.md).
+images. [Full item-by-item audit, original scores and source links](../evidence/pilots/round2/item_sanity_check.md).
 
 | Scene | Astra | Luna |
 |---|---|---|
@@ -342,22 +353,22 @@ Original trial JSONL files have not been rewritten or rescored in place.
 
 | Check | Result / evidence |
 |---|---|
-| Pilot scoring | All five complete states + current-state, inset, disposal, rim, hover and airborne-container regressions pass; [log](../outputs/pilots/round2/scoring.log), [JSON](../outputs/pilots/scoring_results.json). |
-| Pilot layouts, 10 seeds/task | **50/50**, zero reset penetration; [JSON](../outputs/pilots/layout_results.json). |
-| Grasp/lift/carry/place | **39/39**, zero grasp misses/slips; [JSON](../outputs/pilots/grasp_lift_results.json). |
+| Pilot scoring | All five complete states + current-state, inset, disposal, rim, hover and airborne-container regressions pass; [log](../evidence/pilots/round2/scoring.log), [JSON](../evidence/pilots/scoring_results.json). |
+| Pilot layouts, 10 seeds/task | **50/50**, zero reset penetration; [JSON](../evidence/pilots/layout_results.json). |
+| Grasp/lift/carry/place | **39/39**, zero grasp misses/slips; [JSON](../evidence/pilots/grasp_lift_results.json). |
 | Tidy desk oracle | **4/5 strict, mean 95**, per-item/seed table above. |
 | Renders | **15/15** seed strips plus wrist views, three seeds for every pilot. |
-| Legacy `wipe_unit_test.py` | PASS; [log](../outputs/pilots/round2/wipe_unit.log). |
-| Legacy `scoring_test.py` | PASS; [log](../outputs/pilots/round2/spill_scoring.log). |
-| Legacy `layout_check.py --n 3` | **3/3**; [log](../outputs/pilots/round2/spill_layout.log). |
-| Real-camera breakfast bridge, 8099 | PASS; `/obs`, `/plan`, `/done`, JSON/JSONL/report hide grader fields; private score retained; listener closed. [Result](../outputs/pilots/round2/bridge_smoke/result.json). |
+| Legacy `wipe_unit_test.py` | PASS; [log](../evidence/pilots/round2/wipe_unit.log). |
+| Legacy `scoring_test.py` | PASS; [log](../evidence/pilots/round2/spill_scoring.log). |
+| Legacy `layout_check.py --n 3` | **3/3**; [log](../evidence/pilots/round2/spill_layout.log). |
+| Real-camera breakfast bridge, 8099 | PASS; `/obs`, `/plan`, `/done`, JSON/JSONL/report hide grader fields; private score retained; listener closed. [Result](../evidence/pilots/round2/bridge_smoke/result.json). |
 
 Renders by task:
-[spill cleanup](../outputs/pilots/pilot_spill_cleanup/pilot_spill_cleanup_sheet.png),
-[clear dishes](../outputs/pilots/pilot_clear_dishes/pilot_clear_dishes_sheet.png),
-[tidy desk](../outputs/pilots/pilot_tidy_desk/pilot_tidy_desk_sheet.png),
-[toys](../outputs/pilots/pilot_toys/pilot_toys_sheet.png),
-[breakfast](../outputs/pilots/pilot_breakfast/pilot_breakfast_sheet.png).
+[spill cleanup](../evidence/pilots/pilot_spill_cleanup/pilot_spill_cleanup_sheet.png),
+[clear dishes](../evidence/pilots/pilot_clear_dishes/pilot_clear_dishes_sheet.png),
+[tidy desk](../evidence/pilots/pilot_tidy_desk/pilot_tidy_desk_sheet.png),
+[toys](../evidence/pilots/pilot_toys/pilot_toys_sheet.png),
+[breakfast](../evidence/pilots/pilot_breakfast/pilot_breakfast_sheet.png).
 
 The grasp check is isolated-object feasibility, not full-scene completion. At round 2, only tidy desk
 had a five-seed end-to-end privileged oracle; suite v0.1 adds all five. These checks do not establish image-only

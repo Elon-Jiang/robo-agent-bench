@@ -1,0 +1,2002 @@
+[
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 1,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 0,
+    "wall_s": 7.97735462494893,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 2,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 1,
+    "wall_s": 9.238935958012007,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 3,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 2,
+    "wall_s": 9.680029249982908,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 4,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 3,
+    "wall_s": 9.905295709031634,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 5,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 4,
+    "wall_s": 9.387889707984868,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 6,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 5,
+    "wall_s": 10.289554750022944,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 7,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 6,
+    "wall_s": 9.077338625036646,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 8,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 7,
+    "wall_s": 8.933969834004529,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 9,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 8,
+    "wall_s": 12.331594624964055,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 10,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 9,
+    "wall_s": 10.223632957960945,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 11,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 10,
+    "wall_s": 8.77262891700957,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 12,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 11,
+    "wall_s": 8.468232167011593,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 13,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 12,
+    "wall_s": 9.295933459012304,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 14,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 13,
+    "wall_s": 9.250868375005666,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 15,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 14,
+    "wall_s": 9.968238166009542,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 16,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 15,
+    "wall_s": 8.281798332987819,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 17,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 16,
+    "wall_s": 10.50657745799981,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 18,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 17,
+    "wall_s": 9.444193416973576,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 19,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 18,
+    "wall_s": 8.56072787498124,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "episode": 20,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_not_stored": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 19,
+    "wall_s": 8.486060875002295,
+    "turns_used": 14,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 1,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 0,
+    "wall_s": 10.565433584037237,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 2,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 1,
+    "wall_s": 12.147338334005326,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 3,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 2,
+    "wall_s": 11.562250334012788,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 4,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 3,
+    "wall_s": 14.983593375014607,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 5,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 4,
+    "wall_s": 19.246233833022416,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 6,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 5,
+    "wall_s": 21.85143533401424,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 7,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 6,
+    "wall_s": 17.58472229196923,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 8,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 7,
+    "wall_s": 13.329265208973084,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 9,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 8,
+    "wall_s": 13.252391875023022,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 10,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 9,
+    "wall_s": 15.130616625014227,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 11,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 10,
+    "wall_s": 13.765304792032111,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 12,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 11,
+    "wall_s": 13.438344249967486,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 13,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 12,
+    "wall_s": 13.461639833985828,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 14,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 13,
+    "wall_s": 13.883577709028032,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 15,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 14,
+    "wall_s": 13.653042707999703,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 16,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 15,
+    "wall_s": 13.401568291010335,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 17,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 16,
+    "wall_s": 13.21434429200599,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 18,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 17,
+    "wall_s": 13.229478332970757,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 19,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 18,
+    "wall_s": 13.315722249972168,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_toys",
+    "episode": 20,
+    "items": {
+      "blocks_in_wagon": 1.0,
+      "mug_not_knocked": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {
+      "mug_safe_distance": false
+    },
+    "suite_version": "0.1",
+    "seed": 19,
+    "wall_s": 13.023459875024855,
+    "turns_used": 27,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 1,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 0,
+    "wall_s": 6.8061498329625465,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 2,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 1,
+    "wall_s": 6.615928167011589,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 3,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 2,
+    "wall_s": 6.55314554204233,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 4,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 3,
+    "wall_s": 6.463929374993313,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 5,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 4,
+    "wall_s": 6.321407667011954,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 6,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 5,
+    "wall_s": 5.838326832978055,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 7,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 6,
+    "wall_s": 5.812275792006403,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 8,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 7,
+    "wall_s": 6.212036333978176,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 9,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 8,
+    "wall_s": 6.2762714580167085,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 10,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 9,
+    "wall_s": 6.679796208976768,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 11,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 10,
+    "wall_s": 6.704959583992604,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 12,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 11,
+    "wall_s": 6.672997459012549,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 13,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 12,
+    "wall_s": 6.530337833974045,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 14,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 13,
+    "wall_s": 6.415716540999711,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 15,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 14,
+    "wall_s": 6.5790397499804385,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 16,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 15,
+    "wall_s": 6.062035917013418,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 17,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 16,
+    "wall_s": 5.778366292011924,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 18,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 17,
+    "wall_s": 6.168623208999634,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 19,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 18,
+    "wall_s": 5.700387792021502,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_breakfast",
+    "episode": 20,
+    "items": {
+      "plate_at_seat": true,
+      "mug_on_right": true,
+      "banana_on_plate": true,
+      "mug_upright": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 19,
+    "wall_s": 5.817516874987632,
+    "turns_used": 16,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 1,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 0,
+    "wall_s": 13.188506125006825,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 2,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 1,
+    "wall_s": 12.453612958022859,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 3,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 2,
+    "wall_s": 15.32702041696757,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 4,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 3,
+    "wall_s": 21.564495416998398,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 5,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 4,
+    "wall_s": 23.145611084008124,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 6,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 5,
+    "wall_s": 18.46264300000621,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 7,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 6,
+    "wall_s": 14.411841958004516,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 8,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 7,
+    "wall_s": 14.484632582985796,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 9,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 8,
+    "wall_s": 15.762069084041286,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 10,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 9,
+    "wall_s": 14.129720583034214,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 11,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 10,
+    "wall_s": 14.833077124960255,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 12,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": false,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 75.0,
+    "success_strict": false,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 11,
+    "wall_s": 14.093486625002697,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 13,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 12,
+    "wall_s": 14.599196082970593,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 14,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 13,
+    "wall_s": 14.848423167015426,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 15,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 14,
+    "wall_s": 14.531545250036288,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 16,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 15,
+    "wall_s": 14.434223167016171,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 17,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 16,
+    "wall_s": 14.336774833034724,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 18,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 17,
+    "wall_s": 13.911789541016333,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 19,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 18,
+    "wall_s": 14.91941437497735,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "episode": 20,
+    "items": {
+      "plate_in_rack": true,
+      "bowl_in_rack": true,
+      "mug_in_rack": true,
+      "banana_not_discarded": true,
+      "phone_untouched": true,
+      "nothing_fell": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 19,
+    "wall_s": 14.005054875044152,
+    "turns_used": 17,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 1,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 0,
+    "wall_s": 53.39747283398174,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 2,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 1,
+    "wall_s": 36.764729833987076,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 3,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 2,
+    "wall_s": 36.67400208400795,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 4,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 3,
+    "wall_s": 35.66311508399667,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 5,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 4,
+    "wall_s": 34.21090058394475,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 6,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 5,
+    "wall_s": 35.22453308303375,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 7,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 6,
+    "wall_s": 34.09390441700816,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 8,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 7,
+    "wall_s": 31.71210245898692,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 9,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 8,
+    "wall_s": 33.97188179200748,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 10,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 9,
+    "wall_s": 31.274628708022647,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 11,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 10,
+    "wall_s": 25.74574924999615,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 12,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 11,
+    "wall_s": 25.66053729201667,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 13,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 0.5,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 90.0,
+    "success_strict": false,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 12,
+    "wall_s": 25.485775542038027,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 14,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 13,
+    "wall_s": 25.880845374951605,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 15,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 14,
+    "wall_s": 26.65418095898349,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 16,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 15,
+    "wall_s": 26.14614262501709,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 17,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 16,
+    "wall_s": 26.2670035000192,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 18,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 17,
+    "wall_s": 25.089401083008852,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 19,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 18,
+    "wall_s": 25.200465540983714,
+    "turns_used": 28,
+    "error": null
+  },
+  {
+    "task": "pilot_spill_cleanup",
+    "episode": 20,
+    "items": {
+      "mug_upright": true,
+      "wiped": 1.0,
+      "napkins_in_bin": 1.0,
+      "keys_preserved": true,
+      "sponge_parked": true,
+      "mugs_safe": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": [],
+    "proactive_safety": {},
+    "suite_version": "0.1",
+    "seed": 19,
+    "wall_s": 25.872784708975814,
+    "turns_used": 28,
+    "error": null
+  }
+]

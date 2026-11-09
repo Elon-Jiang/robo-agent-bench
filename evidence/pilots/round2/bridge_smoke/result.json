@@ -1,0 +1,278 @@
+{
+  "passed": true,
+  "port": 8099,
+  "task": "pilot_breakfast",
+  "public_success_leak": false,
+  "initial": {
+    "robot": "YAM",
+    "task": "Please set up my breakfast.",
+    "strategy": "",
+    "thought": "",
+    "turn": 0,
+    "max_turns": 0,
+    "status": "reset",
+    "ee_pos": [
+      0.1998,
+      0.0,
+      0.2991
+    ],
+    "yaw_deg": -0.0,
+    "jaw_yaw_deg": 90.0,
+    "roll_deg": 90.0,
+    "pitch": 1.005,
+    "pitch_deg": 57.6,
+    "azimuth_deg": 0.0,
+    "gripper": 1.0,
+    "holding": false,
+    "stopped_on_contact": false,
+    "contact_pos": null,
+    "grid_z": 0.015,
+    "joint_pos": [
+      -0.0,
+      1.012,
+      1.497,
+      -1.49,
+      -0.0,
+      0.0,
+      1.0
+    ],
+    "wrist_cam_path": "outputs/pilots/round2/bridge_smoke/bridge/wrist_cam.png",
+    "wrist_cam_trajectory_path": "outputs/pilots/round2/bridge_smoke/bridge/wrist_cam_trajectory.png",
+    "rollout_gif_path": "outputs/pilots/round2/bridge_smoke/bridge/rollout.gif",
+    "report_path": "outputs/pilots/round2/bridge_smoke/bridge/report.md",
+    "calibration_image": "outputs/pilots/round2/bridge_smoke/bridge/calibration.png",
+    "history": [
+      {
+        "turn": 0,
+        "status": "reset",
+        "ee_pos": [
+          0.1998,
+          0.0,
+          0.2991
+        ],
+        "yaw_deg": -0.0,
+        "jaw_yaw_deg": 90.0,
+        "roll_deg": 90.0,
+        "pitch": 1.005,
+        "pitch_deg": 57.6,
+        "azimuth_deg": 0.0,
+        "gripper": 1.0,
+        "holding": false,
+        "stopped_on_contact": false,
+        "contact_pos": null,
+        "grid_z": 0.015
+      }
+    ],
+    "workspace": {
+      "min": [
+        0.16,
+        -0.22,
+        0.01
+      ],
+      "max": [
+        0.5,
+        0.22,
+        0.4
+      ]
+    }
+  },
+  "plan": {
+    "robot": "YAM",
+    "task": "Please set up my breakfast.",
+    "strategy": "",
+    "thought": "smoke test",
+    "turn": 1,
+    "max_turns": 0,
+    "status": "done",
+    "ee_pos": [
+      0.1998,
+      0.0,
+      0.2989
+    ],
+    "yaw_deg": -0.0,
+    "jaw_yaw_deg": 90.0,
+    "roll_deg": 90.0,
+    "pitch": 1.006,
+    "pitch_deg": 57.6,
+    "azimuth_deg": 0.0,
+    "gripper": 1.0,
+    "holding": false,
+    "stopped_on_contact": false,
+    "contact_pos": null,
+    "grid_z": 0.015,
+    "joint_pos": [
+      0.0,
+      1.013,
+      1.496,
+      -1.49,
+      -0.0,
+      0.0,
+      1.0
+    ],
+    "wrist_cam_path": "outputs/pilots/round2/bridge_smoke/bridge/wrist_cam.png",
+    "wrist_cam_trajectory_path": "outputs/pilots/round2/bridge_smoke/bridge/wrist_cam_trajectory.png",
+    "rollout_gif_path": "outputs/pilots/round2/bridge_smoke/bridge/rollout.gif",
+    "report_path": "outputs/pilots/round2/bridge_smoke/bridge/report.md",
+    "calibration_image": "outputs/pilots/round2/bridge_smoke/bridge/calibration.png",
+    "history": [
+      {
+        "turn": 0,
+        "status": "reset",
+        "ee_pos": [
+          0.1998,
+          0.0,
+          0.2991
+        ],
+        "yaw_deg": -0.0,
+        "jaw_yaw_deg": 90.0,
+        "roll_deg": 90.0,
+        "pitch": 1.005,
+        "pitch_deg": 57.6,
+        "azimuth_deg": 0.0,
+        "gripper": 1.0,
+        "holding": false,
+        "stopped_on_contact": false,
+        "contact_pos": null,
+        "grid_z": 0.015
+      },
+      {
+        "turn": 1,
+        "status": "done",
+        "ee_pos": [
+          0.1998,
+          0.0,
+          0.2989
+        ],
+        "yaw_deg": -0.0,
+        "jaw_yaw_deg": 90.0,
+        "roll_deg": 90.0,
+        "pitch": 1.006,
+        "pitch_deg": 57.6,
+        "azimuth_deg": 0.0,
+        "gripper": 1.0,
+        "holding": false,
+        "stopped_on_contact": false,
+        "contact_pos": null,
+        "grid_z": 0.015
+      }
+    ],
+    "workspace": {
+      "min": [
+        0.16,
+        -0.22,
+        0.01
+      ],
+      "max": [
+        0.5,
+        0.22,
+        0.4
+      ]
+    }
+  },
+  "done": {
+    "robot": "YAM",
+    "task": "Please set up my breakfast.",
+    "strategy": "",
+    "thought": "smoke complete",
+    "turn": 1,
+    "max_turns": 0,
+    "status": "episode_end",
+    "ee_pos": [
+      0.1998,
+      0.0,
+      0.2989
+    ],
+    "yaw_deg": -0.0,
+    "jaw_yaw_deg": 90.0,
+    "roll_deg": 90.0,
+    "pitch": 1.006,
+    "pitch_deg": 57.6,
+    "azimuth_deg": 0.0,
+    "gripper": 1.0,
+    "holding": false,
+    "stopped_on_contact": false,
+    "contact_pos": null,
+    "grid_z": 0.015,
+    "joint_pos": [
+      0.0,
+      1.013,
+      1.496,
+      -1.49,
+      -0.0,
+      0.0,
+      1.0
+    ],
+    "wrist_cam_path": "outputs/pilots/round2/bridge_smoke/bridge/wrist_cam.png",
+    "wrist_cam_trajectory_path": "outputs/pilots/round2/bridge_smoke/bridge/wrist_cam_trajectory.png",
+    "rollout_gif_path": "outputs/pilots/round2/bridge_smoke/bridge/rollout.gif",
+    "report_path": "outputs/pilots/round2/bridge_smoke/bridge/report.md",
+    "calibration_image": "outputs/pilots/round2/bridge_smoke/bridge/calibration.png",
+    "history": [
+      {
+        "turn": 0,
+        "status": "reset",
+        "ee_pos": [
+          0.1998,
+          0.0,
+          0.2991
+        ],
+        "yaw_deg": -0.0,
+        "jaw_yaw_deg": 90.0,
+        "roll_deg": 90.0,
+        "pitch": 1.005,
+        "pitch_deg": 57.6,
+        "azimuth_deg": 0.0,
+        "gripper": 1.0,
+        "holding": false,
+        "stopped_on_contact": false,
+        "contact_pos": null,
+        "grid_z": 0.015
+      },
+      {
+        "turn": 1,
+        "status": "done",
+        "ee_pos": [
+          0.1998,
+          0.0,
+          0.2989
+        ],
+        "yaw_deg": -0.0,
+        "jaw_yaw_deg": 90.0,
+        "roll_deg": 90.0,
+        "pitch": 1.006,
+        "pitch_deg": 57.6,
+        "azimuth_deg": 0.0,
+        "gripper": 1.0,
+        "holding": false,
+        "stopped_on_contact": false,
+        "contact_pos": null,
+        "grid_z": 0.015
+      }
+    ],
+    "workspace": {
+      "min": [
+        0.16,
+        -0.22,
+        0.01
+      ],
+      "max": [
+        0.5,
+        0.22,
+        0.4
+      ]
+    }
+  },
+  "private_episode": {
+    "task": "pilot_breakfast",
+    "episode": 1,
+    "items": {
+      "plate_at_seat": false,
+      "mug_on_right": false,
+      "banana_on_plate": false,
+      "mug_upright": true
+    },
+    "score_0_100": 10.0,
+    "success_strict": false,
+    "critical_errors": []
+  }
+}

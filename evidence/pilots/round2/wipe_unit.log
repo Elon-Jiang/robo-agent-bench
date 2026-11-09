@@ -1,0 +1,34 @@
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+../mujoco_playground/third_party/reaf_sim/reaf/simulation/torch/_src/core/simulator.py:108: UserWarning: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+  self._mj_model = self._mj_spec.compile()
+rab/tasks/spill_wipe.py:170: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:256.)
+  dev.set_quat(env_mask, torch.tensor([_qz(yaw)] * n, dtype=dt, device=xpu))
+rab/devices/spill.py:221: RuntimeWarning: divide by zero encountered in matmul
+  ok = (np.abs(rel @ n) < self._plane_tol) \
+rab/devices/spill.py:221: RuntimeWarning: overflow encountered in matmul
+  ok = (np.abs(rel @ n) < self._plane_tol) \
+rab/devices/spill.py:221: RuntimeWarning: invalid value encountered in matmul
+  ok = (np.abs(rel @ n) < self._plane_tol) \
+rab/devices/spill.py:222: RuntimeWarning: divide by zero encountered in matmul
+  & (np.abs(rel @ R[:, a]) < h[a]) & (np.abs(rel @ R[:, b]) < h[b])
+rab/devices/spill.py:222: RuntimeWarning: overflow encountered in matmul
+  & (np.abs(rel @ R[:, a]) < h[a]) & (np.abs(rel @ R[:, b]) < h[b])
+rab/devices/spill.py:222: RuntimeWarning: invalid value encountered in matmul
+  & (np.abs(rel @ R[:, a]) < h[a]) & (np.abs(rel @ R[:, b]) < h[b])
+Warp 1.18.0 initialized:
+   CUDA not enabled in this build
+   Devices:
+     "cpu"      : "arm"
+   Kernel cache:
+     ~/Library/Caches/warp/1.18.0
+[1] hover 1 cm: wiped=0 (expect 0) OK
+[2] rest: wiped=15 expected=15 extra=0 missed=0 OK
+[3] slide: wiped=22/53 expected=22 extra=0 missed=0 OK
+[4] rgba: wiped hidden & remaining visible OK
+metrics: {'wiped_frac': 0.415, 'n_cells': 53.0, 'knocked': 0.0, 'moved': 0.0, 'arm_table_events': 0.0, 'sponge_lifted': 0.0, 'score': 29.057, 'sponge_table_substeps': 0.0, 'blocked_by_arm_substeps': 0.0}
+RESULT: PASS

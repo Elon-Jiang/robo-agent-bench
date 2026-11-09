@@ -1,0 +1,100 @@
+[
+  {
+    "test": "grasp_lift_check",
+    "command": [
+      "../mujoco_playground/.venv/bin/python",
+      "scripts/grasp_lift_check.py",
+      "--objects",
+      "pencil",
+      "eraser",
+      "notes",
+      "marker",
+      "cap",
+      "--output",
+      "outputs/suite_v0.2.1/physics_v4/final/grasp.json"
+    ],
+    "exit_code": 0,
+    "wall_s": 52.71345262497198
+  },
+  {
+    "test": "test_tidy_physics",
+    "command": [
+      "../mujoco_playground/.venv/bin/python",
+      "scripts/test_tidy_physics.py"
+    ],
+    "exit_code": 0,
+    "wall_s": 7.561037791019771
+  },
+  {
+    "test": "test_pilots",
+    "command": [
+      "../mujoco_playground/.venv/bin/python",
+      "scripts/test_pilots.py",
+      "--baseline",
+      "outputs/suite_v0.2/baseline/scoring_results.json",
+      "--output",
+      "outputs/suite_v0.2.1/physics_v4/final/scoring.json"
+    ],
+    "exit_code": 0,
+    "wall_s": 20.171691541967448
+  },
+  {
+    "test": "seed_check",
+    "command": [
+      "../mujoco_playground/.venv/bin/python",
+      "scripts/seed_check.py",
+      "--baseline-snapshots",
+      "outputs/suite_v0.2/baseline/layout_scores.json",
+      "--output",
+      "outputs/suite_v0.2.1/physics_v4/final/seeds.json"
+    ],
+    "exit_code": 0,
+    "wall_s": 55.09069741697749
+  },
+  {
+    "test": "test_suite",
+    "command": [
+      "../mujoco_playground/.venv/bin/python",
+      "scripts/test_suite.py"
+    ],
+    "exit_code": 0,
+    "wall_s": 0.47946004098048434
+  },
+  {
+    "test": "wipe_unit_test",
+    "command": [
+      "../mujoco_playground/.venv/bin/python",
+      "scripts/wipe_unit_test.py"
+    ],
+    "exit_code": 0,
+    "wall_s": 11.898290999990422
+  },
+  {
+    "test": "scoring_test",
+    "command": [
+      "../mujoco_playground/.venv/bin/python",
+      "scripts/scoring_test.py"
+    ],
+    "exit_code": 0,
+    "wall_s": 7.9680609999923036
+  },
+  {
+    "test": "render_scene",
+    "command": [
+      "../mujoco_playground/.venv/bin/python",
+      "scripts/render_scene.py",
+      "--task",
+      "pilot_tidy_desk",
+      "--robot",
+      "yam",
+      "--seeds",
+      "0",
+      "1",
+      "2",
+      "--output",
+      "outputs/suite_v0.2.1/renders"
+    ],
+    "exit_code": 0,
+    "wall_s": 10.2002178329858
+  }
+]

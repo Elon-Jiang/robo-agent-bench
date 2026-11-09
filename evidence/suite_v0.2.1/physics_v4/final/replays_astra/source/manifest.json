@@ -1,0 +1,7 @@
+{
+  "rab/pilot_physics.py": "1163700331b2f1c5a3867232a5520cbecd4a982d8e84ca3f399d0cfff7e3a00a",
+  "rab/tasks/pilots.py": "b82daac94f3c408904b3898d68c471e19614534296dc990760e5a5938a8a57dd",
+  "rab/devices/pilots.py": "2cb52d4fd42022c90673b5ff14725c6e654ab940159b10d543f9ed04dfcbb714",
+  "rab/versions.py": "57c25c9b3d1532a98ad90a2701fc8c9565edea377f1880b540cb212f57075e5a",
+  "scripts/diagnose_tidy_contacts.py": "3ea94f9f9712ab395b0d51247e60e539c0ab01e257d5dd9fdbbcf2394e9161d5"
+}

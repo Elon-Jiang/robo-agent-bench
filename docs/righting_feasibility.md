@@ -132,11 +132,11 @@ To reproduce a screening row, select its strategy with `--strategy`, use `--seed
 
 ## Evidence and implementation
 
-- [SO-101 fresh-cohort records](../outputs/right_mug/holdout_so101_best_seed303.jsonl) and [YAM fresh-cohort records](../outputs/right_mug/holdout_yam_best_seed303.jsonl): reset poses, complete primitive plans, per-segment observations, final tilt/contact/velocity checks, statuses, and source hash.
-- [Aggregated counts and failure IDs](../outputs/right_mug/summary.json), [environment/source manifest](../outputs/right_mug/manifest.json), and [IK probe](../outputs/right_mug/ik_probe.json).
-- [SO-101 retained-strategy video](../outputs/right_mug/so101_best_seed303.mp4) and [YAM rim-pull video](../outputs/right_mug/yam_rim_pull.mp4).
+- [SO-101 fresh-cohort records](../evidence/right_mug/holdout_so101_best_seed303.jsonl) and [YAM fresh-cohort records](../evidence/right_mug/holdout_yam_best_seed303.jsonl): reset poses, complete primitive plans, per-segment observations, final tilt/contact/velocity checks, statuses, and source hash.
+- [Aggregated counts and failure IDs](../evidence/right_mug/summary.json), [environment/source manifest](../evidence/right_mug/manifest.json), and [IK probe](../evidence/right_mug/ik_probe.json).
+- [SO-101 retained-strategy video](../evidence/right_mug/so101_best_seed303.mp4) and [YAM rim-pull video](../evidence/right_mug/yam_rim_pull.mp4).
 - Screening files are `outputs/right_mug/final_<robot>_<strategy>.jsonl`; hybrid screening is `hybrid_<robot>_seed101.jsonl`. Development files are `validation_*_seed202.jsonl` and `hybrid_*_seed202.jsonl`.
-- Earlier `v1_*`, `v2_*`, and `v3_*` files are exploratory pilots, **not pooled into the tables**. The initial pilot used a two-second settling window and no 2 cm spawn inset. Source snapshots preserve those pilot versions; the final source snapshot is under [final_source](../outputs/right_mug/final_source/).
+- Earlier `v1_*`, `v2_*`, and `v3_*` files are exploratory pilots, **not pooled into the tables**. The initial pilot used a two-second settling window and no 2 cm spawn inset. Source snapshots preserve those pilot versions; the final source snapshot is under [final_source](../evidence/right_mug/final_source/).
 - [Task and oracle](../rab/tasks/right_mug.py), [feedback experiment](../rab/tasks/right_mug_feedback.py), [measurement runner](../scripts/right_mug_study.py), and [reward negative controls](../tests/test_right_mug.py). Five tests pass, including inversion, held/airborne mugs, tolerance boundaries, motion, and batched evaluation; formatting checks pass.
 
 The only changed pre-existing source file is `rab/__init__.py`, for registration and read-only cached asset resolution. Upstream was not edited; its pre-existing `uv.lock` modification remains untouched. No dependency installation was required. The environment was macOS ARM64, Python 3.12.13, MuJoCo `4.0.1.dev1015921253`, CPU `cpp` physics, 0.002 s simulation steps, and 0.02 s control steps.

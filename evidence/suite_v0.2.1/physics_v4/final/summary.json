@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "suite_version": "0.2.1",
+  "scene_version": 4,
+  "before_v3": {
+    "episodes": 40,
+    "small_item_drop_episodes": 7,
+    "organizer_off_episodes": 3,
+    "organizer_fell_during_replay": 3,
+    "guard_episodes": 13,
+    "guard_substeps": 1267,
+    "max_guard_speed_m_s": 552.2516449411802
+  },
+  "after_v4": {
+    "episodes": 40,
+    "small_item_drop_episodes": 0,
+    "organizer_off_episodes": 0,
+    "organizer_fell_during_replay": 0,
+    "guard_episodes": 0,
+    "guard_substeps": 0,
+    "max_guard_speed_m_s": 0
+  },
+  "organizer_off_transitions_v4": 0,
+  "oracle": {
+    "strict": 20,
+    "total": 20,
+    "mean_score": 100
+  },
+  "grasp": {
+    "passed": 15,
+    "total": 15,
+    "slips": 0,
+    "masses_g": {
+      "cap": 3.0,
+      "eraser": 15.0,
+      "marker": 15.0,
+      "notes": 30.0,
+      "pencil": 8.0
+    }
+  },
+  "unchanged_scenes": {
+    "scenes": 4,
+    "exact_pose_score_comparisons": 80
+  },
+  "regression_exit_codes": {
+    "grasp_lift_check": 0,
+    "test_tidy_physics": 0,
+    "test_pilots": 0,
+    "seed_check": 0,
+    "test_suite": 0,
+    "wipe_unit_test": 0,
+    "scoring_test": 0,
+    "render_scene": 0
+  },
+  "suite_unit_tests": 14,
+  "unguarded_frozen_state": {
+    "passed": true,
+    "guard_enabled": false,
+    "duration_s": 0.5,
+    "peak_speeds_m_s": {
+      "marker": 0.013529875873580142,
+      "pencil": 0.02807440907658454,
+      "cap": 0.08924649832166479,
+      "eraser": 0.850522484172063,
+      "notes": 0.7149950448542739
+    }
+  },
+  "baseline_matches_prior_validation_log": 40,
+  "source_hashes_match": true,
+  "renders_visually_checked": "outputs/suite_v0.2.1/renders/pilot_tidy_desk_sheet.png"
+}

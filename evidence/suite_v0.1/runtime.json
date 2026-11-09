@@ -1,0 +1,16 @@
+{
+  "python": "3.12.13 (main, Mar  3 2026, 15:35:03) [Clang 21.1.4 ]",
+  "platform": "macOS-15.6-arm64-arm-64bit",
+  "mujoco": "4.0.1",
+  "numpy": "2.2.6",
+  "torch": "2.11.0",
+  "upstream_files": {
+    "../mujoco_playground/mujoco_playground/tasks/agentic/tabletop_v0/agent.py": "9a00d3b6649e8a15a7350577a8410692c17832de2ab4d75256ece919ad50c63f",
+    "../mujoco_playground/mujoco_playground/tasks/agentic/tabletop_v0/run.py": "7339b18f9e51a4558aed5eb97034cdbc1adb4b90a16750781ab2e68b113cfb8c",
+    "../mujoco_playground/mujoco_playground/tasks/agentic/tabletop_v0/reset.py": "0b74c0f6fbded704854b01a9714f9526f871237816346a98171a817fd41a5e6c",
+    "../mujoco_playground/mujoco_playground/tasks/agentic/tabletop_v0/AGENT_PROMPT.md": "74813085924f47a922ef2cfb9fb45f0c60c0ffa3cbff3f6e2d30a7aefca68b48"
+  },
+  "upstream_commit": "2a38565151f2985d0c0afcd7e137bf1f1b5f31f4",
+  "upstream_status_observed": " M uv.lock",
+  "upstream_note": "No upstream files were edited by this work; observed uv.lock modification was left untouched."
+}

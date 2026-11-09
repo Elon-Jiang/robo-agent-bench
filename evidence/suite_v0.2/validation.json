@@ -1,0 +1,143 @@
+{
+  "passed": true,
+  "suite_version": "0.2",
+  "scene_versions": {
+    "pilot_spill_cleanup": 1,
+    "pilot_clear_dishes": 1,
+    "pilot_tidy_desk": 2,
+    "pilot_toys": 1,
+    "pilot_breakfast": 1
+  },
+  "oracle_summary": [
+    {
+      "task": "pilot_spill_cleanup",
+      "scene_version": 1,
+      "mean_score": 99.5,
+      "strict_count": 19,
+      "n": 20,
+      "passed": true,
+      "evidence": "reused_v0.1"
+    },
+    {
+      "task": "pilot_clear_dishes",
+      "scene_version": 1,
+      "mean_score": 98.75,
+      "strict_count": 19,
+      "n": 20,
+      "passed": true,
+      "evidence": "reused_v0.1"
+    },
+    {
+      "task": "pilot_tidy_desk",
+      "scene_version": 2,
+      "mean_score": 100.0,
+      "strict_count": 20,
+      "n": 20,
+      "passed": true,
+      "evidence": "new_v0.2"
+    },
+    {
+      "task": "pilot_toys",
+      "scene_version": 1,
+      "mean_score": 100.0,
+      "strict_count": 20,
+      "n": 20,
+      "passed": true,
+      "evidence": "reused_v0.1"
+    },
+    {
+      "task": "pilot_breakfast",
+      "scene_version": 1,
+      "mean_score": 100.0,
+      "strict_count": 20,
+      "n": 20,
+      "passed": true,
+      "evidence": "reused_v0.1"
+    }
+  ],
+  "scoring": {
+    "scenes": 5,
+    "passed": 5,
+    "tidy_regressions": [
+      "marker hovering earns no credit",
+      "marker wrong compartment earns quarter credit",
+      "pencil hovering earns no credit",
+      "pencil wrong compartment earns quarter credit",
+      "cap hovering earns no credit",
+      "cap wrong compartment earns quarter credit",
+      "eraser hovering earns no credit",
+      "eraser wrong compartment earns quarter credit",
+      "notes hovering earns no credit",
+      "notes wrong compartment earns quarter credit",
+      "marker straddling divider",
+      "loaded organizer airborne",
+      "screwdriver incorrectly stored",
+      "screwdriver can move without storage penalty",
+      "phone incorrectly stored",
+      "phone can move without storage penalty",
+      "coffee incorrectly stored",
+      "coffee can move without storage penalty",
+      "coffee knock caps score",
+      "fixed laptop pose guard"
+    ]
+  },
+  "layouts": {
+    "passed": 50,
+    "n": 50,
+    "tidy_upright_guard_passed": 10
+  },
+  "grasps": {
+    "passed": 51,
+    "n": 51,
+    "slips": 0,
+    "new_assets_passed": 12,
+    "new_assets_n": 12
+  },
+  "seed_check": {
+    "deterministic_scenes": 5,
+    "unchanged_exact_pose_score_comparisons": 80
+  },
+  "suite_tests": {
+    "passed": 14,
+    "n": 14
+  },
+  "spill_wipe": {
+    "unit": "PASS",
+    "scoring": "PASS",
+    "layouts": "10/10"
+  },
+  "bridge": {
+    "port": 8099,
+    "task": "pilot_tidy_desk",
+    "self_report": "failure",
+    "scene_version": 2,
+    "no_grader_leak": true,
+    "evidence": "outputs/suite_v0.2/bridge_smoke/20261108_181401/results.json"
+  },
+  "renders": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "wrist": true,
+    "visually_inspected": true
+  },
+  "report": {
+    "path": "outputs/reports/suite_v0.1_s0-4.md",
+    "runs": 50,
+    "paired": true,
+    "structured_labels": 47,
+    "metrics_preserved": true
+  },
+  "eval_dry_run_jobs": {
+    "desk": 40,
+    "other_scenes": 120
+  },
+  "source_compatibility": "outputs/suite_v0.2/source_compatibility.json",
+  "no_llm_trials": true,
+  "no_codex_exec": true,
+  "upstream_source_unchanged": true,
+  "v01_document_unchanged": true,
+  "artifact_note": "The shared historical layout report was regenerated with the saved v0.1 source after an initial development check used its legacy output path. All 50 v0.1 layouts pass; development evidence is retained as layout_dev_initial.json."
+}

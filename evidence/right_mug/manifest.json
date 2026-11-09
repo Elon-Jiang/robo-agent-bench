@@ -1,0 +1,43 @@
+{
+  "platform": "macOS-15.6-arm64-arm-64bit",
+  "python": "3.12.13",
+  "versions": {
+    "mujoco": "4.0.1.dev1015921253",
+    "numpy": "2.2.6",
+    "torch": "2.11.0",
+    "reaf": "1.1.0"
+  },
+  "upstream_commit": "2a38565151f2985d0c0afcd7e137bf1f1b5f31f4",
+  "source_sha256": {
+    "rab/tasks/right_mug.py": "653c55e79e32a03d15582abe4511495aaabb23c32253662ff129219c36825bab",
+    "rab/tasks/right_mug_feedback.py": "7fcdbdaebf2bf942c09af1cd8cf9c2491c89a166a7705d7548413836db0bc065",
+    "scripts/right_mug_study.py": "b5377f41d9afb9c813b98343673bdb486166e5cdf07e84f1365040ce39317e5c",
+    "tests/test_right_mug.py": "1ea19a742dc67464ff456f50ef606552ada8c9b3c6a8dca638ed2ca7cb01f3e6",
+    "../mujoco_playground/mujoco_playground/tasks/agentic/tabletop_v0/task.py": "64f314d544142275d3ac68ca1c706eeb6764863f2a7473b853e7725198a33274",
+    "../mujoco_playground/mujoco_playground/tasks/agentic/tabletop_v0/agent.py": "9a00d3b6649e8a15a7350577a8410692c17832de2ab4d75256ece919ad50c63f",
+    "../mujoco_playground/mujoco_playground/tasks/agentic/tabletop_v0/embodiment.py": "fa297d9f1b8e94bc332c34b1707b5ee64189d45d894a9ad40d972d6d2a3b0398",
+    "../mujoco_playground/mujoco_playground/tasks/agentic/tabletop_v0/ik_controller.py": "b93e9399e38a54bb055fdeef735c39c0838e59794dfb2d67dd5c2eefff5a89d9",
+    "rab/__init__.py": "16ae1e3376bce35ba3e12787b053e0da178dc4310097b82d66fe64b8a225d0d0"
+  },
+  "mug_scale": 0.55,
+  "mug_half_bounds_m": [
+    0.03463595340667652,
+    0.029433374213940856,
+    0.02938386165924134
+  ],
+  "mug_mass_kg": 0.020830212155147805,
+  "standard_entry_point": {
+    "so101": {
+      "printed": 9,
+      "episodes": 10,
+      "same_first_resets_stable": 8
+    },
+    "yam": {
+      "printed": 5,
+      "episodes": 5,
+      "same_first_resets_stable": 5
+    }
+  },
+  "study_started_utc": "2026-11-07T12:20:13Z",
+  "validation_notes": "Five reward negative-control tests and isort/pyink checks passed; 10 strategies meet minimum episode counts; holdout source hashes and report links verified."
+}

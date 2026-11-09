@@ -24,7 +24,7 @@ Reports infer scene version 1 from archived `suite_version: "0.1"` records witho
 rewriting those records; older unversioned runs remain `unknown`. Resume checks
 reuse compatible v0.1 runs for unchanged scenes, but reject old tidy_desk runs.
 
-Screening evidence: [v0.1 seeds 0–4](../outputs/reports/suite_v0.1_s0-4.md).
+Screening evidence: [v0.1 seeds 0–4](../evidence/reports/suite_v0.1_s0-4.md).
 Tidy_desk was nearly saturated (Astra 98, Luna 79; strict 80%/60%). v0.2 adds
 classification and manipulation requirements rather than changing other scenes to
 increase the suite gap. **No v0.2 model trials have been run**: improved separation
@@ -64,7 +64,7 @@ Critical errors: keys, either mug, or sponge in the bin; any object off the tabl
 Napkins are the only disposable objects. Keys must remain within 3 cm / 15 degrees of
 the reset pose. The original liquid denominator is fixed, even when covered by a mug.
 
-![Spill cleanup, seed 0](../outputs/pilots/pilot_spill_cleanup/pilot_spill_cleanup_s0.png)
+![Spill cleanup, seed 0](../evidence/pilots/pilot_spill_cleanup/pilot_spill_cleanup_s0.png)
 
 ### Clear dishes
 
@@ -83,7 +83,7 @@ Critical errors: banana or any dish in the bin; any object off the table.
 The banana is uneaten food, and the phone is a distractor. Dish support chains in the
 rack may pass through other dishes. A wide dish resting on the trash rim counts as disposal.
 
-![Clear dishes, seed 0](../outputs/pilots/pilot_clear_dishes/pilot_clear_dishes_s0.png)
+![Clear dishes, seed 0](../evidence/pilots/pilot_clear_dishes/pilot_clear_dishes_s0.png)
 
 ### Tidy desk — scene version 2
 
@@ -146,7 +146,7 @@ deep intrusion, or any object off the table. Any critical error caps the total a
 a recovered earlier knock is not latched. The drink surface is visual, not a fluid
 simulation. Preserving the four non-target items gives 20 initial points.
 
-![Tidy desk v2, seeds 0–2](../outputs/suite_v0.2/renders/pilot_tidy_desk_sheet.png)
+![Tidy desk v2, seeds 0–2](../evidence/suite_v0.2/renders/pilot_tidy_desk_sheet.png)
 
 ### Toys
 
@@ -163,7 +163,7 @@ table edge. It is excluded from both `score_0_100` and strict success. The promp
 not request moving the mug, and neither round-3 model attempted it. Knocking the mug
 still incurs a critical error, as does any object off the table.
 
-![Toys, seed 0](../outputs/pilots/pilot_toys/pilot_toys_s0.png)
+![Toys, seed 0](../evidence/pilots/pilot_toys/pilot_toys_s0.png)
 
 ### Breakfast
 
@@ -182,12 +182,12 @@ center must lie inside the rotated mat with a 1 cm inset and physically touch it
 A flat inverted plate satisfies the location item; there is no separate plate-orientation
 item in v0.1. Critical errors: any object off the table.
 
-![Breakfast, seed 0](../outputs/pilots/pilot_breakfast/pilot_breakfast_s0.png)
+![Breakfast, seed 0](../evidence/pilots/pilot_breakfast/pilot_breakfast_s0.png)
 
 ## Napkin feasibility
 
 The original 3 g scraps passed **3/3** isolated grasp/lift/carry/place checks:
-[before results](../outputs/suite_v0.1/napkin_before.json). Round-3 bridge traces nevertheless
+[before results](../evidence/suite_v0.1/napkin_before.json). Round-3 bridge traces nevertheless
 showed missed pickups, releases outside the opening, and repeated retries beside the rim.
 For example, Astra `1108_113036` reported scraps near the bin; `1108_122839` repeatedly
 tried to recover a tissue obstructed by the rim. The traces support those failure modes;
@@ -202,7 +202,7 @@ wider **400 g** bin: approximately 11.2 cm clear rim opening, 9.8 cm overall hei
 unchanged. Napkins remain rigid paper surrogates; they do not flatten or deform.
 
 The revised napkins passed **3/3** isolated checks with zero slips:
-[after results](../outputs/suite_v0.1/napkin_after.json). The spill oracle grasps each scrap,
+[after results](../evidence/suite_v0.1/napkin_after.json). The spill oracle grasps each scrap,
 transports it, and releases it above the physical opening using a narrow gripper opening.
 It never teleports objects. See the full-scene 20-seed results below.
 
@@ -371,8 +371,8 @@ results pass both acceptance gates; final evidence is recorded in the validation
 | pilot_toys | 1 | 100.00 | 20/20 (100%) | Reused v0.1 |
 | pilot_breakfast | 1 | 100.00 | 20/20 (100%) | Reused v0.1 |
 
-[Original v0.1 oracle summary](../outputs/suite_v0.1/oracle_summary.json) ·
-[New tidy_desk results](../outputs/suite_v0.2/oracles_tidy_final.json).
+[Original v0.1 oracle summary](../evidence/suite_v0.1/oracle_summary.json) ·
+[New tidy_desk results](../evidence/suite_v0.2/oracles_tidy_final.json).
 The original spill seed-12 napkin failure and clear-dishes seed-11 bowl failure are
 retained. No rerun is needed for these unchanged scenes: exact 20-seed poses/scores
 and unchanged-scene regression outputs are compared against the pre-edit snapshot.
@@ -412,32 +412,32 @@ The rule can mark a partial claim incorrect at zero score even when a narrative 
 A1/A2-only score projection: Astra **77.79**, strict **6/24**; Luna **39.11**, strict **1/25**.
 These projected numbers are not performance measurements on the revised spill scene.
 
-[`round3.md`](../outputs/reports/round3.md) and [JSON](../outputs/reports/round3.json)
+[`round3.md`](../evidence/reports/round3.md) and [JSON](../evidence/reports/round3.json)
 retain **native historical scoring**, including the former screwdriver and mug-distance
-requirements. The [A1/A2 projection](../outputs/reports/round3_v01_projection.md) recalculates
+requirements. The [A1/A2 projection](../evidence/reports/round3_v01_projection.md) recalculates
 only those two scoring changes from archived item vectors. It is explicitly a retrospective
 projection, not a v0.1 rerun; it cannot project new napkin geometry, corrected napkin support
 contacts, or a missing physical state. All backfilled labels are marked **heuristic**.
 
 ## Validation
 
-Final validation evidence is recorded in [validation.json](../outputs/suite_v0.2/validation.json).
+Final validation evidence is recorded in [validation.json](../evidence/suite_v0.2/validation.json).
 
 | Check | Result | Evidence |
 |---|---|---|
-| Scoring and lifecycle | PASS, 5/5 scenes; all new items, wrong-compartment quarter credit, support, distractors, critical errors; four unchanged scenes compared to v0.1 | [log](../outputs/suite_v0.2/test_pilots.log) |
-| Seed stability | Five deterministic scenes; 80 exact pre/post layout-and-score comparisons for the four unchanged scenes | [JSON](../outputs/suite_v0.2/seeds.json) |
-| Layout validity | PASS, 50/50; additional 10/10 coffee-upright checks | [JSON](../outputs/suite_v0.2/layout_results.json) |
-| Grasp/lift/carry/place | PASS, 51/51; 3 seeds per asset; zero slips | [JSON](../outputs/suite_v0.2/grasp_lift_results.json) |
-| Tidy_desk oracle | PASS, mean 100.00; strict 20/20; no critical errors | [JSON](../outputs/suite_v0.2/oracles_tidy_final.json) |
-| Real HTTP bridge | Port 8099; SELF_REPORT, episode version, no grader leak | [log](../outputs/suite_v0.2/bridge_smoke.log) |
-| Report/parser/resume tests | PASS, 14/14; mixed scene versions, overlapping directory/glob inputs, unpaired seeds, provenance and stale-desk resume rejection | [log](../outputs/suite_v0.2/test_suite.log) |
-| Legacy spill_wipe | PASS unit/scoring; layouts 10/10 | [unit](../outputs/suite_v0.2/wipe_unit.log), [scoring](../outputs/suite_v0.2/spill_scoring.log), [layout](../outputs/suite_v0.2/spill_layout.log) |
-| Scene renders | Seeds 0–2, three views and wrist views | [sheet](../outputs/suite_v0.2/renders/pilot_tidy_desk_sheet.png) |
-| Evaluation plans | 40 desk + 120 other-scene jobs; no LLM launched | [desk](../outputs/suite_v0.2/eval_desk_dry_run.json), [others](../outputs/suite_v0.2/eval_others_dry_run.json) |
+| Scoring and lifecycle | PASS, 5/5 scenes; all new items, wrong-compartment quarter credit, support, distractors, critical errors; four unchanged scenes compared to v0.1 | [log](../evidence/suite_v0.2/test_pilots.log) |
+| Seed stability | Five deterministic scenes; 80 exact pre/post layout-and-score comparisons for the four unchanged scenes | [JSON](../evidence/suite_v0.2/seeds.json) |
+| Layout validity | PASS, 50/50; additional 10/10 coffee-upright checks | [JSON](../evidence/suite_v0.2/layout_results.json) |
+| Grasp/lift/carry/place | PASS, 51/51; 3 seeds per asset; zero slips | [JSON](../evidence/suite_v0.2/grasp_lift_results.json) |
+| Tidy_desk oracle | PASS, mean 100.00; strict 20/20; no critical errors | [JSON](../evidence/suite_v0.2/oracles_tidy_final.json) |
+| Real HTTP bridge | Port 8099; SELF_REPORT, episode version, no grader leak | [log](../evidence/suite_v0.2/bridge_smoke.log) |
+| Report/parser/resume tests | PASS, 14/14; mixed scene versions, overlapping directory/glob inputs, unpaired seeds, provenance and stale-desk resume rejection | [log](../evidence/suite_v0.2/test_suite.log) |
+| Legacy spill_wipe | PASS unit/scoring; layouts 10/10 | [unit](../evidence/suite_v0.2/wipe_unit.log), [scoring](../evidence/suite_v0.2/spill_scoring.log), [layout](../evidence/suite_v0.2/spill_layout.log) |
+| Scene renders | Seeds 0–2, three views and wrist views | [sheet](../evidence/suite_v0.2/renders/pilot_tidy_desk_sheet.png) |
+| Evaluation plans | 40 desk + 120 other-scene jobs; no LLM launched | [desk](../evidence/suite_v0.2/eval_desk_dry_run.json), [others](../evidence/suite_v0.2/eval_others_dry_run.json) |
 
 The pre-edit sources and scoring/layout snapshots are retained in
-[`baseline/`](../outputs/suite_v0.2/baseline/). The [runtime manifest](../outputs/suite_v0.2/runtime.json) verifies upstream
+[`baseline/`](../evidence/suite_v0.2/baseline/). The [runtime manifest](../evidence/suite_v0.2/runtime.json) verifies upstream
 source hashes and the unchanged v0.1 document. No outputs were deleted, and no
 archived suite episode was rewritten. The v0.1 report was regenerated from its
 original records with the corrected text and scene-version column.
@@ -499,7 +499,7 @@ commands directly, without an LLM or bridge. It dumps **every contact of the
 affected body before the guard clamps velocity**, at its first event and its
 largest event: geom/body names, signed distance, contact position, six-dimensional
 contact-frame force/torque, contact dimension, solref/solimp, velocity, acceleration,
-plan and simulation time. Evidence: [original four contact dumps](../outputs/suite_v0.2.1/physics_v4/before/).
+plan and simulation time. Evidence: [original four contact dumps](../evidence/suite_v0.2.1/physics_v4/before/).
 
 | Replay | First affected body/time | Contacts at first event | Speed |
 |---|---|---|---:|
@@ -551,7 +551,7 @@ the integration step, the exact state *before* astra s4's first guard event was
 saved as [a regression fixture](../tests/fixtures/tidy_v3_pinched.json). Repeating
 one unguarded step from this identical state with the original v3 geometry,
 masses, controls, and 2 ms timestep gives the following
-[integrator ablation](../outputs/suite_v0.2.1/physics_v4/integration_ablation.json),
+[integrator ablation](../evidence/suite_v0.2.1/physics_v4/integration_ablation.json),
 reproducible with [diagnose_tidy_integration.py](../scripts/diagnose_tidy_integration.py):
 
 | Integrator | Eraser speed | Notes speed |
@@ -592,16 +592,16 @@ Recheck commands (from the repository root; no bridge or LLM is started):
 
 The oracle command defaults to all seeds 0–19. Exact commands and exit codes for
 the requested regressions are recorded in
-[validation_commands.json](../outputs/suite_v0.2.1/physics_v4/final/validation_commands.json).
+[validation_commands.json](../evidence/suite_v0.2.1/physics_v4/final/validation_commands.json).
 
 ### Final v4 acceptance: PASS
 
 All 40 saved v0.2 plans were replayed open-loop. The reconstructed v3 baseline
 matches **all 40** entries in `validation2.log` exactly (critical errors, guard
 counts/speeds, score, and dropped flag); see
-[baseline reproduction](../outputs/suite_v0.2.1/physics_v4/baseline_reproduction.json).
+[baseline reproduction](../evidence/suite_v0.2.1/physics_v4/baseline_reproduction.json).
 Final results are checked against complete model/seed sets and
-source hashes in [summary.json](../outputs/suite_v0.2.1/physics_v4/final/summary.json).
+source hashes in [summary.json](../evidence/suite_v0.2.1/physics_v4/final/summary.json).
 
 | 40 saved-plan replays | Small-item drop episodes | Maximum guard-event speed | Organizer-off episodes |
 |---|---:|---:|---:|
@@ -612,14 +612,14 @@ The third baseline organizer-off case is luna s3, in addition to astra s10 and
 luna s2. V4 has **zero guard interventions**, zero actual small-item falls, and
 zero organizer off-table transitions at **every physics substep**, including
 before automatic episode resets. Thus the guard is not hiding the improvement.
-Replay artifacts: [astra](../outputs/suite_v0.2.1/physics_v4/final/replays_astra/),
-[luna](../outputs/suite_v0.2.1/physics_v4/final/replays_luna/).
+Replay artifacts: [astra](../evidence/suite_v0.2.1/physics_v4/final/replays_astra/),
+[luna](../evidence/suite_v0.2.1/physics_v4/final/replays_luna/).
 
 - Tidy oracle seeds 0–19: **20/20 strict**, mean score **100**, zero guard events
-  ([results](../outputs/suite_v0.2.1/physics_v4/final/oracle.json)).
+  ([results](../evidence/suite_v0.2.1/physics_v4/final/oracle.json)).
 - Grasp/lift/carry/place: pencil, eraser, notes, marker, and cap each **3/3**, with
   **0 slips**; masses remain 8/15/30/15/3 g respectively
-  ([results](../outputs/suite_v0.2.1/physics_v4/final/grasp.json)). The isolated
+  ([results](../evidence/suite_v0.2.1/physics_v4/final/grasp.json)). The isolated
   checks now use the same tidy contact configuration and integrator.
 - `test_pilots.py`: PASS, including unchanged-scene scoring/regression comparison.
 - `test_suite.py`: **14/14 PASS**, including rejection of tidy v2 and v3 records.
@@ -629,7 +629,7 @@ Replay artifacts: [astra](../outputs/suite_v0.2.1/physics_v4/final/replays_astra
 - `test_tidy_physics.py`: PASS without the guard; maximum small-item speed
   **0.851 m/s**, below the **10 m/s** regression threshold.
 - Final seeds 0–2 re-rendered and visually checked in overview, top-down, and
-  close-up views: [contact sheet](../outputs/suite_v0.2.1/renders/pilot_tidy_desk_sheet.png).
+  close-up views: [contact sheet](../evidence/suite_v0.2.1/renders/pilot_tidy_desk_sheet.png).
   Objects are separated and supported, meshes/details remain visible, and
   collision proxies are hidden.
 

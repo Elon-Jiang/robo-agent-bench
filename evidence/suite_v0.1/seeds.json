@@ -1,0 +1,32 @@
+[
+  {
+    "task": "pilot_spill_cleanup",
+    "passed": true,
+    "seed0_hash": "17736fcb87063ecf5af89a8200a0118d8b29d5fa940ab1ed57a0ecada2467594",
+    "seed1_hash": "86f61f62296276e4401cb8457065846009e27f58dbfe14e072deb32747044a92"
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "passed": true,
+    "seed0_hash": "7a6369f5d6bc415e96ae23fd747651937c1fed3d5aaff0f45061e605b797b422",
+    "seed1_hash": "fb1ab37b4cba1e264e04a125c6c0f4731f003a116d8c9ed8298829287967859f"
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "passed": true,
+    "seed0_hash": "ba4179a7a9cc5a5f62b85402ec41e0da05b8a6659edda7021929ae4fa0df5f8c",
+    "seed1_hash": "8c9f7233d526ebe47da68a0100ffeba2aa75c1d554018a0cda47ae976193b96f"
+  },
+  {
+    "task": "pilot_toys",
+    "passed": true,
+    "seed0_hash": "2f3faa7dc841ba3511376fc1ef4626c2e5f0ef779a4f4d32c9f8dc5866af62d8",
+    "seed1_hash": "b77f4b3fe8b597b2210f81db5ea5cee00803396f2a3adb504d024830cf8904ba"
+  },
+  {
+    "task": "pilot_breakfast",
+    "passed": true,
+    "seed0_hash": "39094b2bf4847990112089a1c547ec66022cb097f848de347603af93516bbb6f",
+    "seed1_hash": "178b5830b0b429ff5390f3d866c8862ab7c5cbf48cfe7ed02a4060ecb0bd2474"
+  }
+]

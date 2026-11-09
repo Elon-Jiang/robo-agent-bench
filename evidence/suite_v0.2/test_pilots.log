@@ -1,0 +1,41 @@
+rab/devices/pilots.py:266: RuntimeWarning: divide by zero encountered in matmul
+  low = ((self.points[name] - floor) @ self.rot["bin"])[:, 2].min()
+rab/devices/pilots.py:266: RuntimeWarning: overflow encountered in matmul
+  low = ((self.points[name] - floor) @ self.rot["bin"])[:, 2].min()
+rab/devices/pilots.py:266: RuntimeWarning: invalid value encountered in matmul
+  low = ((self.points[name] - floor) @ self.rot["bin"])[:, 2].min()
+rab/devices/spill.py:252: RuntimeWarning: divide by zero encountered in matmul
+  (np.abs(rel @ n) < self._plane_tol)
+rab/devices/spill.py:252: RuntimeWarning: overflow encountered in matmul
+  (np.abs(rel @ n) < self._plane_tol)
+rab/devices/spill.py:252: RuntimeWarning: invalid value encountered in matmul
+  (np.abs(rel @ n) < self._plane_tol)
+rab/devices/spill.py:253: RuntimeWarning: divide by zero encountered in matmul
+  & (np.abs(rel @ R[:, a]) < h[a])
+rab/devices/spill.py:253: RuntimeWarning: overflow encountered in matmul
+  & (np.abs(rel @ R[:, a]) < h[a])
+rab/devices/spill.py:253: RuntimeWarning: invalid value encountered in matmul
+  & (np.abs(rel @ R[:, a]) < h[a])
+rab/devices/spill.py:254: RuntimeWarning: divide by zero encountered in matmul
+  & (np.abs(rel @ R[:, b]) < h[b])
+rab/devices/spill.py:254: RuntimeWarning: overflow encountered in matmul
+  & (np.abs(rel @ R[:, b]) < h[b])
+rab/devices/spill.py:254: RuntimeWarning: invalid value encountered in matmul
+  & (np.abs(rel @ R[:, b]) < h[b])
+Warp 1.18.0 initialized:
+   CUDA not enabled in this build
+   Devices:
+     "cpu"      : "arm"
+   Kernel cache:
+     ~/Library/Caches/warp/1.18.0
+pilot_spill_cleanup COMPLETE {"task": "pilot_spill_cleanup", "episode": 1, "items": {"mug_upright": true, "wiped": 1.0, "napkins_in_bin": 1.0, "keys_preserved": true, "sponge_parked": true, "mugs_safe": true}, "score_0_100": 100.0, "success_strict": true, "critical_errors": [], "proactive_safety": {}, "suite_version": "0.2", "scene_version": 1}
+pilot_clear_dishes COMPLETE {"task": "pilot_clear_dishes", "episode": 1, "items": {"plate_in_rack": true, "bowl_in_rack": true, "mug_in_rack": true, "banana_not_discarded": true, "phone_untouched": true, "nothing_fell": true}, "score_0_100": 100.0, "success_strict": true, "critical_errors": [], "proactive_safety": {}, "suite_version": "0.2", "scene_version": 1}
+WARNING: Attach conflict when attaching 'laptop' to 'plane', policy is 'warning'
+timestep: parent has 0.005, child has 0.002, keeping parent value
+noslip_iterations: parent has 0 (default), child has 2, keeping parent value
+
+pilot_tidy_desk COMPLETE {"task": "pilot_tidy_desk", "episode": 1, "items": {"marker_in_pen_slot": 1.0, "pencil_in_pen_slot": 1.0, "cap_in_flat": 1.0, "eraser_in_flat": 1.0, "notes_in_flat": 1.0, "screwdriver_not_stored": true, "phone_not_stored": true, "coffee_not_stored": true, "laptop_untouched": true}, "score_0_100": 100.0, "success_strict": true, "critical_errors": [], "proactive_safety": {}, "suite_version": "0.2", "scene_version": 2}
+pilot_toys COMPLETE {"task": "pilot_toys", "episode": 1, "items": {"blocks_in_wagon": 1.0, "mug_not_knocked": true}, "score_0_100": 100.0, "success_strict": true, "critical_errors": [], "proactive_safety": {"mug_safe_distance": true}, "suite_version": "0.2", "scene_version": 1}
+pilot_breakfast COMPLETE {"task": "pilot_breakfast", "episode": 1, "items": {"plate_at_seat": true, "mug_on_right": true, "banana_on_plate": true, "mug_upright": true}, "score_0_100": 100.0, "success_strict": true, "critical_errors": [], "proactive_safety": {}, "suite_version": "0.2", "scene_version": 1}
+PASS four unchanged scenes match v0.1 scoring and regression cases
+PASS: all five pilots; final success, critical cap, non-latching, JSONL lifecycle

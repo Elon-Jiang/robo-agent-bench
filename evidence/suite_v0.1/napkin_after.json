@@ -1,0 +1,71 @@
+[
+  {
+    "object": "napkin",
+    "seed": 0,
+    "mass_g": 3.0,
+    "success": true,
+    "slip": false,
+    "grasp_failed": false,
+    "lift_cm": 9.42,
+    "carry_cm": 9.95,
+    "place_error_cm": 0.22,
+    "min_carry_height_cm": 9.27,
+    "carry_error_cm": 0.05,
+    "pre_release_contact_loss_ticks": 0,
+    "supported": true,
+    "released": true,
+    "settled": true,
+    "statuses": {
+      "grasp": "done",
+      "lift": "done",
+      "carry": "done",
+      "place": "done"
+    }
+  },
+  {
+    "object": "napkin",
+    "seed": 1,
+    "mass_g": 3.0,
+    "success": true,
+    "slip": false,
+    "grasp_failed": false,
+    "lift_cm": 9.43,
+    "carry_cm": 9.94,
+    "place_error_cm": 0.22,
+    "min_carry_height_cm": 9.31,
+    "carry_error_cm": 0.1,
+    "pre_release_contact_loss_ticks": 0,
+    "supported": true,
+    "released": true,
+    "settled": true,
+    "statuses": {
+      "grasp": "done",
+      "lift": "done",
+      "carry": "done",
+      "place": "done"
+    }
+  },
+  {
+    "object": "napkin",
+    "seed": 2,
+    "mass_g": 3.0,
+    "success": true,
+    "slip": false,
+    "grasp_failed": false,
+    "lift_cm": 9.43,
+    "carry_cm": 9.93,
+    "place_error_cm": 0.21,
+    "min_carry_height_cm": 9.29,
+    "carry_error_cm": 0.07,
+    "pre_release_contact_loss_ticks": 0,
+    "supported": true,
+    "released": true,
+    "settled": true,
+    "statuses": {
+      "grasp": "done",
+      "lift": "done",
+      "carry": "done",
+      "place": "done"
+    }
+  }
+]

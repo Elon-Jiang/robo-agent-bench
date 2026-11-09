@@ -1,0 +1,656 @@
+{
+  "final_so101_body_direct.jsonl": {
+    "n": 10,
+    "successes": 1,
+    "rate": 0.1,
+    "failures": {
+      "grasp_failed_no_lift": 4,
+      "lifted_but_ended_on_side": 4,
+      "no_lift_ended_on_side": 1
+    },
+    "wilson95": [
+      0.017876213095072896,
+      0.4041500267952385
+    ]
+  },
+  "final_so101_body_offset.jsonl": {
+    "n": 10,
+    "successes": 0,
+    "rate": 0.0,
+    "failures": {
+      "lifted_but_ended_on_side": 9,
+      "grasp_failed_no_lift": 1
+    },
+    "wilson95": [
+      0.0,
+      0.2775327998628892
+    ]
+  },
+  "final_so101_body_radial.jsonl": {
+    "n": 10,
+    "successes": 1,
+    "rate": 0.1,
+    "failures": {
+      "grasp_failed_no_lift": 4,
+      "lifted_but_ended_on_side": 4,
+      "no_lift_ended_on_side": 1
+    },
+    "wilson95": [
+      0.017876213095072896,
+      0.4041500267952385
+    ]
+  },
+  "final_so101_handle.jsonl": {
+    "n": 10,
+    "successes": 0,
+    "rate": 0.0,
+    "failures": {
+      "grasp_slip": 1,
+      "grasp_failed_no_lift": 3,
+      "lifted_but_ended_on_side": 5,
+      "not_released": 1
+    },
+    "wilson95": [
+      0.0,
+      0.2775327998628892
+    ]
+  },
+  "final_so101_rim_feedback.jsonl": {
+    "n": 10,
+    "successes": 6,
+    "rate": 0.6,
+    "failures": {
+      "grasp_failed_no_lift": 4
+    },
+    "wilson95": [
+      0.31267376973365824,
+      0.8318196702937638
+    ]
+  },
+  "final_so101_rim_hook.jsonl": {
+    "n": 10,
+    "successes": 5,
+    "rate": 0.5,
+    "failures": {
+      "no_lift_ended_on_side": 5
+    },
+    "wilson95": [
+      0.236593090512564,
+      0.7634069094874361
+    ]
+  },
+  "final_so101_rim_lift.jsonl": {
+    "n": 10,
+    "successes": 2,
+    "rate": 0.2,
+    "failures": {
+      "no_lift_ended_on_side": 3,
+      "grasp_failed_no_lift": 3,
+      "lifted_but_ended_on_side": 2
+    },
+    "wilson95": [
+      0.05668215145437519,
+      0.5098375284633583
+    ]
+  },
+  "final_so101_rim_pivot.jsonl": {
+    "n": 10,
+    "successes": 3,
+    "rate": 0.3,
+    "failures": {
+      "grasp_failed_no_lift": 5,
+      "no_lift_ended_on_side": 2
+    },
+    "wilson95": [
+      0.10779126740630099,
+      0.6032218525388546
+    ]
+  },
+  "final_so101_rim_pull.jsonl": {
+    "n": 10,
+    "successes": 3,
+    "rate": 0.3,
+    "failures": {
+      "grasp_failed_no_lift": 5,
+      "no_lift_ended_on_side": 2
+    },
+    "wilson95": [
+      0.10779126740630099,
+      0.6032218525388546
+    ]
+  },
+  "final_yam_body_direct.jsonl": {
+    "n": 5,
+    "successes": 1,
+    "rate": 0.2,
+    "failures": {
+      "lifted_but_ended_on_side": 4
+    },
+    "wilson95": [
+      0.03622410863243014,
+      0.6244653702374747
+    ]
+  },
+  "final_yam_body_offset.jsonl": {
+    "n": 5,
+    "successes": 0,
+    "rate": 0.0,
+    "failures": {
+      "lifted_but_ended_on_side": 5
+    },
+    "wilson95": [
+      0.0,
+      0.43448246478317476
+    ]
+  },
+  "final_yam_body_radial.jsonl": {
+    "n": 5,
+    "successes": 0,
+    "rate": 0.0,
+    "failures": {
+      "lifted_but_ended_on_side": 5
+    },
+    "wilson95": [
+      0.0,
+      0.43448246478317476
+    ]
+  },
+  "final_yam_handle.jsonl": {
+    "n": 5,
+    "successes": 1,
+    "rate": 0.2,
+    "failures": {
+      "lifted_but_ended_on_side": 4
+    },
+    "wilson95": [
+      0.03622410863243014,
+      0.6244653702374747
+    ]
+  },
+  "final_yam_rim_feedback.jsonl": {
+    "n": 5,
+    "successes": 5,
+    "rate": 1.0,
+    "failures": {},
+    "wilson95": [
+      0.5655175352168251,
+      1.0
+    ]
+  },
+  "final_yam_rim_hook.jsonl": {
+    "n": 5,
+    "successes": 0,
+    "rate": 0.0,
+    "failures": {
+      "no_lift_ended_on_side": 5
+    },
+    "wilson95": [
+      0.0,
+      0.43448246478317476
+    ]
+  },
+  "final_yam_rim_lift.jsonl": {
+    "n": 5,
+    "successes": 3,
+    "rate": 0.6,
+    "failures": {
+      "lifted_but_ended_on_side": 2
+    },
+    "wilson95": [
+      0.2307242812760128,
+      0.882379225767352
+    ]
+  },
+  "final_yam_rim_pivot.jsonl": {
+    "n": 5,
+    "successes": 5,
+    "rate": 1.0,
+    "failures": {},
+    "wilson95": [
+      0.5655175352168251,
+      1.0
+    ]
+  },
+  "final_yam_rim_pull.jsonl": {
+    "n": 5,
+    "successes": 5,
+    "rate": 1.0,
+    "failures": {},
+    "wilson95": [
+      0.5655175352168251,
+      1.0
+    ]
+  },
+  "holdout_so101_best_seed303.jsonl": {
+    "n": 30,
+    "successes": 21,
+    "rate": 0.7,
+    "failures": {
+      "no_lift_ended_on_side": 8,
+      "lifted_but_ended_on_side": 1
+    },
+    "wilson95": [
+      0.5212421254128504,
+      0.8333525173175619
+    ],
+    "success_xy_displacement_median": 0.048765835148961705,
+    "success_xy_displacement_max": 0.08465730327647861,
+    "transient_only": [
+      3,
+      19,
+      28
+    ],
+    "failed_episode_ids": [
+      3,
+      7,
+      12,
+      15,
+      16,
+      19,
+      27,
+      28,
+      30
+    ],
+    "final_tilts_failures": [
+      44.0095949904246,
+      85.3376904510519,
+      85.3843091576484,
+      44.670634766775194,
+      85.41115778509943,
+      42.88545325060328,
+      61.46235377074305,
+      40.982839125870626,
+      49.43403258013922
+    ],
+    "turns_success_median": 1.0,
+    "off_table": 0
+  },
+  "holdout_yam_best_seed303.jsonl": {
+    "n": 30,
+    "successes": 30,
+    "rate": 1.0,
+    "failures": {},
+    "wilson95": [
+      0.8864866068260312,
+      0.9999999999999999
+    ],
+    "success_xy_displacement_median": 0.053562055488643345,
+    "success_xy_displacement_max": 0.14668183421622555,
+    "transient_only": [],
+    "failed_episode_ids": [],
+    "final_tilts_failures": [],
+    "turns_success_median": 1.0,
+    "off_table": 0
+  },
+  "hybrid_so101_seed101.jsonl": {
+    "n": 10,
+    "successes": 8,
+    "rate": 0.8,
+    "failures": {
+      "grasp_failed_no_lift": 1,
+      "no_lift_ended_on_side": 1
+    },
+    "wilson95": [
+      0.49016247153664183,
+      0.9433178485456247
+    ]
+  },
+  "hybrid_so101_seed202.jsonl": {
+    "n": 10,
+    "successes": 4,
+    "rate": 0.4,
+    "failures": {
+      "no_lift_ended_on_side": 1,
+      "grasp_failed_no_lift": 5
+    },
+    "wilson95": [
+      0.16818032970623614,
+      0.6873262302663417
+    ]
+  },
+  "hybrid_yam_seed101.jsonl": {
+    "n": 5,
+    "successes": 5,
+    "rate": 1.0,
+    "failures": {},
+    "wilson95": [
+      0.5655175352168251,
+      1.0
+    ]
+  },
+  "hybrid_yam_seed202.jsonl": {
+    "n": 5,
+    "successes": 4,
+    "rate": 0.8,
+    "failures": {
+      "lifted_but_ended_on_side": 1
+    },
+    "wilson95": [
+      0.37553462976252533,
+      0.9637758913675698
+    ]
+  },
+  "pilot_so101_radial.jsonl": {
+    "n": 1,
+    "successes": 0,
+    "rate": 0.0,
+    "failures": {
+      "grasp_failed_no_lift": 1
+    },
+    "wilson95": [
+      0.0,
+      0.7934506856227626
+    ]
+  },
+  "sensor_smoke_yam.jsonl": {
+    "n": 1,
+    "successes": 1,
+    "rate": 1.0,
+    "failures": {},
+    "wilson95": [
+      0.20654931437723745,
+      1.0
+    ]
+  },
+  "v1_so101_body_direct.jsonl": {
+    "n": 10,
+    "successes": 0,
+    "rate": 0.0,
+    "failures": {
+      "grasp_failed_no_lift": 4,
+      "lifted_but_ended_on_side": 3,
+      "no_lift_ended_on_side": 3
+    },
+    "wilson95": [
+      0.0,
+      0.2775327998628892
+    ]
+  },
+  "v1_so101_body_radial.jsonl": {
+    "n": 10,
+    "successes": 0,
+    "rate": 0.0,
+    "failures": {
+      "grasp_failed_no_lift": 4,
+      "lifted_but_ended_on_side": 3,
+      "no_lift_ended_on_side": 3
+    },
+    "wilson95": [
+      0.0,
+      0.2775327998628892
+    ]
+  },
+  "v1_so101_handle.jsonl": {
+    "n": 10,
+    "successes": 0,
+    "rate": 0.0,
+    "failures": {
+      "lifted_but_ended_on_side": 6,
+      "grasp_failed_no_lift": 4
+    },
+    "wilson95": [
+      0.0,
+      0.2775327998628892
+    ]
+  },
+  "v1_so101_rim_pivot.jsonl": {
+    "n": 10,
+    "successes": 2,
+    "rate": 0.2,
+    "failures": {
+      "no_lift_ended_on_side": 5,
+      "grasp_failed_no_lift": 3
+    },
+    "wilson95": [
+      0.05668215145437519,
+      0.5098375284633583
+    ]
+  },
+  "v1_yam_body_direct.jsonl": {
+    "n": 5,
+    "successes": 1,
+    "rate": 0.2,
+    "failures": {
+      "lifted_but_ended_on_side": 4
+    },
+    "wilson95": [
+      0.03622410863243014,
+      0.6244653702374747
+    ]
+  },
+  "v1_yam_body_radial.jsonl": {
+    "n": 5,
+    "successes": 0,
+    "rate": 0.0,
+    "failures": {
+      "lifted_but_ended_on_side": 5
+    },
+    "wilson95": [
+      0.0,
+      0.43448246478317476
+    ]
+  },
+  "v1_yam_handle.jsonl": {
+    "n": 5,
+    "successes": 1,
+    "rate": 0.2,
+    "failures": {
+      "lifted_but_ended_on_side": 4
+    },
+    "wilson95": [
+      0.03622410863243014,
+      0.6244653702374747
+    ]
+  },
+  "v1_yam_rim_pivot.jsonl": {
+    "n": 5,
+    "successes": 4,
+    "rate": 0.8,
+    "failures": {
+      "unstable_or_timeout": 1
+    },
+    "wilson95": [
+      0.37553462976252533,
+      0.9637758913675698
+    ]
+  },
+  "v2_so101_rim_hook.jsonl": {
+    "n": 10,
+    "successes": 3,
+    "rate": 0.3,
+    "failures": {
+      "no_lift_ended_on_side": 7
+    },
+    "wilson95": [
+      0.10779126740630099,
+      0.6032218525388546
+    ]
+  },
+  "v2_so101_rim_lift.jsonl": {
+    "n": 10,
+    "successes": 2,
+    "rate": 0.2,
+    "failures": {
+      "lifted_but_ended_on_side": 4,
+      "grasp_failed_no_lift": 4
+    },
+    "wilson95": [
+      0.05668215145437519,
+      0.5098375284633583
+    ]
+  },
+  "v2_yam_rim_hook.jsonl": {
+    "n": 5,
+    "successes": 0,
+    "rate": 0.0,
+    "failures": {
+      "no_lift_ended_on_side": 5
+    },
+    "wilson95": [
+      0.0,
+      0.43448246478317476
+    ]
+  },
+  "v2_yam_rim_lift.jsonl": {
+    "n": 5,
+    "successes": 3,
+    "rate": 0.6,
+    "failures": {
+      "lifted_but_ended_on_side": 2
+    },
+    "wilson95": [
+      0.2307242812760128,
+      0.882379225767352
+    ]
+  },
+  "v3_so101_body_offset.jsonl": {
+    "n": 10,
+    "successes": 0,
+    "rate": 0.0,
+    "failures": {
+      "lifted_but_ended_on_side": 9,
+      "grasp_failed_no_lift": 1
+    },
+    "wilson95": [
+      0.0,
+      0.2775327998628892
+    ]
+  },
+  "v3_so101_rim_pull.jsonl": {
+    "n": 10,
+    "successes": 3,
+    "rate": 0.3,
+    "failures": {
+      "no_lift_ended_on_side": 4,
+      "grasp_failed_no_lift": 3
+    },
+    "wilson95": [
+      0.10779126740630099,
+      0.6032218525388546
+    ]
+  },
+  "v3_yam_body_offset.jsonl": {
+    "n": 5,
+    "successes": 0,
+    "rate": 0.0,
+    "failures": {
+      "lifted_but_ended_on_side": 5
+    },
+    "wilson95": [
+      0.0,
+      0.43448246478317476
+    ]
+  },
+  "v3_yam_rim_pull.jsonl": {
+    "n": 5,
+    "successes": 5,
+    "rate": 1.0,
+    "failures": {},
+    "wilson95": [
+      0.5655175352168251,
+      1.0
+    ]
+  },
+  "validation_so101_rim_feedback_seed202.jsonl": {
+    "n": 20,
+    "successes": 13,
+    "rate": 0.65,
+    "failures": {
+      "grasp_failed_no_lift": 3,
+      "grasp_slip": 1,
+      "not_released": 3
+    },
+    "wilson95": [
+      0.43285427668523624,
+      0.818808175898918
+    ]
+  },
+  "validation_so101_rim_hook_seed202.jsonl": {
+    "n": 20,
+    "successes": 17,
+    "rate": 0.85,
+    "failures": {
+      "no_lift_ended_on_side": 3
+    },
+    "wilson95": [
+      0.6395811352592431,
+      0.9476312541037835
+    ]
+  },
+  "validation_so101_rim_pivot_seed202.jsonl": {
+    "n": 20,
+    "successes": 9,
+    "rate": 0.45,
+    "failures": {
+      "grasp_failed_no_lift": 10,
+      "no_lift_ended_on_side": 1
+    },
+    "wilson95": [
+      0.2581978582556243,
+      0.6579146575496577
+    ]
+  },
+  "validation_so101_rim_pull_seed202.jsonl": {
+    "n": 20,
+    "successes": 13,
+    "rate": 0.65,
+    "failures": {
+      "grasp_failed_no_lift": 7
+    },
+    "wilson95": [
+      0.43285427668523624,
+      0.818808175898918
+    ]
+  },
+  "validation_yam_rim_feedback_seed202.jsonl": {
+    "n": 20,
+    "successes": 13,
+    "rate": 0.65,
+    "failures": {
+      "not_released": 7
+    },
+    "wilson95": [
+      0.43285427668523624,
+      0.818808175898918
+    ]
+  },
+  "validation_yam_rim_lift_seed202.jsonl": {
+    "n": 20,
+    "successes": 13,
+    "rate": 0.65,
+    "failures": {
+      "grasp_failed_no_lift": 1,
+      "grasp_slip": 5,
+      "lifted_but_ended_on_side": 1
+    },
+    "wilson95": [
+      0.43285427668523624,
+      0.818808175898918
+    ]
+  },
+  "validation_yam_rim_pivot_seed202.jsonl": {
+    "n": 20,
+    "successes": 14,
+    "rate": 0.7,
+    "failures": {
+      "no_lift_ended_on_side": 5,
+      "grasp_failed_no_lift": 1
+    },
+    "wilson95": [
+      0.4810271816464765,
+      0.8545227551323956
+    ]
+  },
+  "validation_yam_rim_pull_seed202.jsonl": {
+    "n": 20,
+    "successes": 16,
+    "rate": 0.8,
+    "failures": {
+      "no_lift_ended_on_side": 4
+    },
+    "wilson95": [
+      0.5839825677481064,
+      0.919342337420202
+    ]
+  }
+}

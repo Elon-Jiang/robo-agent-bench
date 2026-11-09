@@ -1,0 +1,27 @@
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+../mujoco_playground/third_party/reaf_sim/reaf/simulation/torch/_src/core/simulator.py:108: UserWarning: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+  self._mj_model = self._mj_spec.compile()
+rab/tasks/spill_wipe.py:170: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:256.)
+  dev.set_quat(env_mask, torch.tensor([_qz(yaw)] * n, dtype=dt, device=xpu))
+Warp 1.18.0 initialized:
+   CUDA not enabled in this build
+   Devices:
+     "cpu"      : "arm"
+   Kernel cache:
+     ~/Library/Caches/warp/1.18.0
+seed  0: cells= 53 tipped=mug_a roll= 0.2cm OK
+seed  1: cells= 46 tipped=mug_a roll= 0.2cm OK
+seed  2: cells= 65 tipped=mug_b roll= 1.9cm OK
+seed  3: cells= 53 tipped=mug_b roll= 0.2cm OK
+seed  4: cells= 33 tipped=mug_c roll= 1.2cm OK
+seed  5: cells= 74 tipped=mug_c roll= 0.2cm OK
+seed  6: cells= 48 tipped=mug_b roll= 0.2cm OK
+seed  7: cells= 78 tipped=mug_a roll= 0.2cm OK
+seed  8: cells= 56 tipped=mug_c roll= 0.5cm OK
+seed  9: cells= 62 tipped=mug_b roll= 0.2cm OK
+valid 10/10; bad seeds: []

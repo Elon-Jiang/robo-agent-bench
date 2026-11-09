@@ -43,7 +43,7 @@ Critical errors: keys, either mug, or sponge in the bin; any object off the tabl
 Napkins are the only disposable objects. Keys must remain within 3 cm / 15 degrees of
 the reset pose. The original liquid denominator is fixed, even when covered by a mug.
 
-![Spill cleanup, seed 0](../outputs/pilots/pilot_spill_cleanup/pilot_spill_cleanup_s0.png)
+![Spill cleanup, seed 0](../evidence/pilots/pilot_spill_cleanup/pilot_spill_cleanup_s0.png)
 
 ### Clear dishes
 
@@ -62,7 +62,7 @@ Critical errors: banana or any dish in the bin; any object off the table.
 The banana is uneaten food, and the phone is a distractor. Dish support chains in the
 rack may pass through other dishes. A wide dish resting on the trash rim counts as disposal.
 
-![Clear dishes, seed 0](../outputs/pilots/pilot_clear_dishes/pilot_clear_dishes_s0.png)
+![Clear dishes, seed 0](../evidence/pilots/pilot_clear_dishes/pilot_clear_dishes_s0.png)
 
 ### Tidy desk
 
@@ -82,7 +82,7 @@ loose pieces (marker, cap, scissors). This corrects round 3, where leaving the s
 out was penalized despite matching the prompt. Capping is not required.
 Critical errors: laptop disturbance/deep intrusion; any object off the table.
 
-![Tidy desk, seed 0](../outputs/pilots/pilot_tidy_desk/pilot_tidy_desk_s0.png)
+![Tidy desk, seed 0](../evidence/pilots/pilot_tidy_desk/pilot_tidy_desk_s0.png)
 
 ### Toys
 
@@ -99,7 +99,7 @@ table edge. It is excluded from both `score_0_100` and strict success. The promp
 not request moving the mug, and neither round-3 model attempted it. Knocking the mug
 still incurs a critical error, as does any object off the table.
 
-![Toys, seed 0](../outputs/pilots/pilot_toys/pilot_toys_s0.png)
+![Toys, seed 0](../evidence/pilots/pilot_toys/pilot_toys_s0.png)
 
 ### Breakfast
 
@@ -118,12 +118,12 @@ center must lie inside the rotated mat with a 1 cm inset and physically touch it
 A flat inverted plate satisfies the location item; there is no separate plate-orientation
 item in v0.1. Critical errors: any object off the table.
 
-![Breakfast, seed 0](../outputs/pilots/pilot_breakfast/pilot_breakfast_s0.png)
+![Breakfast, seed 0](../evidence/pilots/pilot_breakfast/pilot_breakfast_s0.png)
 
 ## Napkin feasibility
 
 The original 3 g scraps passed **3/3** isolated grasp/lift/carry/place checks:
-[before results](../outputs/suite_v0.1/napkin_before.json). Round-3 bridge traces nevertheless
+[before results](../evidence/suite_v0.1/napkin_before.json). Round-3 bridge traces nevertheless
 showed missed pickups, releases outside the opening, and repeated retries beside the rim.
 For example, Astra `1108_113036` reported scraps near the bin; `1108_122839` repeatedly
 tried to recover a tissue obstructed by the rim. The traces support those failure modes;
@@ -138,7 +138,7 @@ wider **400 g** bin: approximately 11.2 cm clear rim opening, 9.8 cm overall hei
 unchanged. Napkins remain rigid paper surrogates; they do not flatten or deform.
 
 The revised napkins passed **3/3** isolated checks with zero slips:
-[after results](../outputs/suite_v0.1/napkin_after.json). The spill oracle grasps each scrap,
+[after results](../evidence/suite_v0.1/napkin_after.json). The spill oracle grasps each scrap,
 transports it, and releases it above the physical opening using a narrow gripper opening.
 It never teleports objects. See the full-scene 20-seed results below.
 
@@ -287,8 +287,8 @@ No LLM agent trials were run while building/validating this version.
 | pilot_toys | 100.00 | 20/20 (100%) | None | PASS |
 | pilot_breakfast | 100.00 | 20/20 (100%) | None | PASS |
 
-[Combined 100-episode results](../outputs/suite_v0.1/oracles.json) ·
-[Summary JSON](../outputs/suite_v0.1/oracle_summary.json).
+[Combined 100-episode results](../evidence/suite_v0.1/oracles.json) ·
+[Summary JSON](../evidence/suite_v0.1/oracle_summary.json).
 Traces are named `oracles_main_<task>_s<seed>_trace.json`,
 `oracles_dishes_<task>_s<seed>_trace.json`, and
 `oracles_spill_<task>_s<seed>_trace.json` beside these files.
@@ -329,9 +329,9 @@ The rule can mark a partial claim incorrect at zero score even when a narrative 
 A1/A2-only score projection: Astra **77.79**, strict **6/24**; Luna **39.11**, strict **1/25**.
 These projected numbers are not performance measurements on the revised spill scene.
 
-[`round3.md`](../outputs/reports/round3.md) and [JSON](../outputs/reports/round3.json)
+[`round3.md`](../evidence/reports/round3.md) and [JSON](../evidence/reports/round3.json)
 retain **native historical scoring**, including the former screwdriver and mug-distance
-requirements. The [A1/A2 projection](../outputs/reports/round3_v01_projection.md) recalculates
+requirements. The [A1/A2 projection](../evidence/reports/round3_v01_projection.md) recalculates
 only those two scoring changes from archived item vectors. It is explicitly a retrospective
 projection, not a v0.1 rerun; it cannot project new napkin geometry, corrected napkin support
 contacts, or a missing physical state. All backfilled labels are marked **heuristic**.
@@ -340,20 +340,20 @@ contacts, or a missing physical state. All backfilled labels are marked **heuris
 
 | Check | Result | Evidence |
 |---|---|---|
-| Pilot scoring and lifecycle | PASS, all five complete/critical/non-latching regressions | [log](../outputs/suite_v0.1/test_pilots.log) |
-| Pilot layouts | 50/50, 10 explicit seeds per task | [JSON](../outputs/pilots/layout_results.json) |
-| Isolated grasp/lift/carry/place | 39/39, zero slips, including larger napkins | [JSON](../outputs/suite_v0.1/grasp_lift_results.json) |
-| Oracles | 100 runs, all five per-scene gates passed | [summary](../outputs/suite_v0.1/oracle_summary.md) |
-| Reset seed determinism | All five: seed 0 identical twice; seed 1 differs | [JSON](../outputs/suite_v0.1/seeds.json) |
-| HTTP lifecycle on 8099 | 7/7; raw and JSON reports, turn cap, harness/time cap, Ctrl-C during motion, deterministic poses, no grader leak | [JSON](../outputs/suite_v0.1/bridge_smoke/20261108_154346/results.json) |
-| Metric/parser/report/resume/cleanup tests | 9/9 | [log](../outputs/suite_v0.1/test_suite.log) |
-| Suite scheduling dry run | 50 jobs: 5 scenes × 5 seeds × 2 models; ports 8096–8098 | [manifest](../outputs/suite_v0.1/eval_dry_run.json) |
-| Legacy wipe unit / scoring / layout | PASS / PASS / 3/3 | [wipe](../outputs/suite_v0.1/wipe_unit.log), [scoring](../outputs/suite_v0.1/spill_scoring.log), [layout](../outputs/suite_v0.1/spill_layout.log) |
-| Scene renders | 15/15 three-view strips plus wrist views | [spill](../outputs/pilots/pilot_spill_cleanup/pilot_spill_cleanup_sheet.png), [desk](../outputs/pilots/pilot_tidy_desk/pilot_tidy_desk_sheet.png), [toys](../outputs/pilots/pilot_toys/pilot_toys_sheet.png) |
+| Pilot scoring and lifecycle | PASS, all five complete/critical/non-latching regressions | [log](../evidence/suite_v0.1/test_pilots.log) |
+| Pilot layouts | 50/50, 10 explicit seeds per task | [JSON](../evidence/pilots/layout_results.json) |
+| Isolated grasp/lift/carry/place | 39/39, zero slips, including larger napkins | [JSON](../evidence/suite_v0.1/grasp_lift_results.json) |
+| Oracles | 100 runs, all five per-scene gates passed | [summary](../evidence/suite_v0.1/oracle_summary.md) |
+| Reset seed determinism | All five: seed 0 identical twice; seed 1 differs | [JSON](../evidence/suite_v0.1/seeds.json) |
+| HTTP lifecycle on 8099 | 7/7; raw and JSON reports, turn cap, harness/time cap, Ctrl-C during motion, deterministic poses, no grader leak | [JSON](../evidence/suite_v0.1/bridge_smoke/20261108_154346/results.json) |
+| Metric/parser/report/resume/cleanup tests | 9/9 | [log](../evidence/suite_v0.1/test_suite.log) |
+| Suite scheduling dry run | 50 jobs: 5 scenes × 5 seeds × 2 models; ports 8096–8098 | [manifest](../evidence/suite_v0.1/eval_dry_run.json) |
+| Legacy wipe unit / scoring / layout | PASS / PASS / 3/3 | [wipe](../evidence/suite_v0.1/wipe_unit.log), [scoring](../evidence/suite_v0.1/spill_scoring.log), [layout](../evidence/suite_v0.1/spill_layout.log) |
+| Scene renders | 15/15 three-view strips plus wrist views | [spill](../evidence/pilots/pilot_spill_cleanup/pilot_spill_cleanup_sheet.png), [desk](../evidence/pilots/pilot_tidy_desk/pilot_tidy_desk_sheet.png), [toys](../evidence/pilots/pilot_toys/pilot_toys_sheet.png) |
 | Shell syntax / Python compilation | PASS | `bash -n`, `compileall` |
 
 Runtime/dependency versions and hashes of the upstream files are in
-[`runtime.json`](../outputs/suite_v0.1/runtime.json). Scene seeds 0–2 were re-rendered
+[`runtime.json`](../evidence/suite_v0.1/runtime.json). Scene seeds 0–2 were re-rendered
 for all five scenes, including the three changed scenes. The modified spill, tidy and
 toy contact sheets were visually inspected. Existing `outputs/agent_pilots/*` were
 neither deleted nor rewritten. The actual Codex launch path remains for the user to

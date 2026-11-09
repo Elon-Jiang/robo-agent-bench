@@ -1,0 +1,55 @@
+[
+  {
+    "task": "pilot_spill_cleanup",
+    "n": 20,
+    "mean_score": 99.5,
+    "strict_successes": 19,
+    "strict_rate": 0.95,
+    "failing_items": {
+      "napkins_in_bin": [
+        12
+      ]
+    },
+    "passed": true
+  },
+  {
+    "task": "pilot_clear_dishes",
+    "n": 20,
+    "mean_score": 98.75,
+    "strict_successes": 19,
+    "strict_rate": 0.95,
+    "failing_items": {
+      "bowl_in_rack": [
+        11
+      ]
+    },
+    "passed": true
+  },
+  {
+    "task": "pilot_tidy_desk",
+    "n": 20,
+    "mean_score": 100.0,
+    "strict_successes": 20,
+    "strict_rate": 1.0,
+    "failing_items": {},
+    "passed": true
+  },
+  {
+    "task": "pilot_toys",
+    "n": 20,
+    "mean_score": 100.0,
+    "strict_successes": 20,
+    "strict_rate": 1.0,
+    "failing_items": {},
+    "passed": true
+  },
+  {
+    "task": "pilot_breakfast",
+    "n": 20,
+    "mean_score": 100.0,
+    "strict_successes": 20,
+    "strict_rate": 1.0,
+    "failing_items": {},
+    "passed": true
+  }
+]

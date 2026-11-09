@@ -1,0 +1,77 @@
+[
+  {
+    "seed": 0,
+    "task": "pilot_tidy_desk",
+    "episode": 1,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_in_tray": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": []
+  },
+  {
+    "seed": 1,
+    "task": "pilot_tidy_desk",
+    "episode": 2,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_in_tray": false,
+      "laptop_untouched": true
+    },
+    "score_0_100": 75.0,
+    "success_strict": false,
+    "critical_errors": []
+  },
+  {
+    "seed": 2,
+    "task": "pilot_tidy_desk",
+    "episode": 3,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_in_tray": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": []
+  },
+  {
+    "seed": 3,
+    "task": "pilot_tidy_desk",
+    "episode": 4,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_in_tray": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": []
+  },
+  {
+    "seed": 4,
+    "task": "pilot_tidy_desk",
+    "episode": 5,
+    "items": {
+      "marker_in_tray": true,
+      "cap_in_tray": true,
+      "scissors_in_tray": true,
+      "screwdriver_in_tray": true,
+      "laptop_untouched": true
+    },
+    "score_0_100": 100.0,
+    "success_strict": true,
+    "critical_errors": []
+  }
+]
