@@ -1,0 +1,1 @@
+已完成并视觉确认：水渍清除、红杯放回直立位置，机械臂回到 home。SELF_REPORT: success

@@ -1,0 +1,1 @@
+Put the stationery into the organizer tray and visually checked the final scene. I believe the task succeeded and submitted `/done` with `SELF_REPORT: success`.

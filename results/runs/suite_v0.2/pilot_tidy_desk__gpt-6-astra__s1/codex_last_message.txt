@@ -1,0 +1,1 @@
+Partial success: most stationery is in the tray, but the yellow note pad remains outside and the tray shifted left. I visually checked the result and submitted `SELF_REPORT: partial`.

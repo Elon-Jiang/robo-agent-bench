@@ -1,0 +1,1 @@
+I attempted to clear the table using grasp and sweep actions, but several items remained visible in the final wrist-camera check. The episode ended with `SELF_REPORT: partial`.

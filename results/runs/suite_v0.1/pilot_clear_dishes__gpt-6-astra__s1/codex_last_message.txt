@@ -1,0 +1,1 @@
+Partial success: moved the bowl and mug into the rack, but the plate remained on the table after repeated slips. Visually verified the result and submitted `SELF_REPORT: partial` through `/done`.

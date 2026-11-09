@@ -1,0 +1,18 @@
+{
+  "task": "pilot_toys",
+  "model": "gpt-5.6-luna",
+  "seed": 5,
+  "suite_version": "0.2",
+  "scene_version": 1,
+  "turn_cap": 30,
+  "time_cap_s": 1500,
+  "port": 8096,
+  "completed": true,
+  "codex_rc": 0,
+  "wall_s": 1035.7290681659942,
+  "tokens": 172369,
+  "agent_called_done": true,
+  "turns_used": 29,
+  "end_reason": "agent_done",
+  "error": null
+}

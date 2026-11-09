@@ -1,0 +1,18 @@
+{
+  "task": "pilot_tidy_desk",
+  "model": "gpt-6-astra",
+  "seed": 14,
+  "suite_version": "0.2.1",
+  "scene_version": 4,
+  "turn_cap": 30,
+  "time_cap_s": 1500,
+  "port": 8097,
+  "completed": true,
+  "codex_rc": 0,
+  "wall_s": 572.1655467500095,
+  "tokens": 96483,
+  "agent_called_done": true,
+  "turns_used": 19,
+  "end_reason": "agent_done",
+  "error": null
+}

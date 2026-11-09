@@ -1,0 +1,18 @@
+{
+  "task": "pilot_spill_cleanup",
+  "model": "gpt-5.6-luna",
+  "seed": 12,
+  "suite_version": "0.2.1",
+  "scene_version": 1,
+  "turn_cap": 30,
+  "time_cap_s": 1500,
+  "port": 8098,
+  "completed": true,
+  "codex_rc": 0,
+  "wall_s": 843.1980253329966,
+  "tokens": 115703,
+  "agent_called_done": true,
+  "turns_used": 18,
+  "end_reason": "agent_done",
+  "error": null
+}

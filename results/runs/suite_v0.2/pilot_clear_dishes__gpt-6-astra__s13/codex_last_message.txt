@@ -1,0 +1,1 @@
+Moved the bowl and cup into the drying rack and verified them visually. The large plate remained after repeated failed grasps. Reported **partial completion** through `/done`.

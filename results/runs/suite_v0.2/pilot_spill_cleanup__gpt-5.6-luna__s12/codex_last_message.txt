@@ -1,0 +1,1 @@
+Tidied the table by covering the spill with the cloth and moving the red mug upright to a dry area. Visual verification succeeded; the bridge reports `SELF_REPORT: success`.

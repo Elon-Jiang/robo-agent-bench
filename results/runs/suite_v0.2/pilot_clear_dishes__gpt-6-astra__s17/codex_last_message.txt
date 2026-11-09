@@ -1,0 +1,1 @@
+Partial completion: placed the plate and bowl in the rack. Moved the mug but couldn’t visually verify its final position. Left the intact banana and phone untouched, and submitted `/done` with `SELF_REPORT: partial`.

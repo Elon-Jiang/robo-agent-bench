@@ -1,0 +1,1 @@
+Wiped up the spill, set the cup upright, put both paper scraps in the bin, and set the sponge aside. Visually verified success and called `/done` after 18 plan turns.

@@ -1,0 +1,1 @@
+Wiped away the spill, stood the cup upright, and put one tissue in the bin. Cleanup partially succeeded: another tissue was pushed beyond the reachable workspace and remains uncollected. Reported `partial` via `/done`.

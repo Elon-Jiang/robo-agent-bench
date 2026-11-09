@@ -1,0 +1,1 @@
+Partial success: four stationery items are visibly in the tray. The sticky notes appear trapped underneath, and the tray remains displaced. I restored the mug upright and submitted `/done` with `SELF_REPORT: partial`.

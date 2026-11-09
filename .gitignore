@@ -1,0 +1,11 @@
+# Large/regenerable artifacts: full rollouts, bridge frames, agent logs (~11 GB locally).
+outputs/
+MUJOCO_LOG.TXT
+# Assets are fetched lazily by rab/pilot_assets.py (upstream licenses apply).
+third_party/
+__pycache__/
+*.pyc
+.DS_Store
+*.lock/
+# Curated, small results ARE committed:
+!results/

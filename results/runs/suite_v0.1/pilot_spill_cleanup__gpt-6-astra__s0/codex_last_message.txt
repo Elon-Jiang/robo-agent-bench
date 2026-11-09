@@ -1,0 +1,1 @@
+Wiped up the water, set the fallen cup upright, returned the sponge, and cleared the tissues into the bin. Visual checks indicate success; I submitted `/done` after 16 plan turns.

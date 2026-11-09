@@ -1,0 +1,18 @@
+{
+  "task": "pilot_tidy_desk",
+  "model": "gpt-5.6-luna",
+  "seed": 2,
+  "suite_version": "0.2.1",
+  "scene_version": 4,
+  "turn_cap": 30,
+  "time_cap_s": 1500,
+  "port": 8098,
+  "completed": true,
+  "codex_rc": 0,
+  "wall_s": 862.3652073339908,
+  "tokens": 176573,
+  "agent_called_done": true,
+  "turns_used": 27,
+  "end_reason": "agent_done",
+  "error": null
+}

@@ -1,0 +1,1 @@
+Moved the green and red blocks into the storage bin. Blue, yellow, and purple blocks remained outside, so the result is partial.

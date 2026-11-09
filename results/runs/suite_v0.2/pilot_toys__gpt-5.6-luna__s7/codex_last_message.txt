@@ -1,0 +1,1 @@
+I moved several blocks toward the orange bin and visually verified the scene, but the red and green cubes remained outside. Episode ended with `SELF_REPORT: partial`.

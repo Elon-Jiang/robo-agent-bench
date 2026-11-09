@@ -1,0 +1,1 @@
+Partial completion: I moved stationery into the tray, but several items spilled during recovery and remain outside. I reached 30 turns. The `/done` submission failed because the bridge was no longer reachable.

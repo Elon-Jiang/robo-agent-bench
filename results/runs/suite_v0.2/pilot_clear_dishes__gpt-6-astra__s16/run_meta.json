@@ -1,0 +1,18 @@
+{
+  "task": "pilot_clear_dishes",
+  "model": "gpt-6-astra",
+  "seed": 16,
+  "suite_version": "0.2.1",
+  "scene_version": 1,
+  "turn_cap": 30,
+  "time_cap_s": 1500,
+  "port": 8097,
+  "completed": true,
+  "codex_rc": 0,
+  "wall_s": 330.0591349590104,
+  "tokens": 57766,
+  "agent_called_done": true,
+  "turns_used": 9,
+  "end_reason": "agent_done",
+  "error": null
+}

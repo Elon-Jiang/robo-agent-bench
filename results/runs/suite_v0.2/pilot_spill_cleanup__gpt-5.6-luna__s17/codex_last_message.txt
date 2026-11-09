@@ -1,0 +1,1 @@
+Tidied the table: righted the red cup, positioned the yellow cleanup block over the spill, and returned the arm home. Visual verification passed; reported `SELF_REPORT: success`.

@@ -1,0 +1,1 @@
+Partially completed: I moved the dishes toward the rack, but the bowl and yellow scrap remain uncleared, and I accidentally displaced the dark container. I returned the arm home and reported `partial` via `/done`.

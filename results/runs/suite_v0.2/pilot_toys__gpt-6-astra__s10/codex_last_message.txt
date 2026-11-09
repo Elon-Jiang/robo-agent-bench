@@ -1,0 +1,1 @@
+Put all five blocks into the yellow bin and visually confirmed the table was clear of blocks. Reported success through `/done`.

@@ -1,0 +1,1 @@
+Wiped up the spill, stood the cup upright, put the loose paper in the bin, and set the sponge aside. Visually verified success and called `/done`.

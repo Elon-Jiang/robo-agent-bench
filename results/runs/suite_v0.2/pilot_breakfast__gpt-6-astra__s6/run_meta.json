@@ -1,0 +1,18 @@
+{
+  "task": "pilot_breakfast",
+  "model": "gpt-6-astra",
+  "seed": 6,
+  "suite_version": "0.2",
+  "scene_version": 1,
+  "turn_cap": 30,
+  "time_cap_s": 1500,
+  "port": 8097,
+  "completed": true,
+  "codex_rc": 0,
+  "wall_s": 395.0912766670226,
+  "tokens": 49391,
+  "agent_called_done": true,
+  "turns_used": 10,
+  "end_reason": "agent_done",
+  "error": null
+}

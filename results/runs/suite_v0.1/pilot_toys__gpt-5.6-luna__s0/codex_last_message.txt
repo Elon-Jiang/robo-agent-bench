@@ -1,0 +1,1 @@
+Moved all five blocks into the storage bin and visually verified the final arrangement. The bridge reported `SELF_REPORT: success`.

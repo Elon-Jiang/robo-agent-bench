@@ -1,0 +1,1 @@
+I wiped up the spill, set the cup upright, returned the sponge, and put the loose tissues in the bin. The final camera view looked clean, so I reported success through `/done`.

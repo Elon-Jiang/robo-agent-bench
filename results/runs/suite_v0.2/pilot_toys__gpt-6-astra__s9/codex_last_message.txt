@@ -1,0 +1,1 @@
+Put all five blocks into the yellow storage tray and visually verified that none remained loose. Reported success through `/done`.

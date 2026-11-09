@@ -1,0 +1,1 @@
+I placed the sponge over the visible water spill and verified the final scene. The spill remained partially visible and the red container stayed in place, so I reported **partial** success.

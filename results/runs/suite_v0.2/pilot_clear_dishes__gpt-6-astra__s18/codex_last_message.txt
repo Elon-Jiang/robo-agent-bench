@@ -1,0 +1,1 @@
+Attempted to move the dishes into the rack over 21 turns. The plate remained beside it, and the cup and bowl were displaced outside the permitted workspace. I called `/done` with `SELF_REPORT: failure`.

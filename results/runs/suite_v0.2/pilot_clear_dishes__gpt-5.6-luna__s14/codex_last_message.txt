@@ -1,0 +1,1 @@
+Moved most dishes into the wire rack and verified visually. One red bowl remained outside the rack, so I reported `SELF_REPORT: partial`.

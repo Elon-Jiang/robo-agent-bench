@@ -1,0 +1,16 @@
+{
+  "source_run": "outputs/agent_pilots/pilot_breakfast__gpt-6-astra__1107_233100",
+  "source_image": "bridge/wrist_cam.png",
+  "method": "Approximate final-state reconstruction from the calibrated wrist grid and plate back-side appearance; not a saved simulator state. Exact plan replay at seed 0 diverges at turn 5.",
+  "xy_uncertainty_m": 0.005,
+  "furniture_seed": 0,
+  "plate_orientation": "Flipped hypothesis reproduces the original item vector. Upright control passes the old seat check, so the original orientation cannot be proven without the missing state.",
+  "objects": {
+    "plate": {"pos": [0.312, 0.008, 0.03], "quat": [0, 1, 0, 0]},
+    "banana": {"pos": [0.312, 0.008, 0.08], "quat": [1, 0, 0, 0]},
+    "mug": {"pos": [0.230, -0.015, 0.03], "quat": [1, 0, 0, 0]}
+  },
+  "z_method": "Drop from these small clearances and settle for 1 s; images do not encode exact contact height.",
+  "original_items": {"plate_at_seat": false, "mug_on_right": false, "banana_on_plate": true, "mug_upright": true},
+  "expected_items": {"plate_at_seat": true, "mug_on_right": false, "banana_on_plate": true, "mug_upright": true}
+}

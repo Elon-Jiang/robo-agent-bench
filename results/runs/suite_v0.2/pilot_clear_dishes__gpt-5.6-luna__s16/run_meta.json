@@ -1,0 +1,18 @@
+{
+  "task": "pilot_clear_dishes",
+  "model": "gpt-5.6-luna",
+  "seed": 16,
+  "suite_version": "0.2.1",
+  "scene_version": 1,
+  "turn_cap": 30,
+  "time_cap_s": 1500,
+  "port": 8096,
+  "completed": true,
+  "codex_rc": 0,
+  "wall_s": 740.141208334011,
+  "tokens": 157390,
+  "agent_called_done": true,
+  "turns_used": 27,
+  "end_reason": "agent_done",
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "task": "pilot_spill_cleanup",
+  "model": "gpt-6-astra",
+  "seed": 3,
+  "suite_version": "0.1",
+  "turn_cap": 30,
+  "time_cap_s": 1500,
+  "port": 8096,
+  "completed": true,
+  "codex_rc": 0,
+  "wall_s": 440.7954045420047,
+  "tokens": 48164,
+  "agent_called_done": true,
+  "turns_used": 8,
+  "end_reason": "agent_done",
+  "error": null
+}

@@ -1,0 +1,3 @@
+I attempted to move the dishes into the rack, but grasp failures and rack movement displaced them. The table remains uncleared.
+
+I returned the arm home and submitted `SELF_REPORT: failure` after 28 plan turns.

@@ -1,0 +1,1 @@
+I uprighted the cup, wiped away the spill, returned the sponge, and put two loose tissues in the bin. Visual checks indicated success; I submitted `/done` with `SELF_REPORT: success`.

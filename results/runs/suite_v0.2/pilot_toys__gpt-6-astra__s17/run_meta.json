@@ -1,0 +1,18 @@
+{
+  "task": "pilot_toys",
+  "model": "gpt-6-astra",
+  "seed": 17,
+  "suite_version": "0.2.1",
+  "scene_version": 1,
+  "turn_cap": 30,
+  "time_cap_s": 1500,
+  "port": 8096,
+  "completed": true,
+  "codex_rc": 0,
+  "wall_s": 237.08095704199513,
+  "tokens": 35270,
+  "agent_called_done": true,
+  "turns_used": 5,
+  "end_reason": "agent_done",
+  "error": null
+}
