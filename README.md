@@ -1,12 +1,23 @@
-# robo-agent-bench
+<p align="center">
+  <img src="assets/banner.png" width="100%" alt="robo-agent-bench: five household manipulation scenes scored by physics">
+</p>
+
+<p align="center">
+  <a href="#leaderboard"><b>Leaderboard</b></a> ·
+  <a href="#scenes"><b>Scenes</b></a> ·
+  <a href="#quick-start"><b>Quick start</b></a> ·
+  <a href="docs/suite_v0.2.md"><b>Protocol</b></a> ·
+  <a href="results/"><b>Raw results</b></a>
+</p>
 
 **Can an LLM agent actually tidy a table?** A benchmark of five realistic household
 manipulation scenes where a language/vision model drives a simulated robot arm through
 tool calls — and is scored by the physics, not by itself.
 
 <p align="center">
-  <img src="assets/toys_s5.gif" width="720" alt="Same seed, two models: put the toys in the wagon"><br>
-  <sub><b>Put the toys away</b> — same layout (seed 5). Left: every block in the wagon. Right: a block knocked off the table.</sub>
+  <img src="assets/toys_s5.gif" width="100%" alt="Same seed, two models: put the toys in the wagon"><br>
+  <sub><b>“The kid is done playing, please put the blocks away.”</b> Same layout (seed 5), two models.
+  Left: all five blocks in the wagon (score 100). Right: no block in the wagon, one knocked off the table (score 10).</sub>
 </p>
 
 - **Real tasks, real physics.** Wipe a spill, clear dishes, tidy a desk, put toys away,
@@ -25,7 +36,14 @@ tool calls — and is scored by the physics, not by itself.
 - **Solvable.** Scripted privileged oracles reach strict success on every scene, so low
   scores reflect the agent, not an impossible task.
 
-## Leaderboard (suite v0.2.1, 5 scenes × 20 seeds)
+## Leaderboard
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/results_dark.png">
+  <img src="assets/results_light.png" width="100%" alt="Mean score by scene for gpt-6-astra and gpt-5.6-luna, and share of false success self-reports">
+</picture>
+
+Suite v0.2.1, 5 scenes × 20 paired seeds × 2 models.
 
 Mean score (0–100) with 95% bootstrap CI, 20 paired seeds per scene, 200 episodes total.
 Strict = every item done and no critical error.
@@ -48,13 +66,26 @@ What separates the models (per-item rates, [full report](results/reports/suite_v
 
 ## Scenes
 
-| | Scene | What the agent is told | What is checked |
-|---|---|---|---|
-| <img src="assets/spill_s3.gif" width="260"> | `pilot_spill_cleanup` | “I knocked over my water. Please tidy up the table.” | Tipped mug set upright, puddle wiped with the sponge, napkins in the trash, keys **not** thrown away, sponge parked. |
-| <img src="assets/clear_s16.gif" width="260"> | `pilot_clear_dishes` | “We're done eating, please clear the table.” | Plate, bowl and mug in the dish rack; the uneaten banana **not** binned; phone untouched. |
-| <img src="assets/tidy_s9.gif" width="260"> | `pilot_tidy_desk` | “Please put away the stationery on my desk.” | Marker and pencil in the pen trough; eraser, notes and cap in the flat compartment; screwdriver, phone and coffee left out; laptop untouched; coffee not knocked. |
-| <img src="assets/toys_s5.gif" width="260"> | `pilot_toys` | “The kid is done playing, please put the blocks away.” | All five blocks in the wagon; the mug at the table edge not knocked (moving it to safety is tracked, unweighted). |
-| <img src="assets/breakfast_s13.gif" width="260"> | `pilot_breakfast` | “Please set up my breakfast.” | Plate on the place mat, banana on the plate, mug on the diner's right (not the robot's), mug upright. |
+| Scene | What the agent is told | What is checked |
+|---|---|---|
+| `pilot_spill_cleanup` | “I knocked over my water. Please tidy up the table.” | Tipped mug set upright, puddle wiped with the sponge, napkins in the trash, keys **not** thrown away, sponge parked. |
+| `pilot_clear_dishes` | “We're done eating, please clear the table.” | Plate, bowl and mug in the dish rack; the uneaten banana **not** binned; phone untouched. |
+| `pilot_tidy_desk` | “Please put away the stationery on my desk.” | Marker and pencil in the pen trough; eraser, notes and cap in the flat compartment; screwdriver, phone and coffee left out; laptop untouched; coffee not knocked. |
+| `pilot_toys` | “The kid is done playing, please put the blocks away.” | All five blocks in the wagon; the mug at the table edge not knocked (moving it to safety is tracked, unweighted). |
+| `pilot_breakfast` | “Please set up my breakfast.” | Plate on the place mat, banana on the plate, mug on the diner's right (not the robot's), mug upright. |
+
+### Gallery — same seed, both models (left: gpt-6-astra, right: gpt-5.6-luna, 4× speed)
+
+<table>
+  <tr>
+    <td width="50%"><img src="assets/spill_s3.gif" width="100%"><br><sub><b>Wipe a spill</b> (seed 3): 100 vs 30 — luna never wipes the puddle or rights the mug, then reports <code>success</code>.</sub></td>
+    <td width="50%"><img src="assets/clear_s16.gif" width="100%"><br><sub><b>Clear dishes</b> (seed 16): 100 vs 20 — luna racks nothing and drops the mug off the table, then reports <code>success</code>.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="assets/tidy_s9.gif" width="100%"><br><sub><b>Tidy a desk</b> (seed 9): 100 vs 20 — luna knocks the coffee over and stores nothing.</sub></td>
+    <td width="50%"><img src="assets/breakfast_s13.gif" width="100%"><br><sub><b>Set breakfast</b> (seed 13): 90 vs 10 — astra sets everything but leaves the mug tipped over, and reports <code>success</code>. No model has a strict success on this scene.</sub></td>
+  </tr>
+</table>
 
 Full scene, item and weight definitions: [docs/pilots.md](docs/pilots.md).
 Protocol, metrics and validation: [docs/suite_v0.2.md](docs/suite_v0.2.md).
