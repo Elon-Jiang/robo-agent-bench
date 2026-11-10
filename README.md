@@ -120,11 +120,14 @@ and bridge file. The agent sees only what a robot would see.
 ## Quick start
 
 ```bash
-# 1. Upstream simulator (read-only; this repo patches it at import time via rab.register()).
+# 1. Upstream simulator (read-only; this repo patches it at import time via rab.register()),
+#    installed from the exact lockfile used for every published result (MuJoCo 4.0.1).
+git clone https://github.com/Elon-Jiang/robo-agent-bench.git
 git clone https://github.com/google-deepmind/mujoco_playground.git
-cd mujoco_playground && git checkout 2a38565 && uv sync && cd ..
-git clone https://github.com/Elon-Jiang/robo-agent-bench.git && cd robo-agent-bench
-PY=../mujoco_playground/.venv/bin/python   # Python 3.12, MuJoCo 4.0.1
+cd mujoco_playground && git checkout 2a38565
+cp ../robo-agent-bench/env/mujoco_playground.uv.lock uv.lock && uv sync --frozen
+cd ../robo-agent-bench
+PY=../mujoco_playground/.venv/bin/python   # Python 3.12
 
 # 2. Check the scenes are solvable (scripted oracles, no LLM calls).
 $PY scripts/oracle_suite.py
