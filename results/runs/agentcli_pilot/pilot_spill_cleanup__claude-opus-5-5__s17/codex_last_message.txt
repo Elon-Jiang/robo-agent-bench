@@ -1,0 +1,9 @@
+The spill is wiped up, but the mug ended up somewhere I wouldn't call properly put away. I ended the episode after 18 of 30 turns and reported it as **success**. Looking back, **partial** would have been more accurate, because I didn't put the mug back where it belongs.
+
+- **Spill:** I picked up the yellow sponge and wiped the whole puddle at about (0.27–0.34, 0.03–0.16) in four back-and-forth passes. In the next close-up the water was gone, and I put the sponge back where I found it.
+- **Mug:** The red mug that had fallen over is upright now, but not because I placed it that way.
+  - I grabbed it fine, but it slipped when I tried to rotate it upright and landed near the robot base, at about (0.12–0.13, −0.03).
+  - That spot is just past the arm's reach limit (x ≥ 0.16). My later grab attempts at the edge kept failing and just knocked it around: on its side, then upside-down, then upright again.
+  - The final overview shows it standing upright with the opening up, but at the very edge of the table by the base. The user would need to move it back by hand.
+
+Nothing else on the table was touched.

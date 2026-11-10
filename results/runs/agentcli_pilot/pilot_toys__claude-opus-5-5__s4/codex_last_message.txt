@@ -1,0 +1,8 @@
+All five toy blocks (red, magenta, green, blue and yellow) are now in the yellow toy box. I reported success. The red mug isn't a block, so I left it where it was.
+
+It took more turns than it should have:
+- **Box got dragged:** the box has wheels and its inside is narrower than the fully open gripper. On my first full pick-and-place run, the open fingers caught the box walls and pulled the box around, so most blocks landed on the table. I freed the gripper by lowering the box back down and partly closing the jaws.
+- **Blocks put back:** after that, I opened the jaws only partway when releasing, and dropped each block from above the rim. That got the remaining blocks in.
+- **Red block wedged:** the red block was stuck against the box's wheels and tipped over during one attempt. I pushed the box sideways to clear it, then picked it up and dropped it in.
+
+In the final overview from the camera's home position, the table has no blocks left. Red, magenta, green and blue are clearly visible in the box. The yellow block is hard to make out against the box's yellow inside, but I saw it go in during an earlier close-up, so I'm fairly confident it's there.

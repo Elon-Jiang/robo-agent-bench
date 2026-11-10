@@ -1,0 +1,7 @@
+All five stationery items are now in the orange desk organizer, confirmed in the final overview image, and I reported `SELF_REPORT: success`.
+
+- **Pen slot:** the red/white marker.
+- **Main compartment:** the eraser, the small red cylinder (I couldn't tell what it is and treated it as stationery), the yellow pencil and the yellow sticky-note pad.
+- **Left alone:** the coffee mug, the phone, the screwdriver and the white device at the back right, since none of them are stationery.
+
+It took 17 of the 30 plan turns. Three early attempts with the built-in grasp failed and knocked the eraser, red cylinder and sticky pad around on the desk. Switching to a manual descend, close and slow carry worked for every item after that.

@@ -1,0 +1,5 @@
+I put the blocks away in the yellow toy box. I reported success, but I couldn't actually see the yellow block in the box.
+
+- **What I did:** I picked up the red block first, then chained the green, blue, yellow and pink blocks. One grasp in that chain failed, almost certainly the pink one, since it was left outside. The box also got pushed to the left and turned during the chain. After a top-down look I picked up the pink block again and put it in the box where it had moved to.
+- **Final check:** In the overview image, the red, green, blue and pink blocks are clearly inside the box and no blocks are left on the table.
+- **The yellow block:** I couldn't see it in any view after the chain. The table is clear and there's a pale yellow shape in the box, so it's most likely inside, but it's the same color as the box. Its drop spot was planned for where the box originally sat, before the box moved, so it could also have ended up somewhere else.

@@ -1,0 +1,11 @@
+I only partly cleared the table: the mug and bowl are in the drying rack, but the plate and banana are still out. I reported it as **partial**.
+
+**Done**
+- **Mug:** it's upside down in the rack. My first three tries knocked it over or closed on nothing. I got it by aiming at the mug's center as seen in the camera image instead of using grid coordinates.
+- **Bowl:** it's upright in the rack, next to the mug.
+
+**Not done**
+- **Plate:** it's still on the table near (0.19, -0.05), close to the near edge of the reachable area. It's about 10 cm across, wider than the gripper opens, and it lies too flat for the gripper to pinch its rim. Several rim grasps failed and just pushed it toward the robot.
+- **Banana:** on my first grasp the gripper dragged the black bin and the banana disappeared. In the final overview a bit of yellow shows just beside the bin, so it's most likely next to or under the bin, not in it.
+
+My plan was dishes to the rack and the banana to the bin, which looked like a trash bin. I used 29 of the 30 turns and ended the episode at the turn limit. The phone was left where it was.

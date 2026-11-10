@@ -1,0 +1,8 @@
+Breakfast is set up. In the final overview camera image, the red plate is on the blue placemat with the banana on it, and the mug is standing upright on the mat's top-right corner. I ended the episode and labelled it `SELF_REPORT: success`.
+
+What I did:
+- **Plate:** I tried to pick it up twice and both grasps failed, because it's a flat plate and too thin to pinch. So I pushed it with the closed gripper: the first push sent it past the mat, and a second diagonal push centred it on the mat.
+- **Mug:** I gripped it by its body, keeping clear of the handle, and set it upright beside the plate.
+- **Banana:** I picked it up across its middle and laid it on the plate.
+
+It took 11 of the 30 turns. The mug sits close to the mat's edge. From the image it looks like it's on the mat, but I couldn't confirm that exactly.

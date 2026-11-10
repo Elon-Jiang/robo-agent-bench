@@ -1,0 +1,8 @@
+The table is tidied, and I reported success: the final overview image shows the puddle gone, the cup upright and the loose tissues in the bin.
+
+- **Spill:** I wiped the water puddle with the yellow sponge. The first pass hovered too high and did nothing; pressing down to the table and making several passes cleared it. The sponge is back where it started.
+- **Tissues:** I dropped the two crumpled white tissues that were on the table into the black bin. A third white item I had seen from the overview was not on the table when I checked up close, so I took it to be already in the bin.
+- **Cup:** I picked up the knocked-over red cup, rotated it and set it down upright at about (0.33, 0.04).
+- **Left alone:** the key and the second mug, which was already upright.
+
+The episode ended at turn 16 of 30.

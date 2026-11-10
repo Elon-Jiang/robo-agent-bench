@@ -1,0 +1,7 @@
+I stood the knocked-over cup back up and wiped up the water, and I think it worked. I reported it as a success.
+
+1. **Cup:** The red cup was lying on its side next to a light-blue water puddle. I picked it up and turned the gripper sideways so the cup came round toward upright, then set it down. The arm could only tilt partway, but the camera view afterwards shows it standing upright with the inside visible. It's now at about (0.25, 0.0), a few cm from where it had fallen.
+2. **Spill:** I picked up the yellow sponge, wiped over the whole puddle in back-and-forth strokes, and put the sponge back where it started.
+3. **Check:** A final view from above shows no puddle left.
+
+I left everything else where it was: the other red cup, two white cubes, a key and the black bin. There's also a long dark-brown patch on the table that was there before and the wiping didn't change. I took it to be part of the table's wood pattern rather than a stain, but if it's actually a second spill, it hasn't been cleaned. The run took 9 of the 30 plan turns.

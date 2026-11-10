@@ -1,0 +1,5 @@
+Breakfast is set up: the red bowl is on the cyan placemat with the banana inside it, and the red mug stands upright on the placemat beside it. I confirmed this in the final wrist-camera view and reported `SELF_REPORT: success`.
+
+I read "set up my breakfast" as gathering the three items onto the placemat, with the banana in the bowl because the mat is too small to lay all three out separately.
+
+The bowl took three attempts: the first grasp closed empty, the second dropped the bowl half on the mat, and the third set it fully on. The mug and banana each moved on the first try. The run used 8 of the 30 plan turns.

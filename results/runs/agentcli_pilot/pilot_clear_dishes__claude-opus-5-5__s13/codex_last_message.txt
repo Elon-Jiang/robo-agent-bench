@@ -1,0 +1,9 @@
+I cleared the table in 13 plan turns and reported success, based on what the wrist camera showed at the end.
+
+- **Banana:** in the black bin. The first grasp missed and only nudged it; the second attempt worked.
+- **Mug:** in the drying rack, but lying on its side near the rack's left wall.
+- **Small bowl:** placed in the rack on the first try.
+- **Large bowl:** in the rack, though the robot flagged it as a failed grasp. It's too wide for the gripper to hold whole, so I grabbed it by the rim. The first attempt didn't hold and the bowl slid a little. On the second, the robot again said the grasp failed, but the bowl ended up in the rack anyway.
+- **Phone:** left on the table, since it's a personal item rather than a dish.
+
+From the final top-down view, I think the large bowl is resting on top of the small bowl, which I can no longer see. So the dishes are cleared but stacked untidily rather than set neatly in the rack.

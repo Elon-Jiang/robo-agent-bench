@@ -1,0 +1,10 @@
+I moved the cup, plate and bowl from the table into the wire dish rack, and I think that clears the table, so I reported it as a success.
+
+- **Cup:** went in on the first try.
+- **Plate:** I picked it up by the rim. The bridge reported `grasp_failed` on that move, but the pictures afterwards showed the plate had still reached the rack.
+- **Bowl:** went in on the first try.
+- **How they ended up:** the three are piled on top of each other in the rack. In the last close-up the plate looks like it hangs slightly over the rack's front edge.
+- **Banana:** my one pick attempt missed and it didn't move. A closer look showed it's a whole banana, not a peel, so I decided to leave it rather than drop it in what looked like a black bin.
+- **Phone:** I left it where it was, since it isn't a dish.
+
+I used 8 of the 30 plan turns and then called `/done` with `SELF_REPORT: success`.

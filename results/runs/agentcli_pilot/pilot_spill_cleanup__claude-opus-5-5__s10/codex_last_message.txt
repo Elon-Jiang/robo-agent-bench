@@ -1,0 +1,7 @@
+I think the table is tidied up: the cup is standing and the spilled water is gone in the final camera view.
+
+1. **Stood the cup back up.** The red cup that had been knocked over was lying on its side next to a light-blue puddle. I picked it up across its body and turned the wrist toward vertical. The arm couldn't turn it all the way (it got to about 23° from upright), so I lowered it slowly until it touched the table and let go. It settled upright at about (0.20, 0.10), clear of the spill.
+2. **Wiped the spill.** I picked up the yellow sponge and wiped back and forth across the whole puddle area. The puddle no longer shows in the overview image.
+3. **Put the sponge back** where it started and moved the arm to its resting position.
+
+I called `/done` with `SELF_REPORT: success`. Nothing else on the table looked out of place, so I left the other items alone.

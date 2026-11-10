@@ -1,0 +1,8 @@
+I cleaned up the spill: the cup is standing upright again and the water has been wiped up. I reported **success** and checked it in the final overhead camera view.
+
+What happened:
+1. **Cup:** The red mug was lying on its side next to the puddle. I picked it up, but the robot couldn't reach the pose I wanted for turning it upright. When I set it back down to try a different approach, it landed standing up. That was luck, not a planned move.
+2. **Wiping:** I picked up the yellow sponge and wiped the puddle back and forth. Most of the water came up on the first pass. Some was left right beside the mug, so I put the sponge down, moved the mug (still upright) to a clear spot at about (0.26, −0.06), and wiped twice more.
+3. **Finish:** I set the sponge down at the left edge of the table, around (0.20, 0.13), rather than back where it started. Then I returned the arm to its starting pose. The final view shows no water left, and the other items on the table weren't touched.
+
+One wiping plan ran longer than the 120-second command limit and was moved to the background. It finished normally and I waited for it before sending the next step.

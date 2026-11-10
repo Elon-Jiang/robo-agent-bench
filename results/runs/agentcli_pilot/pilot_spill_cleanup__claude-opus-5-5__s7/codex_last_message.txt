@@ -1,0 +1,9 @@
+I stood the knocked-over cup back up and wiped up the spilled water, and I think the task succeeded. In the final overview image the cup is upright and the puddle is gone. I called `/done` with `SELF_REPORT: success`.
+
+1. **Standing the cup up:** the red cup was lying on its side next to a puddle. The arm couldn't turn its wrist far enough to tip the cup upright the way I first grabbed it. On my next try the cup slipped out of the gripper while I was turning it, and it landed on its side again. I picked it up again, turned it in the air, and tilted it so the open end faced up. Then I set it down standing at about (0.20, 0.02) m. That's close to where it fell, not exactly the same spot.
+2. **Wiping the spill:** I picked up the yellow sponge and wiped the puddle in a zigzag pattern. The water no longer shows in the camera image.
+3. **Putting things back:** I returned the sponge to where it started and moved the arm back to its home position.
+
+The other red cup and the white objects weren't moved.
+
+I used 15 of the 30 plan turns.

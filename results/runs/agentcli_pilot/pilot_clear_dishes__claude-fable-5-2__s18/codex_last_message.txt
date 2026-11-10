@@ -1,0 +1,8 @@
+The table is cleared, and I reported `SELF_REPORT: success`: the bowl, plate and cup are in the drying rack and the banana peel is in the bin. I left the phone where it was, since it isn't a dish or rubbish.
+
+Things that went wrong along the way:
+- **Plate:** it dropped once in transit and once ended up leaning against the outside of the rack; the third placement put it inside.
+- **Banana peel:** several top-down grasps failed because the arm stalled next to the bin, so I switched to a tilted grasp. The first drop missed the bin; the second went in, confirmed in the camera frame taken as the arm moved away.
+- **Bin:** it shifted a few centimetres toward the table edge during my attempts, probably from a sweep I tried. It is still upright and on the table.
+
+The final check was the wrist-camera overview from the home pose. From that angle the bowl looked tipped on its side inside the rack in one close-up, so the dishes are in the rack but not neatly slotted.

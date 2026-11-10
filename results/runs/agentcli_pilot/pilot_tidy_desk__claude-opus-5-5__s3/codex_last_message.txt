@@ -1,0 +1,7 @@
+I only partly finished putting away the stationery, and I reported it as **partial**.
+
+**In the tray:** the red marker, in its narrow pen slot, and the red cap.
+
+**Not put away:** the pencil, the eraser and the sticky-note pad. I did get all three into the tray at first. But during my placements the gripper bumped the tray and pushed it away from the robot. Those three items ended up on the table behind the tray's far wall, past the arm's limit of 0.50 m out. I can't reach them there. I made one attempt at the eraser at the edge of reach, but the gripper closed on the tray wall instead, so I let go.
+
+The episode is closed, so they're still behind the tray. The tray now sits about 0.32–0.50 m out from the robot, slightly turned. The mug, phone, screwdriver and white box were never moved, because I didn't count them as stationery.

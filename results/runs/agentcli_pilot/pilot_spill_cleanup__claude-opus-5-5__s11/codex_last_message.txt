@@ -1,0 +1,9 @@
+I think the table is tidied: the cup is standing again and the spill is wiped up. I reported it to the bridge as **success**.
+
+1. **Stood the cup up.** The red cup was lying on its side next to the spill. I picked it up across its body, turned it in the gripper so the open end faced up, and lowered it onto the table at about (0.28, 0.00).
+2. **Wiped the spill.** I picked up the yellow sponge and wiped the water puddle (around x 0.26–0.33, y 0.06–0.15) in back-and-forth passes. It took three rounds to get the last strip, and nothing of the puddle is visible now.
+3. **Put the sponge back** where it started at (0.205, −0.11), then moved the arm back to its home position.
+
+The cup's position moved a little during the wiping, and partway through one camera angle made it look tipped over again. In the final overhead view it looks upright, like the other red cup, so I believe it is standing. I can't be fully sure from the camera alone, since an upright and a lying cup look similar from some angles.
+
+I used 13 of the 30 plan turns.

@@ -1,0 +1,5 @@
+I put all five toy blocks (red, blue, green, magenta, yellow) into the yellow toy box. It took 7 plan turns. A close-up camera view from above shows all five inside the box, and the overview shows nothing left on the table. I ended the episode with `SELF_REPORT: success`.
+
+Two things didn't go to plan:
+- **First attempt:** I tried to move all five blocks in one go. The robot missed the green block and stopped the rest of the sequence. By then the yellow block was already in the box.
+- **Box position:** In the first camera view the box looked like it was on the right side of the table. It was actually on the left, and that first view was misleading. The box also got bumped and moved a little while I was working. After that I took a fresh view of the box from above before each placement. The other four blocks went in on the first try.

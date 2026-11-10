@@ -1,0 +1,13 @@
+The table is only partly cleared. I ended the episode with **SELF_REPORT: partial**.
+
+**What worked (checked in the wrist camera):**
+- **Small red bowl:** picked up and placed in the dish rack's basket on the first try.
+- **Plate:** it was about 10 cm across, wider than the gripper opens (9.5 cm). Pinching its rim failed several times and kept sliding it around the table. A diagonal grasp across the middle finally picked it up on its edge, and it's now in the rack.
+
+**What didn't work:**
+- **Mug:** I picked it up and lowered it toward the rack, but it didn't stay there. It ended up on its side on the table, past the rack, around 54 cm from the robot base. The arm can't reach past 50 cm, and one more grasp attempt at the limit missed, so it's still on the table.
+
+**What I left on purpose:**
+- **Banana and phone:** I left both where they were. The banana looked whole rather than a peel, and the phone isn't a dish. I didn't use the black round container in the far corner, which might be a bin.
+
+I used 25 of the 30 plan turns.

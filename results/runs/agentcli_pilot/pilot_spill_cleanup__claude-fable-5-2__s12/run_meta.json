@@ -1,0 +1,19 @@
+{
+  "task": "pilot_spill_cleanup",
+  "model": "claude-fable-5-2",
+  "seed": 12,
+  "suite_version": "0.2.1",
+  "scene_version": 1,
+  "turn_cap": 30,
+  "time_cap_s": 1500,
+  "port": 8096,
+  "completed": true,
+  "agent_cli": "claude",
+  "codex_rc": 0,
+  "wall_s": 509.98506541596726,
+  "tokens": 812480,
+  "agent_called_done": true,
+  "turns_used": 20,
+  "end_reason": "agent_done",
+  "error": null
+}

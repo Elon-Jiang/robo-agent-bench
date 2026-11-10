@@ -1,0 +1,7 @@
+The stationery is put away: the pencil, red marker, eraser and sticky notes are all inside the desk organizer tray, confirmed in the final overview image. I reported `SELF_REPORT: success`.
+
+- **Small red item:** I never picked it up deliberately. It got carried into the tray while I was moving the marker, and it is sitting in the large compartment.
+- **Sticky notes:** they rest partly on top of the marker, because the free strip in the large compartment was narrower than the pad.
+- **Left alone:** the coffee mug, phone, screwdriver and small laptop, since none of them are stationery.
+
+Two grasps missed on the first try (pencil and eraser) and succeeded on retry. The run used 15 of the 30 plan turns.

@@ -1,0 +1,8 @@
+The table is tidied, and I reported success after checking the final overview image. It took 12 of the 30 turns.
+
+- **Spill:** wiped up with the yellow sponge; no blue water is visible afterwards, and the sponge is back where it started.
+- **Mug:** the knocked-over red mug is standing upright again. It was nudged a few centimetres during wiping and now sits near (0.34, -0.01).
+- **White wads:** I judged these to be crumpled tissues from a close-up and dropped the two loose ones in the black bin. If they were something else, that call was wrong.
+- **Key:** left untouched.
+
+One uncertainty: a third white wad still shows at the edge of the bin, in the same spot as at the start. I read it as already sitting in or on the bin and left it, but I did not confirm that with a dedicated close-up.

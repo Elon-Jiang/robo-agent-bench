@@ -1,0 +1,7 @@
+I put all five blocks (green, red, blue, yellow and pink) into the yellow toy box, and the final camera image shows each of them inside it.
+
+I used 6 of the 30 turns: one to look at the box, four for the pick-and-place chains, and one more look. That extra look was needed because the yellow block blended into the yellow box, so the normal overview didn't show it. The close-up confirmed it was inside.
+
+The table now has no blocks on it. I left the red mug where it was, since it isn't a block.
+
+I ended the episode and reported **success**.

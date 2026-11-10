@@ -1,0 +1,7 @@
+I put all five toy blocks (pink, yellow, blue, green and red) into the yellow toy box, and I reported the task as a success.
+
+- **Pink and yellow:** both went in on the first try.
+- **Green:** the first grab missed because the block had turned about 45°. I retried with the gripper turned to match, and that worked.
+- **Red:** the first grab missed and pushed the block next to the box, and a second try nudged it again. On the third try I came down at the angle it was sitting at, and it went in.
+
+On the final overhead check, all five blocks were inside the box, nothing was left on the table, and I hadn't touched the red mug, since it isn't a toy. The box itself got shoved partway during the attempts (it now sits further back and to the right), but it's still upright and holding everything. It took 11 plan turns out of the 30 allowed.

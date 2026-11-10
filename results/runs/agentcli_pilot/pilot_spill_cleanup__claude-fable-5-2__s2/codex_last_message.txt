@@ -1,0 +1,8 @@
+The table is only partly tidied: the main spill is wiped and the cup is standing again, but one small water droplet is still there. I reported the episode as `partial`.
+
+- **Spill:** I wiped the puddle with the yellow sponge in two passes. One small droplet near (0.27, 0.07) survived three further sponge attempts, including a slow pressed scrub.
+- **Cup:** The knocked-over red cup now stands upright at about (0.33, 0.03). It took four tries, and my first wipe pass also shoved it across the table before I picked it up.
+- **Sponge:** It ended up displaced near (0.30, −0.15) rather than back in its original spot, because the last re-grasp failed and knocked it aside.
+- **White box:** I picked up the white box at (0.22, 0.17), thinking it was a paper towel, and rubbed it over the droplet. It turned out to be rigid, so I put it back where it was.
+
+I used 23 of the 30 plan turns and stopped there because I judged I was near the time limit.

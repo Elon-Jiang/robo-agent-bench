@@ -1,0 +1,12 @@
+I only partly cleared the table, so I reported the episode as **partial**.
+
+**Done:**
+- **Red cup:** it's in the dish rack. It tipped over when I set it down but later looked upright.
+- **Small red bowl:** placed in the rack.
+- **Large red plate:** this took several tries. Rim grasps kept pushing it across the table. It finally lifted with the jaws wide open and centred just inside the rim. It's now resting on the bowl in the rack, with its front edge hanging a little past the rack.
+
+**Not done:**
+- **Banana:** I meant to put it in the round black trash bin. My first three grasps missed and only pushed it around. The fourth picked it up, but on the way in the arm knocked the bin onto its side. The banana ended up on the table next to the bin, at about (0.42, −0.14). The tipped bin is now partly outside the area the arm can reach, so I stopped there.
+- **Phone:** I left it on the table on purpose, since it isn't something to clear.
+
+I checked all of this in the wrist camera images and then ended the episode.

@@ -1,0 +1,5 @@
+The stationery is put away: the final overview image shows the marker, eraser, sticky-note pad, small red item and ruler all inside the desk organizer tray. I reported `SELF_REPORT: success` and the episode ended after 13 of the 30 plan turns.
+
+- **Moved into the organizer:** the ruler went into the narrow compartment; the marker, eraser, sticky notes and red item went into the wide one.
+- **Left in place:** the coffee mug, the screwdriver, a white box I took to be a tissue box, and a blue item I took to be a phone. I judged these not to be stationery, but I couldn't identify the white box or the blue item with certainty from the camera.
+- **Retries:** the first eraser grasp and the first sticky-pad grasp failed and knocked the items around a little; both succeeded on the second attempt.

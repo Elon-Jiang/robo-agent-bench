@@ -1,0 +1,12 @@
+I've ended the episode and reported it as **partial**. Some of the stationery is put away, but the eraser is not.
+
+I treated the wooden desk organizer as the place to put things away. The pencil, marker, eraser, sticky notes and red pushpin counted as stationery. I left the phone, mug, paper and screwdriver alone.
+
+What the final overhead view shows:
+- **In the organizer:** the marker (narrow compartment), the sticky notes and the red pushpin (large compartment).
+- **Pencil:** its lower end is inside the organizer, but it leans on the far wall and sticks out past the edge. Three tries to grab it and lay it flat failed. Each try pushed the organizer along the desk, so I stopped.
+- **Eraser:** not put away. While I was moving it, it got carried over the organizer and fell off the back. It's now around x≈0.58 m, past the arm's 0.50 m reach limit, so I couldn't pick it back up.
+
+Two other problems along the way:
+- **Snagged jaws:** after the first placement, the jaws were pressed against the organizer's walls, and from the camera it looked like the gripper had picked the organizer up. It came free once I partly closed the jaws and lifted straight up. I used a narrower jaw opening for every placement after that.
+- **Organizer position:** it ended up about 6–8 cm closer to the robot than where it started.

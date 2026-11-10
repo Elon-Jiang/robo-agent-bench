@@ -1,0 +1,8 @@
+The desk is only partly tidied: four of the five stationery items are in the orange organizer tray, but the sticky-note pad is still on the desk. I ended the episode with `SELF_REPORT: partial`.
+
+- **Put away:** the red-and-white marker, the small red pin, the yellow pencil and the eraser are all in the tray, confirmed in the wrist camera views.
+- **Not put away:** the sticky-note pad sits at about x≈0.12, y≈0.19, close to the robot base. The gripper cannot go nearer than x≈0.158, and four grasp attempts (three top-down, one tilted) closed on nothing.
+- **Side effects:** during one of my placements the arm shoved the tray about 15 cm toward the back of the desk, and the mug was nudged slightly. The sticky-note pad and eraser were also pushed toward the base around then, which is how the pad ended up out of reach.
+- **Left alone on purpose:** the mug, the phone, the screwdriver and the white paper/card at the back, which I did not treat as stationery to put away.
+
+I used 21 of the 30 plan turns and stopped because I was close to the time limit.

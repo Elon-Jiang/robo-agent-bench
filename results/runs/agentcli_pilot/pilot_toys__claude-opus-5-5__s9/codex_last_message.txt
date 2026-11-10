@@ -1,0 +1,8 @@
+I put all five blocks (green, red, blue, magenta and yellow) in the yellow toy box. The final overhead camera image shows all of them inside it and none left on the table. I marked the run as a success.
+
+It didn't go cleanly the first time:
+- **Green:** moved on its own first and landed in the box.
+- **Red, blue, yellow, magenta:** I moved these in one chained run. The box got pushed and turned during it, so magenta and yellow ended up just outside the far wall instead of inside.
+- **Recovery:** my first two tries to pick magenta back up missed. I took a straight-down camera view to get better positions, then got magenta and then yellow into the open spots in the box.
+
+That took 9 of the 30 allowed turns. The box is now sitting a little off its starting spot and at an angle. The mug wasn't touched.

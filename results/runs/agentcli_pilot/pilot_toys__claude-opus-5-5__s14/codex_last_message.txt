@@ -1,0 +1,9 @@
+I put all five blocks (green, red, blue, yellow and magenta) into the yellow toy box. The last close-up showed all five inside and nothing left on the table, so I ended the episode and reported it as a success.
+
+It didn't go cleanly:
+- **First grasp missed.** I was aiming at the green block from the angled overview, and it sat about 2 cm off from where it looked and was rotated 45°. A closer look fixed the position and the grasp worked.
+- **Yellow block missed the box.** It landed on the table just behind the box's back wall.
+- **The arm picked up the box.** When I went back for the yellow block, the gripper caught the box and lifted it, and the blue block fell out. I lowered the box back to the table and let go. It now sits closer to the robot than where it started, at about x 0.27–0.40 m, y 0 to -0.10 m.
+- **Recovery.** Yellow and the other three stayed in the box during all that. I picked the blue block back up and put it in the empty end of the box.
+
+I used about 12 plan turns out of the 30 allowed.

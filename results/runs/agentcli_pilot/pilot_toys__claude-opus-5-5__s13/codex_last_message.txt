@@ -1,0 +1,6 @@
+I got 4 of the 5 blocks into the box, so this is a partial success, and I reported it as `partial`.
+
+- **In the box:** the green, blue, yellow and magenta blocks. I checked from above and saw no blocks left on the table.
+- **Missing:** the red block. It disappeared during my first turn, where I chained two pick-and-place moves without checking in between. During that turn the light box got shoved and turned onto the spot where the red block had been, and the green block landed on the table beside the box. After that I couldn't see the red block anywhere: not inside the box, not on the table, not on the visible floor near the right edge, and not near the bucket. My best guess is that it's under the box or fell off the table where the camera can't see.
+
+I dropped the remaining blocks into the box's middle with the jaws only half open so I wouldn't hit the walls. The box still shifted a little on later drops, but stayed close to where it was.

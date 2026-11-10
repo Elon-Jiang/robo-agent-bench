@@ -1,0 +1,6 @@
+Breakfast is set up, judging by the final overview image: the plate sits centred on the placemat, the banana is on the plate, and the mug stands upright beside the plate at the mat's upper-left corner.
+
+- **Plate:** it swung to hang vertically when I lifted it by the rim, landed short of the mat, and I dragged it into place by the rim. It looks right-side up (concave, banana resting inside), but I could not confirm that with certainty.
+- **Mug:** the plate fills most of the mat, so the mug is at the corner, partly or wholly off the mat rather than fully on it.
+
+I used 9 of the 30 plan turns and reported `SELF_REPORT: success`.

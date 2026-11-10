@@ -1,0 +1,9 @@
+I set up the breakfast on the cyan placemat, and I think it worked. It took 8 plan turns, then I called `/done` with `SELF_REPORT: success`.
+
+1. **Plate:** I picked up the red plate (it's fairly deep, almost a bowl) by its rim and put it in the middle of the placemat.
+2. **Banana:** I picked it up from the right side of the table and put it on the plate.
+3. **Mug:** I gripped the dark red mug around its body, keeping the jaws clear of the handle. I set it upright at the plate's upper-right, where a cup usually goes, partly on the corner of the mat.
+
+The final overview from the camera shows all three where I meant them to be, with nothing tipped over. No grasp failed.
+
+There was one hiccup: the mug move ran past the shell's 120 s time limit. It finished in the background and reported no error.

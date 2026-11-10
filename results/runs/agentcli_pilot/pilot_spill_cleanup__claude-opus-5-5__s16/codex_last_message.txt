@@ -1,0 +1,5 @@
+I think the task succeeded: the knocked-over red cup is standing upright, the water puddle is gone, and the sponge is back where it was. I checked this in the final home camera view and reported `SELF_REPORT: success`.
+
+1. **Cup:** It was lying on its side at about (0.29, 0.02). I picked it up from the side, and when I set it down the top-down view showed it standing upright with the opening up, at about (0.28, 0.01). My commands to roll the gripper had no effect (roll stayed at about -63°), so the cup ended up upright through how it was grasped and set down, not through a deliberate rotation.
+2. **Spill:** I picked up the yellow sponge and scrubbed the puddle at about (0.30, 0.10) twice. The first pass was likely too high to touch the table, so I ran the second one lower. After the second pass, the wrist camera image still looked exactly like the one before it, but the end frame of that move showed the puddle gone, and the final home view confirmed it.
+3. **Tidy-up:** I put the sponge back at its original spot, returned the arm home, and called `/done`. That used 10 of the 30 plan turns.

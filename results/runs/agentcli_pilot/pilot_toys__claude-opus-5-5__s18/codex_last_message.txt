@@ -1,0 +1,7 @@
+I put all five toy blocks (red, green, blue, yellow and pink) into the yellow toy box. I left the mug on the table where it was, since it isn't a block. In the final camera view no blocks are left on the table. I ended the episode with `SELF_REPORT: success`.
+
+Two things went wrong along the way:
+- **The box moved.** While placing the first block (red), the arm caught the box and shifted and turned it. It stayed upright with the red block inside, so I kept using it where it ended up, about 7 cm closer to the robot. For the rest I released the blocks from higher up, and nothing else got snagged.
+- **One grasp failed.** My first try at the green block missed and pushed it next to the blue one. I looked straight down to find it and picked it up on the second try.
+
+The yellow block is hard to see against the yellow box. I'm fairly sure it's in the box's top corner, but it's the least clear one in the final image.

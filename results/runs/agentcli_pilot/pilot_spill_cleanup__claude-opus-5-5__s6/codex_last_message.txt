@@ -1,0 +1,7 @@
+I believe the task succeeded: the knocked-over cup is upright, the water is wiped up, and the sponge is back where it started. I checked each step on the wrist camera and marked it `SELF_REPORT: success`.
+
+1. **Cup:** The red cup was lying on its side next to the puddle. I picked it up from above and tilted the wrist so the opening turned upward. The arm could only tilt part of the way, so I lowered the cup tilted and let go. A top-down look afterwards showed it standing upright at about (0.25, −0.01).
+2. **Spill:** I picked up the yellow sponge and wiped back and forth over the puddle at table height. The puddle no longer shows in the next image.
+3. **Sponge:** I put it back at its original spot, about (0.20, −0.12), and sent the arm home. That view showed a tidy table, so I ended the episode with `/done`. The episode took 10 plan turns out of 30.
+
+One small side effect: the white block near the puddle moved slightly, probably bumped by the sponge, but it's still standing.

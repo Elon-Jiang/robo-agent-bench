@@ -1,0 +1,8 @@
+I put the four stationery items I could see on the desk into the wooden organizer tray: the red-and-white marker, the yellow pencil, the eraser and the sticky-note pad.
+
+- **What happened:** The first try at the eraser failed because it got knocked sideways. I looked again, found where it had landed and picked it up on the second try.
+- **What I checked:** The last top-down camera view shows the marker, pencil and eraser in the tray. The sticky-note pad was no longer on the desk afterward, but it's hard to pick out in the tray because its yellow matches the tray floor.
+- **One loose end:** A small red item ended up in the tray after I moved the marker and is hidden in the final view. It may be the marker's cap or a small red ball that was next to it.
+- **Left alone:** I didn't move the mug, the phone-like blue object, the screwdriver or the white card, since I didn't count them as stationery.
+
+I ended the episode and reported **success**.

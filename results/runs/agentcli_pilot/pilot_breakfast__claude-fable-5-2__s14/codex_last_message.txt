@@ -1,0 +1,7 @@
+Breakfast is set up, and I reported it as a success: the final overview shows the red plate on the cyan placemat with the banana on it, and the mug upright at the mat's top-left corner beside the plate.
+
+- **Plate:** moved from the far left of the table onto the placemat. The grasp check tripped during this move, but the overhead view confirmed the plate had landed on the mat, so I did not redo it.
+- **Banana:** picked up from the right edge of the mat and placed on the plate.
+- **Mug:** moved from the near-left of the table to the mat corner. It sits partly over the mat's edge, since the plate takes up most of the mat.
+
+This took 7 of the 30 plan turns.

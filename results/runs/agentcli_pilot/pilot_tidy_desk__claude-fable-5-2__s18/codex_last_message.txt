@@ -1,0 +1,9 @@
+All five stationery items are now in the desk organizer tray, confirmed in the final overview image, and I reported `SELF_REPORT: success`.
+
+- **Main compartment:** the eraser, the small red cylinder, the red-and-white marker and the sticky notes.
+- **Narrow pen slot:** the yellow marker.
+- **Left alone:** the coffee mug, phone, screwdriver and the paper/card, which I judged not to be stationery.
+
+The red cylinder was the one ambiguous object; I treated it as stationery and put it away with the rest.
+
+Four grasps failed along the way (eraser once, yellow marker twice, sticky notes once), each nudging the item before a retry succeeded. The episode used 16 of the 30 plan turns.

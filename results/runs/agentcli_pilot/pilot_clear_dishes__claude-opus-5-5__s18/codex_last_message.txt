@@ -1,0 +1,10 @@
+I only partly cleared the table: three of the four items are off it, but the large red bowl is still there, and I reported the run as **partial**.
+
+What got moved, checked on the wrist camera:
+- **Red mug:** into the dish rack on the first try.
+- **Small red bowl:** into the dish rack, gripped by the rim.
+- **Banana:** into the black bin. It took several tries. One grip lifted it but dropped it short of the bin, and the bin got knocked a little in the process.
+
+The large red bowl was the problem. It's a wide, shallow bowl, and gripping its rim kept failing. One grip lifted it but it slipped out on the way to the rack. Other tries flipped it onto its edge, knocked it onto the phone, or slid it across the table. Each miss moved it, so I had to measure it again. I pushed it back onto open table and made a last attempt, but the 30-turn limit had already been reached, so that attempt never ran. The bowl is sitting flat at about (0.25, -0.06).
+
+I left the phone where it was, since it isn't a dish.

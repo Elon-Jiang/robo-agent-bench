@@ -1,0 +1,6 @@
+I put all five blocks (green, cyan, red, yellow and pink) into the yellow toy box. The final wrist-camera image shows them all inside the box and none left on the table. I ended the episode and reported it as a success.
+
+- **Missed grasp:** my first grasp on the green block missed. The angled overview camera made blocks look about 2–3 cm closer to the robot than they are. I corrected that with a top-down look.
+- **Box got moved:** twice the gripper snagged the box while placing blocks, carrying or dragging it toward the robot. Each time the box stayed upright with the blocks inside, and I set it back down on the table. It's now nearer the robot and rotated compared with where it started. For the last two blocks I came straight down from above and lifted straight up, and the box wasn't pulled again.
+
+I left the red bucket on the left side of the table alone, since it isn't a block.

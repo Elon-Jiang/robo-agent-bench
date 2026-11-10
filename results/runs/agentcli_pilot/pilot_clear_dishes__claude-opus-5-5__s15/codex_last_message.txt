@@ -1,0 +1,9 @@
+I cleared the table and ended the episode with a self-report of **success**. The final wrist-camera image shows everything where I meant to put it.
+
+- **Red cup:** in the dish rack on the first try.
+- **Red mug:** in the dish rack on the first try.
+- **Red bowl/plate:** in the rack, standing on its edge. It was too wide for the gripper to hold across, so I pinched it by its wall. It slipped out once on the way, and one regrasp missed. The third grasp held, and I lowered it upright between the mug and the utensil holder.
+- **Banana:** in the black round bin. I treated it as meal leftovers and the bin as the trash, but that's my guess. If it's a whole banana you wanted to keep, it should come back out. The first grasp missed because my position estimate from the angled overview was off by about 2 cm, and the second pushed it without picking it up. It worked after I looked straight down to find its exact position.
+- **Phone:** left on the table on purpose, since it's a personal item rather than something to clear away.
+
+The run took about 20 plan turns, within the 30-turn limit.

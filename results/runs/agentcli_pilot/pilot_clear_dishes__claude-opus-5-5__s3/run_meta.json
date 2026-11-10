@@ -1,0 +1,19 @@
+{
+  "task": "pilot_clear_dishes",
+  "model": "claude-opus-5-5",
+  "seed": 3,
+  "suite_version": "0.2.1",
+  "scene_version": 1,
+  "turn_cap": 30,
+  "time_cap_s": 1500,
+  "port": 8097,
+  "completed": true,
+  "agent_cli": "claude",
+  "codex_rc": 0,
+  "wall_s": 569.8335096669616,
+  "tokens": 769810,
+  "agent_called_done": true,
+  "turns_used": 21,
+  "end_reason": "agent_done",
+  "error": null
+}

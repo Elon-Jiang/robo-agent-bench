@@ -1,0 +1,7 @@
+The table is tidied: the cup is standing upright and the spilled water is cleaned up. I ended the episode and reported it as a success, based on the final wrist-camera image.
+
+1. **Cup:** The red cup was lying on its side next to a puddle. I picked it up around the middle, turned the gripper so the cup stood mouth-up, and set it down at about (0.28, -0.06).
+2. **Spill:** I picked up the yellow sponge and wiped back and forth over the puddle (roughly x 0.25–0.34, y +0.06 to +0.16). Afterwards no puddle was visible.
+3. **Sponge:** I put it back where it started, at about (0.20, -0.13), and returned the arm to its home position.
+
+That took 7 plan turns. I didn't move anything else on the table: the white cubes, the key, the other mug and the black tray stay where they were, since none of them was part of the spill.

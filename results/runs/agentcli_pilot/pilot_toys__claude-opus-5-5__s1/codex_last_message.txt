@@ -1,0 +1,7 @@
+All five blocks are in the yellow toy box. I checked this in the final wrist-camera image and ended the episode with `SELF_REPORT: success`.
+
+- **Order:** Red went in first. Green, cyan and yellow followed, one block per turn after an early four-block chain went wrong.
+- **Rolling box:** The box is on wheels and got nudged several times, ending up about 10 cm from where it started. Four of the arm's moves together pushed it roughly 12 cm in one direction and then back the other way. Because of that, the chained moves left green and magenta outside it and never moved yellow or cyan, so I switched to moving one block at a time and checking after each.
+- **Magenta:** It ended up next to the outside of the box wall, and three grasp attempts there failed. I pushed it into open space, picked it up, and dropped it into a free spot in the box.
+
+The task took 17 of the 30 plan turns. The box now sits near the far edge of the arm's reach, about x ≈ 0.46–0.55 m, rather than where it started.

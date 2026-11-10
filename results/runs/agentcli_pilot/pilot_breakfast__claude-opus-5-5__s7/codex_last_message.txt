@@ -1,0 +1,7 @@
+I set up the breakfast on the cyan placemat, and the final camera view looks right, so I reported it as a success.
+
+1. **Plate:** I picked the red plate up by its near rim and set it down on the middle of the placemat.
+2. **Mug:** I picked up the red mug and stood it upright on the mat beside the plate.
+3. **Banana:** I picked up the banana and laid it on the plate.
+
+In the final overview from the arm's home position, all three items are on the placemat with the banana on the plate. I ended the episode with `SELF_REPORT: success`. It took 9 of the 30 plan turns. The scene had no other items, so nothing was left off the mat.

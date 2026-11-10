@@ -1,0 +1,6 @@
+The table is only partly cleared: the mug and bowl are on the drying rack, but the plate is not. I ended the episode with `SELF_REPORT: partial` after 20 of 30 turns, because I judged the time budget was nearly spent.
+
+- **Mug:** moved into the drying rack, lying on its side at the rack's far-left corner.
+- **Bowl:** placed in the rack, but it was knocked during the plate attempts and now sits tipped at the rack's left edge.
+- **Plate:** picked up from where it was and carried over, but it landed off the left side of the rack. Two re-grasp attempts closed empty, and a push made it worse. It is now upside down on the table, leaning against the bowl, partly beyond the arm's reach.
+- **Banana and phone:** left where they were on purpose, since the banana is whole food and the phone isn't a dish.

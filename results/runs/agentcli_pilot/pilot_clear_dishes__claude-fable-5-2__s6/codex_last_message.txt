@@ -1,0 +1,9 @@
+The table is only partly cleared: the mug is upright in the dish rack, but the plate and bowl are probably underneath the rack rather than in it. I reported the episode as `partial`.
+
+- **Mug:** in the rack, upright. It was placed once, fell out when the rack got disturbed, and went back in after several failed grasps.
+- **Plate:** it slipped out of the gripper short of the rack. A later grasp attempt bumped the rack and dragged it toward the robot, and the next one lifted the plate with the rack riding on top of it. The plate now lies within the rack's footprint, most likely underneath it.
+- **Bowl:** never picked up. It sits at the rack's near corner, partly sticking out.
+- **Rack:** ended up displaced and rotated at the near-left of the table instead of its original spot.
+- **Banana and phone:** left untouched on purpose, since neither is a dish and the banana looked uneaten.
+
+I used 25 of the 30 turns and stopped there rather than risk disturbing the rack again.

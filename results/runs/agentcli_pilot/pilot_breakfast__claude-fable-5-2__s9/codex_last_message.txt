@@ -1,0 +1,7 @@
+Breakfast is only partly set up: the bowl and banana are in place, but the mug is lying on its side, so I reported `partial`.
+
+- **Bowl**: on the placemat. It took two grasp attempts and was dropped from about 10 cm when the chain aborted, but the overview shows it sitting on the mat.
+- **Banana**: placed inside the bowl.
+- **Mug**: tipped over when I dropped it during the first move, and it now lies on its side at the near-left corner of the mat, partly on it. Three attempts to right it failed.
+
+I stopped after 21 of the 30 plan turns because I judged the time budget was nearly used up. The last close-up showed the mug still on its side; I did not view the final image after parking the arm.

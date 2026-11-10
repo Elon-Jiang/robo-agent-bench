@@ -1,0 +1,6 @@
+I got the spill cleaned up, but the cup ended up somewhere the arm can't reach, so I reported this as **partial**.
+
+- **Spill:** I picked up the yellow sponge and wiped the puddle in two passes. The second pass covered the corner that had been under the cup. The final camera view shows no water left, and the sponge is back near where it started.
+- **Cup:** It turned out to be a red mug, and it had ended up upside down. I turned it so the handle was out of the way, gripped it from the side and rolled the wrist to flip it. It slipped out of the gripper as I set it down and slid to the edge of the table right next to the robot base. It now looks upright, but the arm can't reach anything that close to its base. The grasp attempts failed, and the arm stopped at that limit when I tried to move it in closer.
+
+The table is dry. The mug is upright but it's sitting by the robot base, not back in a tidy spot. I made 24 of the 30 allowed moves and ended the episode with `SELF_REPORT: partial`.

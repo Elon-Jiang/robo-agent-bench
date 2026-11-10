@@ -1,0 +1,7 @@
+The episode is finished and I reported it as **partial**: the spill is cleaned up, but the cup is not tidied.
+
+- **Spill:** I picked up the yellow sponge, wiped the water puddle in two passes until it was gone in the camera view, and put the sponge back near where it was.
+- **Cup:** I stood the knocked-over red cup up, but it ended up upside down. While trying to flip it, it slipped out of the gripper and landed on its side at about y ≈ 0.31, beyond the arm's 0.22 reach limit. Three retrieval attempts were stopped at that limit, so the cup is still lying on the table, further from where it started.
+- **Other items:** the keys, the second mug and the black bin were not touched. The three white cubes were left where they are, since I couldn't tell whether they were rubbish. One of them was nudged a few centimetres during wiping.
+
+I used 22 of the 30 plan turns.

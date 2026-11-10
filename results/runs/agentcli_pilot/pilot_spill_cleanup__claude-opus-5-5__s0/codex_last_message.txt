@@ -1,0 +1,8 @@
+I've cleaned up the spilled water and the cup that fell over is standing up again. I reported the episode as a success.
+
+1. **Wiping the spill:** I picked up the yellow sponge and wiped back and forth over the water spill. A thin strip near the cup was left, so I made a second set of passes. The last camera view from above the table showed no water left.
+2. **The fallen cup:** I didn't set it upright on purpose. During the first wipe the sponge bumped it, and it ended up standing at about (0.43, 0.03), next to the other red mug. A close-up showed both mugs upright with their open tops facing up.
+3. **Sponge:** I put it back where it started each time.
+4. **Finishing:** I called `/done` with the `SELF_REPORT: success` line.
+
+I left the other items on the table where they were: two white objects, a small white key-like item and a black object. I didn't treat moving them as part of cleaning up the spill.

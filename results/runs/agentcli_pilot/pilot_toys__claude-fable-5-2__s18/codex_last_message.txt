@@ -1,0 +1,3 @@
+All five blocks (green, red, cyan, yellow, pink) are now in the yellow bin, and I ended the episode with `SELF_REPORT: success`.
+
+The final close-up of the bin shows all five blocks inside it, and the overview before it shows no blocks left on the table. The red mug was left where it was, since it isn't a block. This took 4 plan turns of the 30 allowed.

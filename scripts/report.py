@@ -109,7 +109,7 @@ def load(patterns, backfill=None, rescore=False):
         version_record = dict(meta, **(ep or {}))
         row = dict(
             run=p.name,
-            path=str(p),
+            path=str(p.relative_to(ROOT) if p.is_relative_to(ROOT) else p),
             model=meta.get("model", "unknown"),
             task=meta.get("task", p.name.split("__")[0]),
             seed=meta.get("seed"),

@@ -1,0 +1,6 @@
+I got 4 of the 5 blocks into the toy box, so this is a partial success. I filed the self-report as `partial`.
+
+- **In the box:** the green, pink and blue blocks show clearly inside the yellow toy box in the final overhead camera image. The yellow block is harder to see against the yellow box, but a close-up confirmed it's in there too.
+- **Missing:** the red block. My first grasp went for green and red together in one command. While placing green, the arm caught the box and dragged it about 12 cm toward the robot, over where the red block was sitting. The red grasp then failed. I pushed the box forward again to uncover that spot and checked five other camera views. The red block wasn't visible anywhere on the table or along its edges. It's most likely under the box or knocked off the table.
+
+I used 11 of the 30 plan turns before calling `/done`.

@@ -1,0 +1,7 @@
+I put the four stationery items into the wooden organizer tray on the desk, and I think the task succeeded. I reported it to the bridge as `SELF_REPORT: success`.
+
+- **What I moved:** the red-and-white marker, the eraser, the yellow sticky-note pad and the yellow pencil. The final overview image shows all four inside the tray. A small red round object also ended up in the tray, apparently carried along with the marker. The marker is leaning against a tray wall rather than lying flat.
+- **Retries:** the first tries at the eraser and the pencil missed. The eraser worked on the second try with a corrected position. The pencil worked once I grasped it lower and turned off the grasp check, which had flagged it as a miss.
+- **What I left in place:** the coffee mug, phone and screwdriver, since they aren't stationery. I also left a white box with dark slots in the far right corner. From above it looked like a device rather than stationery, but I'm not certain. If it's actually a stapler or similar, it still needs putting away.
+
+The job took 12 of the 30 plan turns.

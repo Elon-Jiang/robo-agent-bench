@@ -1,0 +1,10 @@
+I didn't clear the table. I ended the episode after 22 of the 30 turns and reported it as `SELF_REPORT: failure`.
+
+The table had a red plate, a red bowl, a red cup, a banana, a phone, a wire drying rack and a black bin. My plan was to put the dishes in the rack and the banana in the bin. Here is where each item ended up, judging from the final overview image:
+
+- **Cup:** The gripper picked it up but dropped it on the way to the rack. It's lying on its side just past the left edge of the area the arm can reach.
+- **Plate:** I picked it up twice by its edge. The first time it slipped off in transit, and the second attempt never closed on it. It now seems to be resting on, or leaning against, the front of the rack, not standing in a slot. That might count as "near the rack," but it isn't put away properly.
+- **Bowl:** My attempt to grab its rim missed and pushed it toward the robot. It's now tilted at the near edge of the reach.
+- **Banana:** Four attempts all closed on nothing, so it hasn't moved. Since it's uneaten fruit, it may not need clearing anyway.
+
+Two things went wrong. First, the angled wrist-camera views made my position estimates unreliable; only the views taken straight down were accurate. Second, grips on the plate and cup rims were weak, so the items slipped while the arm was moving.

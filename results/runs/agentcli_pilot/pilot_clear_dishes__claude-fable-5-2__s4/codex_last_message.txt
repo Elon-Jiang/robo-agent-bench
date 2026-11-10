@@ -1,0 +1,9 @@
+The table is only partly cleared: the large red plate is still on the table, so I reported `SELF_REPORT: partial`.
+
+- **Banana:** it is in the bin, confirmed in the overview image. My first drop attempt knocked the bin toward the robot, and I had to push it back before I could pick the banana up again.
+- **Small bowl:** it went into the drying rack, and I saw it there after the place.
+- **Cup:** I picked it up and released it over the rack, but the final close-up shows only one red shape at the rack's left edge. I could not tell whether the cup and bowl are both sitting properly in the rack or one is on top of the other.
+- **Plate:** four rim grasps failed. Its rim is too flat for a top-down pinch and it slid a little each time, so it is now around (0.21, -0.08), a few centimetres to the right of where it started.
+- **Phone:** left where it was, since it is not a dish or trash.
+
+I stopped at 23 of 30 turns because I judged I was near the 1500-second limit; I did not have a clock reading to confirm that.

@@ -1,0 +1,7 @@
+I set the table for breakfast by putting the red plate, the red mug and the banana together on the blue placemat. I finished the episode and reported **success**, but the arrangement isn't perfect.
+
+1. **Plate:** I picked the plate up by its edge and set it on the placemat. It overhangs the mat's left edge a little.
+2. **Banana:** I tried twice to put it on the plate. Both times it ended up on the mat right beside the plate instead. The plate seems to have a raised rim, so it may actually be a shallow bowl.
+3. **Mug:** I moved it from beside the mat onto the mat's upper-right corner. Its handle points away from the robot.
+
+The final overview image shows all three items on the placemat. I counted it as a sensible breakfast setting even though the banana is next to the plate rather than on it. If "set up breakfast" was meant to include the banana on the plate, the result would be partial. The episode used 9 of the 30 turns.

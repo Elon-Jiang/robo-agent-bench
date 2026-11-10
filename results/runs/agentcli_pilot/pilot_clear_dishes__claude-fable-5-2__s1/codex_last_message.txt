@@ -1,0 +1,8 @@
+The table is only partly cleared: the bowl is in the drying rack, but the mug and the plate are still on the table. I ended the episode with `SELF_REPORT: partial` because the time budget was running out.
+
+- **Bowl:** in the rack, confirmed in the wrist camera image. The first grasp missed and nudged it; the second, by its far rim, worked.
+- **Mug:** I picked it up and lowered it onto the rack, but it toppled off on release and rolled to the far-left of the table, past the arm's reach limit (y > 0.22). Two attempts to pinch its handle from inside the limit closed on nothing.
+- **Plate:** still where it started. Two rim grasps closed empty.
+- **Banana and phone:** left in place on purpose. The banana is whole and unpeeled, so I did not treat it as waste, and the phone is not a dish.
+
+I used 19 of the 30 plan turns.

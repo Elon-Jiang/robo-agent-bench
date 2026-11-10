@@ -1,0 +1,7 @@
+I put the four pieces of stationery (the yellow pencil, the red and white pen, the eraser and the sticky-note pad) into the desk organizer tray, and I think the task succeeded. I ended the episode with `SELF_REPORT: success`, based on the final wrist-camera image.
+
+- **Eraser:** the first grasp missed. The second attempt, gripping a little higher, worked.
+- **Pencil:** in the final image the sticky-note pad sits on top of the pencil inside the tray, so the pencil is hidden. I counted it as put away because the earlier image showed it in the tray.
+- **Small red object:** it was on the desk next to the pen and ended up in the tray beside the pen. It may be the pen's cap.
+
+I left the phone, screwdriver, coffee mug and sheet of paper where they were, since they aren't stationery.

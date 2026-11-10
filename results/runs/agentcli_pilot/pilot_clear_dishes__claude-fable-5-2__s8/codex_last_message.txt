@@ -1,0 +1,8 @@
+The table is only partly cleared, so I reported `partial`: the three dishes are in the drying rack, but the banana peel is still on the table and the trash bin is now lying on its side.
+
+- **Dishes:** the mug, the large red bowl and the small red dish all ended up in the rack. The bowl slipped from the gripper and dropped in at the end of its transit rather than being set down. The mug is no longer visible in the final overview, most likely hidden under the bowl and dish, so I can't confirm its position.
+- **Banana peel:** not picked up. Several grasps closed empty, and after the bin was displaced it blocked the gripper from descending.
+- **Trash bin:** I accidentally gripped its wall while going for the peel and lifted it; after I set it back it shifted further, and in the final overview it appears tipped on its side on the right edge of the table.
+- **Phone:** left where it was, as a personal item rather than something to clear.
+
+I stopped at turn 23 of 30 because I judged the time budget to be nearly used up.

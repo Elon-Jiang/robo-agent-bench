@@ -1,0 +1,19 @@
+{
+  "task": "pilot_clear_dishes",
+  "model": "claude-fable-5-2",
+  "seed": 5,
+  "suite_version": "0.2.1",
+  "scene_version": 1,
+  "turn_cap": 30,
+  "time_cap_s": 1500,
+  "port": 8096,
+  "completed": true,
+  "agent_cli": "claude",
+  "codex_rc": 0,
+  "wall_s": 790.5171428340254,
+  "tokens": 989906,
+  "agent_called_done": true,
+  "turns_used": 22,
+  "end_reason": "agent_done",
+  "error": null
+}

@@ -1,0 +1,6 @@
+I think the task succeeded, based on the final overview image: the cup is standing upright, the puddle is gone, and the sponge is back where it was. I reported `SELF_REPORT: success` and closed the episode with `/done` after 11 turns, under the 30-turn limit.
+
+- **Cup:** The red cup was lying on its side next to a pale puddle. I picked it up across its body. My plan was to turn the wrist so the cup's open end pointed up, but the arm couldn't reach that angle and stopped partway. I set the cup back down from that tilted grip, and it landed upright at about (0.29, −0.01).
+- **Upright check:** The wrist camera never gets a true top-down view, so I judged this from the angle. The cup looks like the other upright red cup on the table, with its open rim and dark inside facing up. Because it landed upright partly by luck, this is the least certain part.
+- **Spill:** I picked up the yellow sponge and wiped back and forth across the puddle (about x 0.27–0.34 m, y +0.06 to +0.17 m) just above the table. After that the puddle no longer showed in the camera.
+- **Sponge:** I put it back at its original spot, about (0.205, −0.115), and sent the arm home.

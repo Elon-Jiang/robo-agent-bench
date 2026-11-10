@@ -1,0 +1,8 @@
+The table is cleared of dishes: the mug, the small bowl and the plate are all in the dish rack, confirmed in a final top-down camera view. I reported `SELF_REPORT: success`.
+
+- **Mug:** it tipped over when I released it and is lying on its side in the rack's far-left corner rather than standing upright.
+- **Small bowl:** sitting upright in the rack.
+- **Plate:** standing on edge in the rack.
+- **Left on the table:** the banana and the blue phone-like object. The banana looked whole and uneaten, so I did not put it in the black bin; neither item seemed like a dirty dish or trash. If the task expected the banana to be binned, this would count as only partial.
+
+My first attempt to grab the banana (before I saw it was whole) missed and may have nudged it slightly. The run used 16 of the 30 plan turns.

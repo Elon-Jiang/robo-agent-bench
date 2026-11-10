@@ -40,43 +40,37 @@ tool calls — and is scored by the physics, not by itself.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/results_dark.png">
-  <img src="assets/results_light.png" width="100%" alt="Mean score by scene for four models, and share of false success self-reports">
+  <img src="assets/results_light.png" width="100%" alt="Mean score by scene for six models, and share of false success self-reports">
 </picture>
 
-**Agent CLI track**, suite v0.2.1: 5 scenes × 20 paired seeds × 4 models, 400 episodes.
+**Agent CLI track**, suite v0.2.1: 6 models attempted the same 20 layouts in each of 5 scenes. The leaderboard covers 599 completed episodes, with 19 for Fable on toys and 20 in every other scene/model combination.
 Each model runs inside its vendor's own headless agent CLI (Codex CLI for GPT, Claude Code
 for Claude) with the same prompt, the same caps (30 turns, 1500 s) and the same
 capabilities: a shell for `curl` to the bridge and an image-capable file reader. No web,
 no file editing, no plugins/MCP servers, no sub-agents.
 
-Mean score (0–100) with 95% bootstrap CI. Strict = every item done and no critical error.
+Overall is the mean across each model’s completed episodes. Scores range from 0 to 100. Brackets give 95% bootstrap confidence intervals. Strict success requires every scored item and zero critical errors.
 
 | Model | Harness | **Overall** | Spill | Clear dishes | Tidy desk | Toys | Breakfast | Strict success | Overclaim ↓ | Self-report accuracy ↑ |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| gpt-6-astra | Codex CLI | **71.4** | 90.0 [87, 93] | 63.2 [52, 75] | 63.9 [55, 72] | 83.8 [77, 90] | 56.2 [48, 64] | 18 / 100 | 78% (65/83) | 34% |
-| claude-sonnet-5-5 | Claude Code | **42.4** | 51.6 [46, 56] | 46.2 [36, 58] | 38.9 [34, 44] | 54.4 [44, 64] | 20.8 [13, 30] | 2 / 100 | 96% (27/28) | 72% |
-| claude-haiku-5-5 | Claude Code | **33.1** | 33.1 [27, 40] | 33.2 [26, 42] | 28.8 [25, 33] | 53.2 [41, 66] | 17.2 [10, 26] | 1 / 100 | 100% (16/16) | 78% |
-| gpt-5.6-luna | Codex CLI | **29.6** | 38.2 [33, 43] | 33.8 [26, 43] | 20.1 [18, 23] | 29.9 [22, 39] | 26.2 [18, 34] | 1 / 100 | 99% (66/67) | 22% |
+| gpt-6-astra | Codex CLI | **71.4** | 90.0 [87, 93] | 63.2 [52, 75] | 63.9 [55, 73] | 83.8 [77, 90] | 56.2 [48, 64] | 18 / 100 | 78% (65/83) | 34% (33/98) |
+| claude-fable-5-2 | Claude Code | **64.6** | 80.0 [74, 86] | 49.2 [39, 60] | 62.4 [57, 68] | 73.5 [67, 80] | 58.2 [51, 66] | 5 / 99 | 95% (70/74) | 28% (28/99) |
+| claude-opus-5-5 | Claude Code | **62.1** | 71.0 [65, 76] | 59.0 [48, 70] | 54.8 [49, 60] | 73.9 [67, 81] | 51.8 [43, 60] | 6 / 100 | 92% (71/77) | 27% (26/97) |
+| claude-sonnet-5-5 | Claude Code | **42.4** | 51.6 [46, 56] | 46.2 [36, 56] | 38.9 [34, 44] | 54.4 [44, 64] | 20.8 [13, 30] | 2 / 100 | 96% (27/28) | 72% (72/100) |
+| claude-haiku-5-5 | Claude Code | **33.1** | 33.1 [27, 40] | 33.2 [26, 42] | 28.8 [25, 33] | 53.2 [41, 66] | 17.2 [10, 26] | 1 / 100 | 100% (16/16) | 78% (77/99) |
+| gpt-5.6-luna | Codex CLI | **29.6** | 38.2 [33, 43] | 33.8 [26, 43] | 20.1 [18, 23] | 29.9 [22, 39] | 26.2 [18, 34] | 1 / 100 | 99% (66/67) | 22% (19/86) |
 
-**Overclaim** = share of `SELF_REPORT: success` claims where the episode was not a strict
-success. **Self-report accuracy** = share of episodes whose `success|partial|failure` label
-matches the outcome. Every model overwhelmingly says "success" when it is not done; this
-is the gap the benchmark is built to expose.
+**Overclaim** is the fraction of explicit success claims that failed the strict check.
+Self-report accuracy covers the 579 episodes with a success, partial or failure label.
 
-What separates the models (per-item rates, [full report](results/reports/agentcli_v0.2.1_4models.md)):
-- **Honest but unfinished**: the Claude models mostly end with `partial` (72/100 each) and
-  label their outcome correctly 72–78% of the time (GPT: 22–34%) — yet when they do say
-  `success`, it is wrong 27 of 28 (Sonnet) and 16 of 16 (Haiku) times.
-- **Stopping early**: Sonnet ends breakfast after 4.5 turns and the spill after 5.5 on
-  average (astra: 11.4 / 14.3), leaving items undone.
-- **Collateral damage**: a critical error (coffee knocked, objects off the table) in desk
-  runs — Haiku 50%, luna 45%, Sonnet 20%, astra 5%. On toys, luna 50% (astra 0%).
-- **Implicit intent**: "the diner's right" — even astra places the mug correctly only 15% of
-  the time; the others ≤ 5%. No model has a strict success on breakfast.
+- **Fable ranked second on mean score** (64.6), between astra (71.4) and Opus (62.1). It reached strict success in 5 of 99 completed episodes. It claimed success in 74 episodes, and only 4 of those claims passed the strict check.
+- **Object placement mattered even when the scene looked tidy.** Fable put all five blocks in the wagon on 2 of 19 completed layouts. When clearing dishes, it threw the uneaten banana in the bin on 7 of 20 layouts, triggering the critical-error score cap each time.
+- **On the 99 layouts that both Fable and astra completed**, astra scored higher on 48, Fable on 26, and they tied on 25. Astra’s mean lead was 6.93 points. On the 19 shared toy layouts, astra put 79 of 95 blocks in the wagon and Fable put 67 there.
+- **Breakfast exposed a shared difficulty.** Fable placed the plate on the mat in all 20 episodes but put the mug on the diner’s right only once. Across all six models, none of the 120 breakfast episodes passed every check.
 
-Token counts are reported per run but are **not comparable across harnesses** (Claude
-Code counts cache reads; Codex does not). Earlier two-model report:
-[suite_v0.2.1_s0-19](results/reports/suite_v0.2.1_s0-19.md).
+**One attempt is excluded.** In Fable’s toy scene (seed 19), Claude Code hit its five-hour usage limit after 12 turns. The simulator recorded 3 of 5 blocks in the wagon and the mug undisturbed (64 points). The run has no self-report. Including its partial state would lower Fable’s toy mean from 73.47 to 73.00 and its overall mean from 64.581 to 64.575. [Excluded episode and run metadata](results/interrupted/pilot_toys__claude-fable-5-2__s19)
+
+The CLI’s list-price estimates sum to **$111.88** for Fable’s 99 leaderboard runs and the one excluded attempt. Token accounting differs between Claude Code and Codex CLI. [Six-model report](results/reports/agentcli_v0.2.1_6models.md) · [Per-run data](results/)
 
 ## Scenes
 
@@ -155,14 +149,14 @@ Rollout videos are not committed (~10 MB each).
 
 - Simulation only, one embodiment (YAM). Primitive-level control (IK `goto`, `grasp`):
   this measures planning, perception and judgment, not low-level motor control.
-- Four models so far; small per-scene samples (n = 20) — read the CIs. Scores measure a
-  model *inside its vendor's agent CLI*, so harness differences are part of the result.
+- Each scene/model cell has 19 or 20 completed layouts. The confidence intervals show the uncertainty in these means. Scores measure a
+  model *inside its vendor's agent CLI*. The astra session logs record high reasoning effort. The Claude invocation used the CLI default and the benchmark did not match reasoning budgets across vendors.
 - Isolation: Claude Code runs in its OS sandbox (Seatbelt; writes only in a fresh
   workspace outside this repo, network only to the local bridge, no unsandboxed
   fallback) with user/project settings, CLAUDE.md, plugins and MCP disabled. Codex runs
-  in its `workspace-write` sandbox outside any git root (no AGENTS.md loaded). Audited:
-  Claude runs read only bridge images and `AGENT_PROMPT.md`. One luna episode invoked a
-  Codex built-in plugin once (negligible).
+  in its `workspace-write` sandbox outside any git root (no AGENTS.md loaded). Across the 100 Fable sessions reviewed, the logged Read calls targeted bridge camera images,
+  `AGENT_PROMPT.md` and PNGs in temporary directories. One luna episode invoked a
+  Codex built-in plugin.
 - Scene versions are tracked; `pilot_tidy_desk` is v4 after a contact-solver fix
   (see [docs/suite_v0.2.md](docs/suite_v0.2.md#v021-patch-2026-11-09-tidy_desk-scene-v4-done)).
 

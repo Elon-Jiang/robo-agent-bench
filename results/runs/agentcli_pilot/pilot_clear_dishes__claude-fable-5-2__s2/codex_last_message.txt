@@ -1,0 +1,9 @@
+The table is only partly cleared, so I reported `SELF_REPORT: partial` and ended the episode when the time budget ran out.
+
+- **In the rack:** the cup, and what looks like the small bowl on top of it in the rack's far corner. I'm judging the bowl from the final overview image only.
+- **Large bowl:** still on the table. It slipped out of the gripper mid-carry and landed upside-down near the robot base, at the edge of the reachable workspace.
+- **Banana peel:** still on the table. My first grasp attempt didn't keep hold of it.
+- **Trash bin:** now lying on its side. The gripper caught and lifted it while I was moving the peel towards it, and it tipped over when I set it back down.
+- **Phone:** left where it was, deliberately.
+
+I used 13 of the 30 plan turns; time was the limit, not turns.

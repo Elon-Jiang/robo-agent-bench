@@ -1,0 +1,5 @@
+I put all five blocks (green, red, blue, yellow and pink) into the yellow toy box, and I believe the task succeeded. I ended the episode and self-reported success.
+
+- **First tries:** Green went in cleanly on the first attempt. I then moved the other four in one go, but blue and yellow landed just past the box's far wall. The gripper probably opened too wide near the walls.
+- **Fix:** I picked each of those two up again and dropped it closer to the middle of the box with the gripper only half open. Blue clearly ended up inside.
+- **Final check:** The home camera view shows no blocks left on the table and green, pink, red and blue inside the box. The yellow block is hard to make out against the yellow box. I'm counting it as inside because it's gone from the table and from beyond the wall, but I never clearly saw it in the box.

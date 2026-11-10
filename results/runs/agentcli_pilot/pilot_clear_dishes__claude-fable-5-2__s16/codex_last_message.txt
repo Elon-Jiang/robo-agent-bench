@@ -1,0 +1,9 @@
+The table is only partly cleared, and I ended the episode with `SELF_REPORT: partial`.
+
+- **Banana peel:** in the bin. On the way I accidentally lifted the bin by its tab, then set it back upright.
+- **Bowl:** in the drying rack.
+- **Phone:** left where it was, since it isn't a dish or rubbish.
+- **Plate:** not cleared. It slid off the back of the rack when I released it and lies flat on the table at about x≈0.56, past the arm's 0.50 reach limit. Two rim grasps and two drag attempts failed to recover it.
+- **Mug:** not cleared. I placed it in the rack twice, but my plate-recovery moves knocked it out, and it now lies on its side left of the rack at about y≈0.27, past the 0.22 limit.
+
+I stopped after 21 of the 30 plan turns because both remaining dishes were out of reach and the time budget was nearly spent.

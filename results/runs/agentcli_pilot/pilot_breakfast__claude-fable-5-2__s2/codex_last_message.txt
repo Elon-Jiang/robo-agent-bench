@@ -1,0 +1,7 @@
+Breakfast is set, and I reported it as a success: the final camera view shows the plate on the placemat, the banana on the plate, and the mug upright beside the plate.
+
+- **Plate:** picked up by its rim and placed roughly in the centre of the cyan placemat.
+- **Banana:** placed on the plate. The first grasp missed because I misjudged its angle; the second attempt worked.
+- **Mug:** moved from the left side of the table to the far-right corner of the mat, next to the plate. The mat is too small to hold both plate and mug fully, so the mug sits at the corner, partly overhanging the mat edge.
+
+This took 8 of the 30 plan turns.

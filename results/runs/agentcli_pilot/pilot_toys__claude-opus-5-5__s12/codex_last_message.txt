@@ -1,0 +1,5 @@
+I put all five toy blocks (pink, yellow, cyan, green and red) into the yellow toy box. In the last close-up I could see four of them inside the box; the cyan one is mostly hidden under the red, but I saw it in the box in the view just before that. I left the mug on the table alone, since it isn't a toy block. I reported the task as a success.
+
+Two things went wrong along the way:
+- **The box got caught on the gripper.** On the first block, I opened the jaws fully inside the box and they snagged on its walls, so the arm lifted the box. I set it back down on the table, a few centimetres from where it started, with the pink block still inside. For the other blocks I let go from higher up with the jaws only partly open, and there were no more snags.
+- **The green block slipped on the first try.** It ended up turned at an angle, so I picked it up again with the gripper rotated to match.

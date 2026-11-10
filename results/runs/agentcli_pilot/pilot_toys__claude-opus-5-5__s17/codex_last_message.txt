@@ -1,0 +1,3 @@
+I put away all five toy blocks, and I think it worked. In the final wrist-camera image, the green, red, blue, yellow and pink blocks are all inside the yellow toy box and nothing else is left on the table.
+
+It took two plan turns. First I moved the green block alone to check that my position estimates were right. Then I moved the other four in one chained command and sent the arm back home. I left the mug where it was because it isn't a block. I've ended the episode and reported it as a success.

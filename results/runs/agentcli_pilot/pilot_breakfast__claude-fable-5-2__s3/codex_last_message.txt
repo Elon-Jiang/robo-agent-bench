@@ -1,0 +1,7 @@
+Breakfast is set up: the red bowl sits on the cyan placemat with the banana inside it, and the mug stands upright just to the left of the mat. I confirmed this in the final overview image and reported `SELF_REPORT: success`.
+
+- **Bowl:** this took three rim grasps and one push. The first grasp slipped and dragged it, and the next two left it only partly on the mat, so I nudged it into place. It is now centred on the mat, possibly with a slight overhang on the left edge.
+- **Banana:** I moved it aside while repositioning the bowl, then placed it in the bowl.
+- **Mug:** it is beside the mat rather than on it, because the mat is too small to hold both the bowl and the mug.
+
+The episode used 12 of the 30 plan turns.

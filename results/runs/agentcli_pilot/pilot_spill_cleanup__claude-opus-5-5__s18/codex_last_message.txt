@@ -1,0 +1,11 @@
+I think the table is tidied up. I checked it on the wrist camera and reported success to the bridge, though one side effect could argue for a "partial" label instead.
+
+- **Cup:** The red cup that had been knocked over is standing upright again, at about (0.30, −0.03).
+- **Spill:** I wiped the light-blue water puddle with the yellow sponge, and a final small scrub cleared the last bit of it. A large brown patch kept showing up, but it's the arm's own shadow rather than water: its shape and position shifted with the camera pose.
+- **Sponge:** It's back in its dish.
+
+**Problems along the way:**
+- The sponge slipped out of the gripper twice while wiping, so I had to pick it up again.
+- One wiping pass pushed a white box/mug toward the left edge of the table, to about y ≈ 0.25. That's just outside the arm's reachable area, so I couldn't move it back.
+
+I used about 17 of the 30 plan turns.

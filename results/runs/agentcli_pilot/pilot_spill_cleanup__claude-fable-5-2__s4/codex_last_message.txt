@@ -1,0 +1,8 @@
+The table is tidied, and I reported success: the final overview shows no water, no tissues on the table, and the cup standing upright.
+
+- **Spill:** I wiped the puddle with the sponge over three passes, then put the sponge back near where it started.
+- **Tissues:** both crumpled tissues went into the black bin.
+- **Cup:** I picked up the tipped red cup and stood it upright at about (0.29, 0.07). The release happened roughly 10 cm above the table rather than at touchdown, so it dropped, but it landed upright.
+- **Left alone:** the key and the upright mug.
+
+One thing I could not fully resolve: a small white shape shows at the near edge of the bin in the overview images. A close-up of that spot showed nothing on the table, so I treated it as part of the bin.

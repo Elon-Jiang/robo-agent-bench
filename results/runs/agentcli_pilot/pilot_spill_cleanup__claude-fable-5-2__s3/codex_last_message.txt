@@ -1,0 +1,7 @@
+The table is tidied: the water is wiped up and the knocked-over mug is standing upright again. I reported `SELF_REPORT: success`, based on the final overview image.
+
+- **Spill:** I picked up the yellow sponge, scrubbed the puddle in several passes until no water was visible, and put the sponge back where it was.
+- **Mug:** I picked up the tipped red mug and set it down upright near (0.33, 0.03). The release happened about 10 cm above the table because the contact check triggered early, so it was dropped rather than placed, but it landed upright.
+- **Left alone:** the key, the tissues, the second mug and the bin were not touched.
+
+I did not take a close-up of the mug after the drop; the upright judgement comes from the overview, where it shows the same round dark opening as the other mug. The episode used 8 of the 30 plan turns.

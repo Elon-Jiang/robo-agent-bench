@@ -1,0 +1,9 @@
+The table is only partly cleared, and I reported the episode as **partial**: the mug is still on the table and I could not recover it.
+
+- **Bowls:** both red bowls are in the drying rack. They now sit on edge after the arm bumped them on a later move, but they are still in the rack.
+- **Mug:** it tipped out of the rack when I released it and is lying on its side to the left of the rack at about y≈0.30. The arm's workspace stops at y=0.22, so it is out of reach.
+- **Banana peel:** I dropped it onto the black bin and can see it at the bin's top in the final image. I can't tell from the camera whether the bin is upright, so the peel may be resting on top rather than inside.
+- **Bin:** on my first attempt the bin wedged onto the open gripper and got carried off. It now sits right next to the robot base instead of at the far right of the table.
+- **Phone:** left where it was, since it isn't a dish or trash.
+
+I used 20 of the 30 plan turns.

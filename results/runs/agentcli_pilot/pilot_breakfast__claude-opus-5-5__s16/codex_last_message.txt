@@ -1,0 +1,7 @@
+Breakfast is set up on the blue placemat, and I ended the episode with `SELF_REPORT: success`. The final overview from the wrist camera showed everything in place.
+
+- **Mug:** I picked it up by its body and set it at the front-right of the mat.
+- **Plate:** I first tried to pick it up by the rim, but it slipped (`grasp_failed`) because the plate is flat. I pushed it onto the middle of the mat with closed jaws instead.
+- **Banana:** I picked it up along its length and put it on the plate.
+
+The mug sits close to the plate and near the front edge of the mat, but it is on the mat. I used 8 of the 30 plan turns.

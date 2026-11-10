@@ -1,0 +1,7 @@
+The spill is cleaned up, but the knocked-over mug is not upright — it ended up standing upside-down — so I reported this as **partial**.
+
+- **Spill:** I picked up the yellow sponge, wiped the puddle in several passes until no water was visible on camera, and put the sponge back where it was.
+- **Mug:** my wiping passes knocked the tipped mug, and it ended up standing upside-down. I tried to flip it by gripping it from the side and rolling the wrist, but the wrist would not turn a full half-turn, and the mug was still upside-down after I set it back down. It now sits at about (0.29, 0.01), clear of the other items.
+- **Everything else:** the key, the two white items, the second red cup and the bin were not touched.
+
+I stopped at 18 of 30 turns because I judged I was close to the 1500-second limit, and another flip attempt risked leaving the mug on its side.

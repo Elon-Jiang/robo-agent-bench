@@ -1,0 +1,7 @@
+Breakfast is set up, and I reported it as a success: the final overview image shows the red dish flat on the blue placemat, the banana on the dish, and the mug upright just left of the mat.
+
+- **Dish:** the first rim grasp closed empty; a lower retry held. The dish hung vertically from the gripper, so I touched its far edge down on the mat and laid it flat.
+- **Banana:** picked up from the right of the mat and placed on the dish.
+- **Mug:** moved from the near-left corner to beside the mat, next to the dish. It is not on the mat itself, because the mat is too small to hold both the dish and the mug.
+
+This took 7 of the 30 plan turns.

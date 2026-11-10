@@ -1,0 +1,13 @@
+Breakfast is set up and I've ended the episode, marking it a success based on the final camera view.
+
+**Final layout:**
+- **Plate:** roughly centered on the blue placemat.
+- **Banana:** on the plate.
+- **Mug:** upright beside the plate, on its left.
+
+**How it went:**
+- **Plate:** this took the most work. It was too wide to grab whole, so I pinched its rim. When I let go, it dropped toward the front edge of the mat. Pushing it with the closed gripper barely moved it, so I gripped the rim again and dragged it to the mat's center.
+- **Mug:** picked up by its body in one go, keeping clear of the handle.
+- **Banana:** it was already next to the mat; I put it on the plate.
+
+There was no exact target layout, so this is my own idea of a sensible breakfast setup. If whatever checks the task expected the banana or mug somewhere else, it might not count as a success.

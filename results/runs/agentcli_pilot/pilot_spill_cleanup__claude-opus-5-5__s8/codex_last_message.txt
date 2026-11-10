@@ -1,0 +1,9 @@
+I stood the knocked-over cup back up and wiped up all the spilled water, and I think the task succeeded. The final top-down camera view shows the cup upright and no water left on the table.
+
+1. **Cup:** The red cup was lying on its side at about (0.285, 0.025), with its open end facing the puddle. I picked it up from above and turned it so the open end pointed forward. Then I tilted the gripper forward about 75°, which brought the cup nearly upright, and lowered it until it touched the table before letting go. It now stands open end up at about (0.28, 0.02).
+2. **Spill:** I picked up the yellow sponge and wiped back and forth over the puddle. A thin wet strip right next to the cup survived the first passes. The sponge turned out to be only about 2.4 cm wide in the direction I was aiming, so I made two more passes closer to the cup, which cleared it.
+3. **Sponge:** I put it back where it started, at about (0.20, -0.125).
+
+I left the other things on the table where they were: the second, upright red cup, the small white objects and the dark bin.
+
+I ended the episode with `SELF_REPORT: success`. That used 15 of the 30 plan turns.

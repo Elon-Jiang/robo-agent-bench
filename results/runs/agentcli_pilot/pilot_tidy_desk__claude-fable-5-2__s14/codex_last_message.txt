@@ -1,0 +1,7 @@
+The stationery is put away: the marker, pencil, eraser, sticky-note pad and a small red item are all inside the desk tray in the final camera view, and I reported `SELF_REPORT: success`.
+
+- **Left in place:** the coffee mug, the phone, the screwdriver and the white sheet of paper, since I judged none of them to be stationery. The paper is the one I was least sure about.
+- **Red item:** I never identified it up close. It went into the tray by accident on my first grasp, which was aimed at the marker, and I left it there as a likely stationery piece.
+- **Misses along the way:** the first marker grasp and the first eraser grasp both missed and nudged neighbouring items; both were recovered on the retry.
+
+The episode took 11 of the 30 plan turns.

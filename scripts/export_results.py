@@ -1,7 +1,7 @@
 """Copy the small, committable part of finished suite runs into results/.
 
 Per run: episode.jsonl (scores, items, self-report), run_meta.json (turns, tokens,
-wall time) and codex_last_message.txt (the agent's final /done message). Rollout
+wall time), the final CLI message and agent_usage.json when available. Rollout
 videos, bridge frames and session logs stay in outputs/ (gitignored).
 
     python scripts/export_results.py --suites suite_v0.1 suite_v0.2 --reports suite_v0.2.1_s0-19 \
@@ -13,7 +13,7 @@ import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-KEEP = ("episode.jsonl", "run_meta.json", "codex_last_message.txt")
+KEEP = ("episode.jsonl", "run_meta.json", "codex_last_message.txt", "agent_usage.json")
 
 
 def main():

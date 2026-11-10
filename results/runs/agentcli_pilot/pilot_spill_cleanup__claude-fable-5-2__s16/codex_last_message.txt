@@ -1,0 +1,8 @@
+The table is tidied, and I reported it as a success: the final camera view shows no puddle, the cup standing upright, and both tissues in the bin.
+
+- **Spill:** I picked up the yellow sponge, wiped the water in several passes until none was visible, and put the sponge back where it was.
+- **Tissues:** both crumpled tissues went into the black bin.
+- **Cup:** the tipped red cup is upright again at roughly (0.29, 0.02), a few centimetres from where it fell.
+- **Left alone:** the key, the second red mug, and a small light-blue item beside the bin that I couldn't identify.
+
+This took 12 of the 30 plan turns.

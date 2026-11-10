@@ -1,0 +1,8 @@
+I got the table partly tidied and reported the episode as **partial**: the cup is standing up again, but some of the spill is still on the table.
+
+What I did:
+- **Wiped the spill:** I picked up the yellow sponge and ran it back and forth over the spill several times. I can't say how much it removed. Close-up views were confusing: in some the puddle looked unchanged after wiping, and in others it seemed to be in a different place. In the last overview the patch that's left is smaller than at the start. It sits close to the robot base, around x 0.12–0.21 m, and part of it is past the arm's reach limit at x = 0.16 m.
+- **Stood the cup up:** I grabbed the tipped-over red cup across its middle, tilted the gripper sideways and set it down. The final overview shows it upright at about (0.20, 0.05) with the opening facing up.
+- **What didn't work:** I tried to lay the white cloth over the spill, but the gripper couldn't pick it up. Several later tries at re-grabbing the sponge also missed, and one knocked it onto its side.
+
+I didn't make a last wiping pass on the remaining patch because I was close to the time limit. I left the key, the sponge and the other items where they ended up.

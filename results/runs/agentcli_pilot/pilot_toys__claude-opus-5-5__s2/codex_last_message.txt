@@ -1,0 +1,7 @@
+All five blocks (green, red, cyan, yellow and pink) are in the yellow toy box. I checked this in the final top-down and home camera views, and I reported it to the bridge as a success. It took 8 plan turns.
+
+Two things went wrong along the way:
+- **Green block:** my first grasp missed and knocked the block slightly askew. I looked at it from directly above and picked it up on the second try.
+- **Pink block:** it landed just outside the far wall of the box. When I went back for it, the arm bumped the box and turned it a little. The pink block went in on the second attempt, and the box is still in about the same place, just slightly rotated.
+
+The red bucket on the left side of the table wasn't one of the blocks, so I left it where it was.

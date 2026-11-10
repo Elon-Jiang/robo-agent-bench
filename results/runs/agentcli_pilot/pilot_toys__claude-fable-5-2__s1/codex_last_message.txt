@@ -1,0 +1,8 @@
+Partial success: four of the five blocks (pink, red, blue, yellow) are in the yellow box, but the green block is lost.
+
+- **What went wrong:** my first attempt chained all five pick-and-places in one go. During it the box got dragged about 12 cm toward the robot and rotated, and the blocks ended up on the table instead of inside.
+- **Recovery:** I re-placed red, pink, yellow and blue into the box at its new position using a narrower jaw opening. The final close-up shows all four inside.
+- **Green block:** it disappeared during that first attempt. I checked the whole table, the box and the mug and couldn't see it, so it most likely fell off the table.
+- **Box position:** the box is still where it was dragged to, rotated, not back in its original spot.
+
+I ended the episode with `SELF_REPORT: partial` after 13 of the 30 turns.

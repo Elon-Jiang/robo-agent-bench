@@ -1,0 +1,7 @@
+The task is only partly done: four of the five stationery items are in the desk tray, but the eraser is not. I ended the episode with `SELF_REPORT: partial`.
+
+- **In the tray:** the pen, the yellow pencil, the red pin and the sticky-note pad, all confirmed in the last overview image.
+- **Not put away:** the eraser. My first two grasp attempts failed and knocked it toward the robot base. It now sits at roughly x=0.09, y=0.07, inside the arm's minimum reach of x=0.16, so later attempts could not get to it.
+- **Left alone on purpose:** the coffee mug, the phone, the blue-handled screwdriver and the white paper, since I did not count them as stationery.
+
+I stopped after 18 of the 30 plan turns because I judged the time budget was nearly spent.

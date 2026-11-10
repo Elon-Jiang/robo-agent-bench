@@ -1,0 +1,7 @@
+I only partly cleared the table: both cups are in the drying rack, but the red plate is still on the table.
+
+- **Cups:** I put both red cups/mugs into the drying rack, and the final camera image shows them there. The first mug looks like it ended up lying on its side, but it is still inside the rack.
+- **Plate:** All five tries to pick it up failed. I tried gripping its rim from above, pinching it from the side with tilted fingers, and straddling its edge low with the jaws partly open. It's a very flat plate, and the gripper never got a firm hold.
+- **Banana:** I left it where it was. A black round object at the far right might be a bin, but I couldn't confirm that, and I ran short on time before trying.
+
+I ended the episode with `SELF_REPORT: partial`, which matches what the final image shows.

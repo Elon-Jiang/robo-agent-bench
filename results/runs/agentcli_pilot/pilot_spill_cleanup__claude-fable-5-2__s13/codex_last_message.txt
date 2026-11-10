@@ -1,0 +1,7 @@
+The table is tidied: the water is wiped up and the knocked-over cup is standing upright again. I judged this from the final overview image and reported `SELF_REPORT: success`.
+
+- **Spill:** I wiped the puddle with the yellow sponge. The first pass hovered too high and did nothing; pressing the sponge to the table cleared it in two more passes. The sponge is back where it started.
+- **Cup:** It took several attempts to right it, and it was dragged and rolled along the way. It now stands opening-up at roughly (0.30, 0.00), about 5 cm from where it originally lay.
+- **Everything else:** The key, the white objects, the second cup and the bin were left where they were. I did not identify what the white objects are, so if any of them was meant to be thrown away, that is not done.
+
+The episode used 21 of the 30 plan turns.

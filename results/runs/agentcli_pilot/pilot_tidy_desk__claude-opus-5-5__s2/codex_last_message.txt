@@ -1,0 +1,10 @@
+I'd call this a **partial success**, and I reported it to the bridge as `partial`.
+
+**What made it into the orange desk organizer tray:** the red marker, the yellow pencil, the small red item I took to be the marker's cap, and the yellow sticky-note pad. I confirmed all four in a top-down camera view of the tray.
+
+**What went wrong:**
+- **Missing eraser:** The tray got dragged toward the robot during one of the grab sequences. I lifted it back to roughly where it started, but by then the eraser, which had landed on the table next to the tray, had disappeared. It's most likely stuck under the tray, and I couldn't see a way to get it back.
+- **Tray is crooked:** The tray now sits rotated about 20–30° from where it began.
+- **Sticky pad was hard to pick up:** The grip check kept rejecting it, so the arm let go and the pad got pushed to the edge of the area the arm can reach. It went in once I turned the grip check off and grabbed it from the side.
+
+I left the phone, mug, screwdriver and white paper alone because I didn't count them as stationery. I finished in 24 of the 30 turns.

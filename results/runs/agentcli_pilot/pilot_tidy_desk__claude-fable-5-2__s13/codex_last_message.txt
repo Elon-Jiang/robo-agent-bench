@@ -1,0 +1,5 @@
+The stationery is put away: the eraser, red marker, small red item, yellow pencil and sticky-note pad are all inside the desk organizer tray, confirmed in a final close-up of the tray. I reported `SELF_REPORT: success` and the episode ended at turn 12 of 30.
+
+- **Left in place:** the coffee mug, phone, screwdriver and a white device, since none of them looked like stationery.
+- **Retries:** the first grasps of the eraser and the marker missed and nudged things around (the marker rolled a few centimetres); both were picked up on the second attempt.
+- **Layout:** everything went into the tray's large compartment; the two narrow slots are unused.

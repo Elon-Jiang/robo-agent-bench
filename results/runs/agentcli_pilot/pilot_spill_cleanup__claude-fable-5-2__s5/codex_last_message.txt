@@ -1,0 +1,10 @@
+The table is tidied and I reported `SELF_REPORT: success`, based on the wrist camera views after each step.
+
+- **Spill:** I wiped the puddle with the yellow sponge in three passes until no water was visible, then put the sponge back where it was.
+- **Tissues:** Both white crumpled lumps went into the black bin. I took them to be used tissues; the camera can't confirm what they are. One slipped out of the gripper twice before a slower carry got it in.
+- **Cup:** My first wiping pass nudged the tipped-over red cup. I then picked it up and set it upright, opening up, at roughly (0.30, 0.06).
+- **Left alone:** The key and the other upright red cup stayed where they were.
+
+One thing I did not fully resolve: a pale patch showed at the bin's edge in the overview images. I think it is the second tissue inside the bin, but the close-up did not show it clearly.
+
+The episode used 15 of the 30 plan turns.

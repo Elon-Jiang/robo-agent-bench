@@ -1,0 +1,19 @@
+{
+  "task": "pilot_breakfast",
+  "model": "claude-fable-5-2",
+  "seed": 12,
+  "suite_version": "0.2.1",
+  "scene_version": 1,
+  "turn_cap": 30,
+  "time_cap_s": 1500,
+  "port": 8096,
+  "completed": true,
+  "agent_cli": "claude",
+  "codex_rc": 0,
+  "wall_s": 253.8044093339704,
+  "tokens": 315340,
+  "agent_called_done": true,
+  "turns_used": 8,
+  "end_reason": "agent_done",
+  "error": null
+}

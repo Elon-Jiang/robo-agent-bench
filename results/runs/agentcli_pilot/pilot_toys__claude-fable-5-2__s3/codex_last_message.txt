@@ -1,0 +1,7 @@
+All five blocks are in the yellow bin and the table is clear of blocks, so I reported success.
+
+- **Yellow block:** it is hard to make out against the yellow bin in the final image. I saw it leave its spot and land in the bin on the earlier turn, but the final view does not show it distinctly.
+- **Bin moved:** on the first placement the open jaws wedged against the bin walls and lifted it. I set it back down, but it now sits closer to the robot and rotated from where it started.
+- **Red block:** it ended up outside the bin after the first chained attempt and needed a second pick.
+
+The run took 6 plan turns out of 30.

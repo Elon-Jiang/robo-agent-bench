@@ -1,0 +1,7 @@
+Breakfast is set up: the bowl is on the blue placemat with the banana inside it, and the mug sits on the placemat in front of the bowl. I checked this in the final overview image and reported `SELF_REPORT: success`.
+
+- **Bowl:** the first rim grasp closed empty; a lower grasp on the side rim worked and I set it on the back of the mat.
+- **Mug:** it first landed slightly over the mat's left edge, so I re-centred it at the front.
+- **Banana:** the mat was too narrow for the mug and banana side by side, so I put the banana in the bowl instead of beside it.
+
+The task only said "set up my breakfast", so "everything on the placemat, banana in the bowl" is my reading of it. This took 11 of the 30 plan turns.

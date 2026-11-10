@@ -1,0 +1,7 @@
+I stood the knocked-over cup back up, wiped up the water and put the sponge back. The final camera view looks tidy, so I reported success.
+
+1. **Cup:** The red cup was lying on its side next to a pale-blue water puddle. I grabbed it around the middle and turned it so its open end faced up. The wrist only tilted about 35° (I'd asked for 90°), so I lowered the cup at that angle and let go just above the table. It settled upright at about (0.24, 0.03).
+2. **Spill:** I picked up the yellow sponge and wiped back and forth across the whole puddle with it flat on the table. The puddle is gone in the camera view.
+3. **Sponge:** I put it back where it started, at about (0.21, −0.12), and moved the arm home.
+
+The episode is closed with `SELF_REPORT: success`, based on that final view. One small side effect: the white box near the spill now sits a little further left, around (0.21, 0.19). It may have been nudged during the wiping, but it's still upright and tidy.

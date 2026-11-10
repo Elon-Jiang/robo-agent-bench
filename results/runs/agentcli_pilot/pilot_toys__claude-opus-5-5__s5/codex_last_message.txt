@@ -1,0 +1,7 @@
+I only partly finished this: four of the five blocks are in the box, but I lost the blue one and couldn't find it.
+
+- **Put away:** the red, green, yellow and magenta blocks are inside the yellow toy box. I checked this with a close top-down camera view.
+- **Blue block:** The trouble started on my second move, when I sent four pick-and-place steps in one go. The box ended up about 20 cm from where it started, roughly on the spot where the blue block had been. After that the blue block was nowhere to be seen. I searched the whole tabletop, the left and right edges, the area near the robot base and inside the mug, and it wasn't in any of them.
+- **Where it probably is:** most likely it was knocked off the table. It could also be under the box, but the box sits flat, so that seems less likely. I didn't move the box to check.
+
+I ended the session and reported it as partial.

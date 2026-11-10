@@ -1,0 +1,13 @@
+I only partly tidied the table: the spilled water is wiped up, but the red mug that was knocked over is still lying on its side. I ended the episode with a self-report of **partial**, after 27 of the 30 turns.
+
+**What's done:**
+- I picked up the yellow sponge and wiped over the spill in several passes. The light-blue puddle is gone in the camera image.
+- I put the sponge back where it started.
+- A dark stain is still visible near the robot after the last wiping passes. It may be just a damp patch or a pattern on the table rather than water, but I couldn't tell.
+
+**What isn't done:**
+- **The mug is still on its side.** My first side grab missed and pushed the mug across the table. On the second try I picked it up and set it down on its base, but the top looked closed, so it was probably upside down.
+- **I knocked it over again myself.** A later wiping pass hit the mug. I picked it up and set it down again, but with turns nearly used up it still appears to be lying sideways.
+- **The arm couldn't flip it end over end.** The wrist won't turn the mug 180°, and it wouldn't tilt far enough to tip the mug upright.
+
+The wiping also nudged a few small items, the key and two white objects, a little from where they started.

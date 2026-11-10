@@ -1,0 +1,8 @@
+I think breakfast is set up: the plate is in the middle of the blue placemat, the banana is on the plate, and the mug is standing upright just to the left of the mat. I checked this in the final wrist-camera image and reported it as **success**.
+
+How it went (7 plan turns):
+- **Plate:** I tried to pick it up by the rim twice and missed both times. It's a flat plate, which is hard to grip from above, so I pushed it onto the mat with the closed gripper in two moves instead.
+- **Mug:** I didn't move it on purpose. After the first push it looked like it had been knocked over, but a closer look showed it was still upright. I left it next to the mat, the way a cup usually sits beside a plate.
+- **Banana:** picked it up and set it on the plate in one go.
+
+The mug sits beside the mat rather than on it; I chose that because the plate takes up most of the mat.

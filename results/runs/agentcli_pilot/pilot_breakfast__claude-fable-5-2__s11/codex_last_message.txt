@@ -1,0 +1,9 @@
+Breakfast is set up, and I ended the episode with `SELF_REPORT: success`.
+
+The final overview image shows:
+
+- **Plate:** the red plate sits centred on the cyan placemat, moved there by its rim.
+- **Banana:** it lies on the plate.
+- **Mug:** it stands upright just left of the placemat, next to the plate. I put it beside the mat rather than on it because the plate takes up nearly the whole mat.
+
+This took 5 plan turns of the 30 allowed, with no failed grasps.

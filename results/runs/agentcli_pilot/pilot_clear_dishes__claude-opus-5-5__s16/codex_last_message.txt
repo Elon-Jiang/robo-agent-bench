@@ -1,0 +1,7 @@
+I only partly cleared the table: the dishes are in the drying rack, but I knocked the trash bin off the table and the banana is still out.
+
+- **Done:** The plate, bowl and mug are all in the drying rack. The plate and bowl are leaning against the rack's left edge rather than sitting neatly in a slot.
+- **What went wrong:** My plan was to put the banana in the trash bin. My first attempts to grab the banana missed, and one of them hit the bin and tipped it over. Later I picked up the banana, but it slipped out of the gripper next to the bin. By the time I went back, the bin had rolled off the edge of the table.
+- **Left as is:** The banana is still on the table at the back right, since there's nowhere left within reach to throw it away. I left the phone alone because it isn't a dish.
+
+I ended the episode with the self-report `SELF_REPORT: partial`.

@@ -17,7 +17,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets"
-MODELS = ["gpt-6-astra", "claude-sonnet-5-5", "claude-haiku-5-5", "gpt-5.6-luna"]  # by overall score
+MODELS = []  # filled in main(): every model in results/runs, best overall score first
 SCENES = [  # (task, label, showcase seed)
     ("pilot_spill_cleanup", "Wipe a spill", 3),
     ("pilot_clear_dishes", "Clear dishes", 16),
@@ -25,13 +25,14 @@ SCENES = [  # (task, label, showcase seed)
     ("pilot_toys", "Put toys away", 5),
     ("pilot_breakfast", "Set breakfast", 13),
 ]
-# Validated categorical slots 1-4 in order (dataviz reference palette; adjacent CVD/normal
-# checks pass in both modes; light aqua/yellow < 3:1 contrast -> every bar is value-labeled).
+# Validated categorical slots 1-6 in order (dataviz reference palette; adjacent CVD/normal
+# checks pass in both modes; light aqua/yellow/magenta < 3:1 contrast -> every bar is
+# value-labeled and the README carries the table). Bars follow slot order = score rank.
 THEMES = {
     "light": dict(surface="#fcfcfb", ink="#0b0b0b", ink2="#52514e", grid="#e6e5e1",
-                  neutral="#d4d3cf", series=["#2a78d6", "#eb6834", "#1baf7a", "#eda100"]),
+                  neutral="#d4d3cf", series=["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300"]),
     "dark": dict(surface="#1a1a19", ink="#f0efec", ink2="#c3c2b7", grid="#33332f",
-                 neutral="#4a4a46", series=["#3987e5", "#d95926", "#199e70", "#c98500"]),
+                 neutral="#4a4a46", series=["#3987e5", "#d95926", "#199e70", "#c98500", "#d55181", "#008300"]),
 }
 FONT = "/System/Library/Fonts/Helvetica.ttc"
 
@@ -39,7 +40,10 @@ FONT = "/System/Library/Fonts/Helvetica.ttc"
 def load_runs():
     rows = []
     for f in glob.glob(str(ROOT / "results/runs/*/pilot_*/episode.jsonl")):
-        task, model, seed = Path(f).parent.name.split("__")
+        run = Path(f).parent
+        if not json.loads((run / "run_meta.json").read_text()).get("completed"):
+            continue
+        task, model, seed = run.name.split("__")
         e = json.loads(Path(f).read_text().strip().splitlines()[-1])
         rows.append(dict(task=task, model=model, seed=seed, score=e["score_0_100"],
                          strict=e["success_strict"], claim=e.get("self_report")))
@@ -67,7 +71,7 @@ def results_chart(rows, mode):
         by[("overall", r["model"])].append(r["score"])
     cats = [("overall", "Overall")] + [(s, l) for s, l, _ in SCENES]
 
-    fig, (a, b) = plt.subplots(1, 2, figsize=(12, 6.6), dpi=200,
+    fig, (a, b) = plt.subplots(1, 2, figsize=(12, 8.4), dpi=200,
                                gridspec_kw=dict(width_ratios=[1.45, 1], wspace=0.32))
     fig.patch.set_facecolor(t["surface"])
     for ax in (a, b):
@@ -76,7 +80,7 @@ def results_chart(rows, mode):
             s.set_visible(False)
 
     # Panel A: mean score per scene, 95% bootstrap CI.
-    h, gap = 0.19, 0.02
+    h, gap = 0.135, 0.012
     for j, m in enumerate(MODELS):
         for i, (task, _) in enumerate(cats):
             y = i + (j - (len(MODELS) - 1) / 2) * (h + gap)
@@ -85,7 +89,7 @@ def results_chart(rows, mode):
             a.barh(y, mu, height=h, color=t["series"][j], zorder=2,
                    label=m if i == 0 else None)
             a.plot([lo, hi], [y, y], color=t["ink2"], lw=1.2, zorder=3, solid_capstyle="round")
-            a.text(hi + 1.5, y, f"{mu:.0f}", va="center", ha="left", fontsize=8.5,
+            a.text(hi + 1.5, y, f"{mu:.1f}", va="center", ha="left", fontsize=8,
                    color=t["ink"], fontweight="bold" if task == "overall" else "normal")
     a.set_yticks(range(len(cats)), [l for _, l in cats])
     a.get_yticklabels()[0].set_fontweight("bold")
@@ -94,10 +98,10 @@ def results_chart(rows, mode):
     a.set_xticks([0, 25, 50, 75, 100])
     a.xaxis.grid(True, color=t["grid"], lw=0.8, zorder=0)
     a.tick_params(length=0)
-    a.set_xlabel("Mean score (0–100), 20 paired seeds per scene · whiskers: 95% CI")
+    a.set_xlabel("Mean score (0–100) · whiskers: 95% bootstrap CI")
     a.set_title("Score by scene", loc="left", fontsize=13, fontweight="bold", pad=10)
     fig.legend(*a.get_legend_handles_labels(), loc="upper left", bbox_to_anchor=(0.1, 0.995),
-               ncol=len(MODELS), frameon=False, fontsize=10.5, labelcolor=t["ink"])
+               ncol=3, frameon=False, fontsize=10.5, labelcolor=t["ink"])
 
     # Panel B: of the episodes where the model said "SELF_REPORT: success", how many were?
     for j, m in enumerate(MODELS):
@@ -121,7 +125,7 @@ def results_chart(rows, mode):
     b.set_xlabel("Share of “success” self-reports · colored = actually succeeded")
     b.set_title("“I'm done.” — Is it?", loc="left", fontsize=13, fontweight="bold", pad=10)
 
-    fig.subplots_adjust(left=0.1, right=0.97, top=0.88, bottom=0.11)
+    fig.subplots_adjust(left=0.1, right=0.97, top=0.86, bottom=0.09)
     p = OUT / f"results_{mode}.png"
     fig.savefig(p, facecolor=t["surface"])
     plt.close(fig)
@@ -160,10 +164,10 @@ def banner(rows):
     yb = H - 132
 
     n = len(rows)
-    astra = [r for r in rows if r["model"] == "gpt-6-astra"]
+    astra = [r for r in rows if r["model"] == MODELS[0]]  # best overall
     claims = [r for r in astra if r["claim"] == "success"]
     false = 1 - sum(r["strict"] for r in claims) / len(claims)
-    d.text((64, yb), f"{len(SCENES)} household scenes  ·  physics-scored  ·  {n} paired episodes",
+    d.text((64, yb), f"{len(SCENES)} household scenes  ·  physics-scored  ·  {n} completed episodes",
            font=f(24), fill=ink2)
     d.text((64, yb + 42), f"The best model says “done” — and is wrong {false:.0%} of the time.",
            font=f(28, 1), fill=(57, 135, 229))
@@ -174,7 +178,12 @@ def banner(rows):
 
 def main():
     rows = load_runs()
-    assert len(rows) == 100 * len(MODELS), len(rows)
+    by = defaultdict(list)
+    for r in rows:
+        by[r["model"]].append(r["score"])
+    MODELS[:] = sorted(by, key=lambda m: -np.mean(by[m]))
+    keys = {(r["task"], r["model"], r["seed"]) for r in rows}
+    assert len(keys) == len(rows), "Duplicate model/scene/seed in results"
     for p in (banner(rows), results_chart(rows, "light"), results_chart(rows, "dark")):
         print(p, f"{p.stat().st_size / 1e3:.0f} KB")
 

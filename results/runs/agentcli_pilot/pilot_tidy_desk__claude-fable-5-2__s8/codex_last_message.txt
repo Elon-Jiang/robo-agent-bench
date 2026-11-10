@@ -1,0 +1,8 @@
+The stationery is put away: the marker, pencil, eraser and sticky-note pad are all inside the desk organizer tray, confirmed in the final overview image. I reported `SELF_REPORT: success`.
+
+- **Eraser:** its grasp was reported as failed, but the overview afterwards showed it had ended up in the tray anyway.
+- **Sticky-note pad:** it sits at the front-left of the tray and may be resting partly on a divider or the pencil rather than lying flat.
+- **Small red object:** it started on the desk next to the marker and ended up in the tray during the marker move; I never identified it or picked it up deliberately.
+- **Left alone:** the phone, coffee mug, screwdriver and the white item at the back right, since I didn't count them as stationery.
+
+It took 8 of the 30 plan turns.

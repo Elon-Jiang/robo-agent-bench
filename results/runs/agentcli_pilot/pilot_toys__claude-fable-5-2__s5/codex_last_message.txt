@@ -1,0 +1,10 @@
+All five blocks (red, green, cyan, yellow, pink) are now inside the yellow toy bin, and I reported success.
+
+The final overview shows no blocks left on the table. The yellow block is hard to make out against the yellow bin in that last image, but it was clearly inside in the close-up just before.
+
+Two things went wrong along the way:
+
+- **Bin moved:** the fully open jaws wedged against the bin walls and lifted the bin twice, so it now sits near the table centre instead of its original spot on the right. I did not move it back.
+- **Blocks disturbed:** the green block fell out and the pink one ended up under the bin. I set the bin down, re-picked both, and placed the pink one with a narrower jaw opening.
+
+The run used 10 of the 30 plan turns.

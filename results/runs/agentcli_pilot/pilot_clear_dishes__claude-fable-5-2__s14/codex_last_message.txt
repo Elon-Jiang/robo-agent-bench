@@ -1,0 +1,8 @@
+The table is only partly cleared: the plate and bowl are in the drying rack, but the mug is still on the table, so I reported `partial`.
+
+- **Mug:** I set it down too close to the rack's edge; it tipped off and rolled to the far left of the table (about y = 0.30). The arm's workspace stops at y = 0.22, so I couldn't pick it back up.
+- **Bowl and plate:** both are in the rack, confirmed in the final overview image.
+- **Banana:** left where it was. It is a whole, uneaten banana rather than a peel, so I didn't bin it. My first move was a grasp attempt on it, before I'd seen that, which missed.
+- **Phone-like blue item:** left untouched, since it isn't a dish or rubbish.
+
+I ended the episode after 14 of the 30 turns because I saw no way to reach the mug and was watching the time limit.

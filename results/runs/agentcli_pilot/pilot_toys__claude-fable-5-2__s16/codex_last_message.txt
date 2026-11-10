@@ -1,0 +1,8 @@
+Only partly done: four of the five blocks (red, yellow, cyan, magenta) are in the yellow bin, and the green block is missing. I reported the episode as `SELF_REPORT: partial`.
+
+- **What went wrong:** the bin is a wheeled toy and it slid about 12 cm toward the robot during my first chained move of red and green. Red ended up on the bare table where the bin had been, and green disappeared from view at that point.
+- **Recovery:** I re-located the bin and placed red, yellow, magenta and cyan into it one or two at a time; a close-up view confirmed all four inside.
+- **Green block:** I searched the near, left, right and far areas of the table and the inside of the bin and did not see it. It may be under the bin or off the table; I did not lift or move the bin to check.
+- **Bin position:** the bin is still sitting where it slid to, rotated and closer to the robot base than where it started.
+
+I used 12 of the 30 plan turns.

@@ -1,0 +1,7 @@
+I set up the breakfast on the cyan placemat and ended the episode. I'm reporting it as a success.
+
+1. **Plate:** I moved the red plate from the back-left of the table to the middle of the placemat. The first grip on its rim closed on nothing. The second try held it, and when I released it, it dropped flat onto the mat.
+2. **Banana:** I put the banana on the plate.
+3. **Mug:** I moved the mug from the left side of the table and set it upright on the mat, next to the plate on the right.
+
+The last top-down camera view shows the plate with the banana on it and the mug beside it, both on the placemat. The edge of the plate may hang slightly past the left side of the mat.

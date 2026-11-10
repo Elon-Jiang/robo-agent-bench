@@ -1,0 +1,11 @@
+I wiped up the spilled water and stood the knocked-over red mug back up, and I think the task succeeded. I ended the episode with `SELF_REPORT: success`, which is based only on what the wrist camera showed.
+
+1. **Spill:** I picked up the yellow sponge and wiped back and forth over the white water puddle at about (0.30, 0.12), then put the sponge back where it was. In the final overview there is no puddle left.
+2. **Mug:** It was lying on its side with the open end facing the robot base. Getting it upright took a few failed tries:
+   - The arm couldn't reach the sideways tilt I first asked for.
+   - The wrist can't turn far enough to spin the mug 180° so the open end points away from the base.
+   - A horizontal grab on the rim, low over the table, was also out of reach and failed.
+
+   What worked was gripping the mug with the gripper tilted forward and then rotating it to point straight down. That raised the open end, so the mug hung about 34° from vertical, and I lowered it onto the table and let go. It settled upright at about (0.27, 0.00), opening up and handle to the side.
+
+The other objects (the second, upright mug, the white cubes, the key and the dark bowl) were left as they were. The bridge's turn counter reached 26 of the 30 allowed before I ended the episode.

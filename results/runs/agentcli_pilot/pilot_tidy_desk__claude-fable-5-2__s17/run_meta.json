@@ -1,0 +1,19 @@
+{
+  "task": "pilot_tidy_desk",
+  "model": "claude-fable-5-2",
+  "seed": 17,
+  "suite_version": "0.2.1",
+  "scene_version": 4,
+  "turn_cap": 30,
+  "time_cap_s": 1500,
+  "port": 8096,
+  "completed": true,
+  "agent_cli": "claude",
+  "codex_rc": 0,
+  "wall_s": 153.74202920903917,
+  "tokens": 278516,
+  "agent_called_done": true,
+  "turns_used": 7,
+  "end_reason": "agent_done",
+  "error": null
+}

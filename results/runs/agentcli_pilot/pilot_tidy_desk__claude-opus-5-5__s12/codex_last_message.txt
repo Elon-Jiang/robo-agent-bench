@@ -1,0 +1,7 @@
+I put five pieces of stationery into the orange desk organizer: the marker, the yellow pencil, the eraser, the sticky-note pad and the small red pin or cap. In the final overhead view, all five are inside the tray. The pencil lies across the tray, and its end may rest on or just past the left wall.
+
+That took 10 plan turns. Three grasps missed on the first try (eraser, sticky pad and red item) and worked on the second.
+
+I left the mug, phone, screwdriver and the white paper/card where they were, since I didn't count them as stationery. If that card is actually a notepad, it should probably go in the tray too.
+
+I ended the episode with `SELF_REPORT: success` and think the task is done.

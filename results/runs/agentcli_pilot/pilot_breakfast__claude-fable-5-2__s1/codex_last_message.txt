@@ -1,0 +1,7 @@
+Breakfast is set up: the red dish is on the blue placemat with the banana inside it, and the red mug sits upright on the placemat beside the dish. I confirmed this in the final wrist-camera view and reported `SELF_REPORT: success`.
+
+- **Dish:** it sits toward the right side of the mat rather than centred, and its rim overhangs the right edge by roughly 2 cm.
+- **Retries:** the dish took three grasp attempts because it is much shallower than I assumed (rim about 2 cm high), and the banana took two.
+- **Interpretation:** I read "set up my breakfast" as gathering everything onto the placemat with the banana in the dish.
+
+The episode used 13 of the 30 plan turns.

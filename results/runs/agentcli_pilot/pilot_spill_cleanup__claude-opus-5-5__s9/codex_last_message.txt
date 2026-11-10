@@ -1,0 +1,7 @@
+I cleaned up the spill: the red cup is standing again, the water is gone and the sponge is back where it was. The final overview image confirms all three, so I reported success.
+
+1. **Stood the cup back up:** The red cup was lying on its side next to a light-blue puddle of water. I picked it up from above and turned the wrist as far as it would go, about 40° short of fully upright. I lowered the cup until its base touched the table and let go, and it settled upright at about (0.235, -0.015). A top-down image shows the round opening facing up.
+2. **Wiped the spill:** I picked up the yellow sponge and moved it across the puddle in five overlapping strokes. The puddle is no longer visible in the camera image.
+3. **Put the sponge back** where it was and moved the arm to its home position.
+
+It took 10 of the 30 turns.

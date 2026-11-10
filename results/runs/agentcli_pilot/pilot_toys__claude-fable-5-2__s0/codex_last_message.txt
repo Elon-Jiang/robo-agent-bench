@@ -1,0 +1,7 @@
+Partial success: four of the five blocks (green, red, blue, magenta) are in the yellow toy cart, but the yellow block is lost.
+
+- **What went wrong:** on the first placement the cart was displaced — it ended up about 20 cm to the left and turned 90°, most likely caught by the gripper. The yellow block had been sitting where the cart ended up and was not visible in any view afterwards. It most likely went off the left edge of the table.
+- **Recovery:** the magenta and blue blocks ended up jammed against the outside of the cart, and three grasp attempts on magenta failed. I dragged the cart about 5 cm toward the base by its near wall, which freed both, and then placed them inside.
+- **Final check:** the last two views show four blocks inside the cart and no yellow block on the table.
+
+I ended the episode after 16 of 30 turns with `SELF_REPORT: partial`.

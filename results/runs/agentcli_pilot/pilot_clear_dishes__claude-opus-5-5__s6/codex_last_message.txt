@@ -1,0 +1,9 @@
+I cleared the dishes off the table into the dish rack and ended the episode as a success, though the bowl sits less securely than the other two items.
+
+- **Red mug:** placed inside the rack on the first try.
+- **Small red bowl:** picked up by its rim and put in the rack. In the close-up it's tilted at the back edge of the rack, probably leaning on the rim rather than sitting fully inside.
+- **Red plate:** I first took it for a large bowl. It took three tries to grip its thin rim; I then lowered it upright into a rack slot, and it's standing there.
+
+I left the banana and the phone where they were, since they aren't dishes. I also left the black round container at the back right alone. It looked like a bin, but I couldn't tell what it was for.
+
+I checked the result in the camera images and sent `SELF_REPORT: success`. If the bowl needs to be fully inside the rack to count, `partial` would be the fairer label.
