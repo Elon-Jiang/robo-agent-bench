@@ -1,0 +1,5 @@
+I moved the desk's stationery into the wooden tray, but one thing is wrong: a screwdriver ended up in the tray too. I rate it partial.
+
+In the final camera view, the tray holds the highlighter, the red-and-white marker, a red cap, the eraser, the sticky notes and a thin pen. The screwdriver was lying near the pen, and I think I swept it in by accident when I grabbed the pen. It is still sitting in the tray. I left the blue notebook/phone and the mug on the desk, since I didn't count them as stationery. The mug's contents also looked like coffee.
+
+Several grasps failed or nudged items out of place, so a few moves needed a re-look and a retry. I submitted `/done` with `SELF_REPORT: partial`.

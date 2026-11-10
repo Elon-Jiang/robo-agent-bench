@@ -1,0 +1,7 @@
+The table is only partly cleared, so I reported `SELF_REPORT: partial`.
+
+- **Moved:** I treated the drying rack as the place for dishes. The small red cup went onto it, and one red bowl ended up in the rack area. The bowl wasn't confirmed as resting on the rack, because the camera view was at a steep angle.
+- **Left on the table:** the large red dish, which failed to grasp on three tries (jaws too narrow for it), and the black plate. I did not attempt the plate.
+- **Left alone on purpose:** the banana and the phone, since they aren't dishes.
+
+I used 9 plan turns before calling `/done`.

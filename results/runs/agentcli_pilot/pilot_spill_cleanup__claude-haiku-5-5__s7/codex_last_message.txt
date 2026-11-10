@@ -1,0 +1,10 @@
+The episode is over and I labelled it `SELF_REPORT: partial`. The table is not fully tidied: the spill is still visible.
+
+**What I did:**
+- **Red cup:** I grasped the fallen red cup, which was lying on its side, lifted it off the wet trail and set it down in the black bowl on the right. From the overhead view it looks upright, but I did not check that with a close-up.
+- **Yellow sponge:** Several grasps closed on nothing before one held (turn 12). I wiped the light-blue puddle and the brown trail with it over two passes. The puddle was smaller afterwards but still visible.
+- **Sponge release:** I set the sponge down near (0.18, −0.12). Later regrasp attempts all closed empty, so it is still on the table, not in a clear spot.
+
+**Why it's partial, not success:** The light-blue puddle near (0.30, 0.12) and the darker wet trail from the base area are both still visible in the final wrist-cam image. The sponge was never returned to a clean spot, and I ran out of useful turns before I could fix the grasps.
+
+**What I'd try next:** Use a close look_at with the jaws open before each sponge grasp, since the grasp position was the main failure. Then wipe the puddle and trail with more strokes.

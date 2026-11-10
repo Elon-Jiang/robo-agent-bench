@@ -1,0 +1,15 @@
+I submitted the episode as a failure: the spill is only partly cleaned up.
+
+**What I did**
+- Read the agent prompt and checked the observation. The task was "I knocked over my water. Please tidy up the table."
+- Identified the yellow object as a sponge and grasped it. The first grasp worked and I wiped the spill along +X.
+- The first wipe pass cleared most of the upper spill, but the sponge was then dropped and later re-grasped. The re-grasp missed once, then succeeded near the base edge.
+- I wiped the spill along Y in several passes. The brown water trail still runs from near the robot base out to roughly (0.36, -0.16) in the wrist camera image.
+- At the end the gripper was empty (`holding: false`) and the sponge was loose on the table near (0.32, -0.06).
+
+**Self-report:** `SELF_REPORT: failure`. Wiping reduced the upper part of the spill, but the long brown trail is still visibly there. I didn't find a way to confirm that wiping removes it in this sim. The sponge is also not put away.
+
+**Limits of this run**
+- I made the object choices myself: the yellow object as a sponge, and no cups or the white items moved. The task wording is loose, so the intended end state could differ.
+- Two `place` and `grasp` calls landed the sponge somewhere other than where I aimed. I did not diagnose why.
+- I stopped at turn 22 of 30 and did not finish the sponge cleanup.

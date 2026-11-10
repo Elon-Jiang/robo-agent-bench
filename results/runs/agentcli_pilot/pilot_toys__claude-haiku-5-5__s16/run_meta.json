@@ -1,0 +1,19 @@
+{
+  "task": "pilot_toys",
+  "model": "claude-haiku-5-5",
+  "seed": 16,
+  "suite_version": "0.2.1",
+  "scene_version": 1,
+  "turn_cap": 30,
+  "time_cap_s": 1500,
+  "port": 8098,
+  "completed": true,
+  "agent_cli": "claude",
+  "codex_rc": 0,
+  "wall_s": 561.3326500830008,
+  "tokens": 2212822,
+  "agent_called_done": true,
+  "turns_used": 21,
+  "end_reason": "agent_done",
+  "error": null
+}

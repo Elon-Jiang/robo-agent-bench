@@ -1,0 +1,5 @@
+The blocks are put away and I ended the episode with `SELF_REPORT: success`.
+
+I found five colored blocks on the table (green, red, magenta, cyan/blue, yellow) and moved each into the yellow bin, one at a time. The first red drop landed on the bin's far rim, so I re-grasped it and placed it inside. A close-up view over the bin shows all five blocks inside and the table clear of blocks. The yellow block is the hardest to confirm because it sits against the bin's yellow interior, so that one rests on the visual check.
+
+I left a red round object at the far left of the table alone, since it is not a block. I also used port 8098 as instructed, and I did not read any source files or edit anything.

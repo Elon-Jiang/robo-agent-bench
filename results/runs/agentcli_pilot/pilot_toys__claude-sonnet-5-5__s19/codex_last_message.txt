@@ -1,0 +1,7 @@
+I picked up all five blocks (green, cyan, pink, yellow, red) and put them in the yellow tray. I'd call it a partial success, because I could only see three of them in the tray at the end.
+
+- **Tray bumped:** My first run knocked the tray closer to the robot, and the green block landed outside it. I re-scanned, found the tray's new position and re-placed the green block.
+- **Green, cyan and pink:** All three are clearly visible in the tray in the last wrist camera image.
+- **Yellow and red:** Neither is visible on the table any more. I put the yellow block in the tray, but it blends in with the yellow tray. I never saw the red block after the first run, so I'm only assuming it ended up in the tray.
+
+I called `/done` with `SELF_REPORT: partial`.

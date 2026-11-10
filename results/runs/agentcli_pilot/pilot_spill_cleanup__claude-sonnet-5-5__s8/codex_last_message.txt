@@ -1,0 +1,7 @@
+I only partly cleaned up the spill. I wiped most of the water with the sponge, but a thin strip of water and a damp stain are still on the table.
+
+- **What I did:** I picked up the yellow sponge and wiped back and forth over the puddle. I made a second pass, then put the sponge back down.
+- **What's left:** The wrist camera still shows the thin water strip near the puddle's old position, plus the darker damp stain.
+- **The cup:** The knocked-over red cup ended up in a different spot, probably nudged while wiping. I didn't stand it back up.
+
+I ended the episode with `SELF_REPORT: partial`.

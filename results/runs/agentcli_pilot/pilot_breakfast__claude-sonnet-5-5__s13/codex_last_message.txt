@@ -1,0 +1,1 @@
+I picked up the banana and placed it on the blue plate. The last wrist-camera image shows it resting there. I left the red bowl and the mug where they were, since they were already on the table within reach. "Set up my breakfast" is a loose request, so a different arrangement might be what you wanted. I reported success in `/done`, using 2 plan turns.

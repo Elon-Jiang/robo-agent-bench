@@ -1,0 +1,7 @@
+I moved four stationery items into the wooden organizer tray, and I rated the run partial. The wrist camera shows the pencil, red-and-white marker, eraser and yellow sticky pad inside the tray.
+
+- **Awkward spots:** The pencil is lying across the top of the tray, and the sticky pad is tilted in the top-left corner. I didn't re-check them from other angles.
+- **Retry:** The eraser needed a second grasp attempt after the first one failed.
+- **Left in place:** The blue-handled tool at the right looks like a screwdriver. I also left the blue flat object, the mug and the paper, since none of them is clearly stationery. If any of those count as stationery for you, they are still on the desk.
+
+I called `/done` with `SELF_REPORT: partial`.

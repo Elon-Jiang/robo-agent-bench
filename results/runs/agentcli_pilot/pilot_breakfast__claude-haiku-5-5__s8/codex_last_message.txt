@@ -1,0 +1,9 @@
+I ran the episode and ended it with a self-report of `partial`.
+
+**What I did (8 plan turns, 0 failures):**
+1. Read the prompt and looked at the scene. The table holds a yellow banana, a cyan tray or plate, a red mug with a handle, and a red open bowl.
+2. Picked up the banana and placed it on the cyan tray. The wrist camera confirmed it was on the tray.
+3. Grasped the red mug from its sides (jaws along X, clear of the handle), carried it over, and set it on the table beside the tray at about (0.30, 0.14).
+4. Inspected the bowl up close, then returned the arm home. The bowl was left where it was, on the table.
+
+**Result:** The banana is on the tray, and the mug and bowl stand upright on the table. I labelled it `partial` because the task "set up my breakfast" doesn't say what the final layout should be. I read it as "banana on the plate, the other items set out nearby." If you wanted the mug or bowl on the plate too, the task is not complete.

@@ -1,0 +1,7 @@
+I wiped up the spilled water with the sponge, and the final wrist-camera view shows no puddle left. I think the task succeeded, but I didn't stand the knocked-over cup back up.
+
+- **How I did it:** I picked up the yellow sponge and dragged it across the puddle in several passes, regrasping it twice after it dropped. When I'd finished, I put it back on the side of the table.
+- **Cup:** I left the red cup lying on its side. If you wanted it upright, that part is not done.
+- **Sponge:** It ends up near its starting spot rather than in an exact place.
+
+I used 8 plan turns and called `/done` with `SELF_REPORT: success`.

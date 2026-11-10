@@ -1,0 +1,12 @@
+The episode is ended and I reported `SELF_REPORT: success`. I read the task as "put the blocks in the yellow box on the table."
+
+What happened:
+- I picked the five loose blocks (pink, yellow, light blue, green, red) one at a time with `verify_grasp` and dropped them into the yellow box.
+- The box got shifted during the first few moves, and some blocks spilled out onto the table. I then re-grasped them.
+- The green block got wedged in the gripper at one point. I carried it over the box and released it there.
+- The yellow block was at the box rim and the first grasp aborted. A hover-then-grasp approach worked.
+- The final top-down close-up shows all five blocks inside the box and none left on the table.
+
+Caveats:
+- Several turns returned `status: done` even when a grasp had missed, so I checked the images rather than trusting the status field.
+- The final state is judged from the wrist-camera close-up only, not from an independent measurement.

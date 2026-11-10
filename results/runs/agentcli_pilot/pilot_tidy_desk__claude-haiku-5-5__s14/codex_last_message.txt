@@ -1,0 +1,15 @@
+I ended the episode with a **partial** self-report (`SELF_REPORT: partial`), not a success.
+
+**What I did (24 of 30 turns):**
+- **Stored into the wooden organizer:** the red-and-white marker, the yellow ruler, the black pen, the blue stapler, and the white-cyan eraser. The organizer is the orange tray with dividers at the top-left of the wrist view.
+- **Left on the open table:** the yellow pad. I grasped it and placed it at about (0.36, -0.02), in the open table area rather than in storage.
+- **Not moved:** the red ball, which I judged not to be stationery, and the white paper or notebook at the top right, which is ambiguous.
+
+**Interpretation I took:** "put away" meant placing the pens, pencils, and small desk items into the wooden organizer. The mug I first considered as a pen holder turned out not to be visible reliably, so I dropped it as a target.
+
+**Problems:**
+- The overview shows the blue stapler and the black pen near the organizer's edge, not clearly inside. Tall objects shift in the perspective view, so I couldn't confirm their final positions.
+- Two grasp attempts on the yellow pad closed on nothing or the organizer wall, and one reported `holding` without a clear object in the jaws. The pad was eventually moved, but only onto the table.
+- I didn't verify each placement's final resting spot, so some of the "stored" items may be partly outside the organizer.
+
+I read `AGENT_PROMPT.md` and used only the bridge API and wrist-camera images. I didn't read simulator or benchmark source code, and I didn't edit any files.

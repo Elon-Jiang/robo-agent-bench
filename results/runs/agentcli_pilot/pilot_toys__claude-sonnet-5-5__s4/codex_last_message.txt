@@ -1,0 +1,5 @@
+I put all five blocks (red, yellow, blue, green and magenta) into the yellow box. The last top-down camera image shows them inside it and no blocks left on the table. I reported success.
+
+- **Green block:** my first drop at (0.40, -0.12) missed and the block landed outside the box. I picked it up again and dropped it at the box centre.
+- **Other four:** I picked them up and dropped them in one chained call, and none slipped.
+- **Red cup:** I left it where it was, since it isn't a block.

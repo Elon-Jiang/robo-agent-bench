@@ -1,0 +1,7 @@
+I wiped up most of the spill, so I'm calling the cleanup partial.
+
+I picked up the yellow sponge and wiped the blue puddle in two passes. The close-up camera view showed the puddle gone after the second pass. I then put the sponge back near where it started and sent the arm home.
+
+The overview image after that shows a possible small blue trace around (25, +10) cm. The red cup, which was lying on its side, also seems to have moved. It now sits near (36, +20) cm, probably nudged by the sponge. I did not stand it back up.
+
+I reported `SELF_REPORT: partial`. It took 4 plan turns.

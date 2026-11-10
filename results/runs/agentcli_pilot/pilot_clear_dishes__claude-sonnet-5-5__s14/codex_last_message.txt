@@ -1,0 +1,7 @@
+The table is only partly cleared, so I reported `SELF_REPORT: partial`.
+
+- **Moved:** the small red cup and one smaller red bowl are now in the black container at the upper right. The bowl first fell on the table and took two failed regrasps before it landed there. In the last image it sits tilted on the container's rim, so I'm not certain it is fully inside.
+- **Left on the table:** the large flat red plate, the blue item and the banana. I tried the plate three times but couldn't get a grip on it. The grasp closed on nothing or pushed it around. I didn't try the blue item or the banana.
+- **Guess I made:** I treated the black container as the place to put dishes. The task didn't say where dishes should go, and the dish rack looked like a plausible alternative.
+
+I used 18 of the 30 plan turns.

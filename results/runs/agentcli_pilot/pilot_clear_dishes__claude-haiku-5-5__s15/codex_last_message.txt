@@ -1,0 +1,20 @@
+I ended the episode with a **partial** self-report. The table is not cleared, and the destination for dishes was never defined.
+
+**What I did (15 bridge turns, 1 look-at survey before most moves):**
+- Moved the large red plate from the centre to the blue tray area at the bottom-right of the table. It is the only dish that ended up on the tray.
+- Moved a second red plate from the left-centre to a clear spot near the black bowl.
+- Grasped the black bowl and set it down on the right-centre wood.
+- Moved the tipped red mug to the middle, where it now lies on its side.
+
+**What went wrong:**
+- My first grasp, at the plate's nominal centre, closed on nothing. The plate had been pushed to the bottom-right by then, so I re-surveyed and re-grasped.
+- The second dish I carried was a small red cup. It was placed close to the right edge, where it tipped over.
+- The jaws held the first plate edge-on before I put it down flat.
+
+**Remaining on the table (visually):** two red plates, the black bowl, the red mug lying on its side, the banana, the grey wire basket, the black cylinder and a tan board. I did not touch the banana, basket, cylinder or tan board because they are probably not dishes.
+
+**Assumptions I made:**
+- Dishes are the red plates, the black bowl and the red mug/cup.
+- The blue tray is a plausible dish rack, but I could not confirm that from the images.
+
+I can't say whether the task succeeded because I never found the intended drop-off. If you tell me where dishes should go (for example, onto the blue tray or off the table entirely), I can continue from the current state.

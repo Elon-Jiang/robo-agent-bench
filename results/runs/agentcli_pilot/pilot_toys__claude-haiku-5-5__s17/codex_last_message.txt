@@ -1,0 +1,14 @@
+The episode ended at the 30-turn limit, and I labeled it **partial**.
+
+**What I did:** The task was to put the blocks away. I found five cubes on the table: red, green, magenta, yellow and blue. I moved them into the yellow tray one at a time, using top-down `look_at` views to correct my position estimates.
+
+- **Red, green, magenta:** Each appeared in the tray in a later overview image.
+- **Blue:** Took several tries. It was last seen inside the tray in the final overview.
+- **Yellow:** Confirmed in the tray in a top-down view (turn 20). It is hard to see against the yellow tray in later overviews, so I could not confirm it at the end.
+
+**Problems:**
+- My first grasp, from the overview estimate, missed by about 5 cm and the arm aborted. The red cube then looked wedged in the jaws for several turns. It was in the tray by the end, but I never cleanly confirmed the release.
+- The tray moved during the run, probably pushed by the arm, and it ended up nearer the robot base.
+- Blue's first two drops landed just outside the tray edge, and the final one left it resting on the rim before the last move put it inside.
+
+**Self-report:** I sent `SELF_REPORT: partial` to `/done`. The yellow cube and the tray's final position are the main things I could not verify. I did not edit any files or read the simulator source.

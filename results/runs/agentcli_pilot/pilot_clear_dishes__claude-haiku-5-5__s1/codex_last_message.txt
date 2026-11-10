@@ -1,0 +1,19 @@
+The task is not finished. The table still has dishes on it, so I reported the episode as **partial** and ended it with `/done`.
+
+**What I did (19 bridge turns of 30):**
+- Moved the small red cup from the table to the area near the wire drying rack. It landed on the rack's edge, not cleanly on it.
+- Moved one red bowl (the one in the left-middle of the table) toward the rack. It ended up near the rack, not on it.
+- Picked the banana and moved it, but it also ended up scattered near the rack.
+- Moved the blue rectangular dish from the right edge to about (0.42, -0.02), which is still on the table.
+
+**What went wrong:**
+- The large red bowl in the centre of the table (around x≈0.26–0.30, y≈0) failed on every attempt. Grasps at rim height closed on nothing, probably because the bowl is wider than the jaws can straddle. The one attempt that held it at a low grip slipped during transport and it was back on the table.
+- Several placements at the rack landed beside it rather than on it, so I never got a clear view of what is actually on the rack.
+
+**Remaining on the table (from my reading of the wrist camera, not verified closely):** the large red bowl, the blue dish, and dark objects at the top-right and near the rack.
+
+**Choices I made that you may want to change:**
+- I treated "clear the table" as moving dishes and food to the wire drying rack.
+- I left the banana's status as a food item I decided to move, which may not be what you intended.
+
+The `/done` call returned `episode_end` with `SELF_REPORT: partial`. I did not edit any files.

@@ -1,0 +1,17 @@
+The episode is over and I labelled it `SELF_REPORT: partial`. The table is not fully cleared.
+
+**What I did (19 plan turns):**
+- Moved several red dishes/cups onto the wire dish rack. The rack now holds roughly three or four red items, and the wrist camera confirms them there.
+- Moved the blue flat item from the bottom-right to the rack edge near (0.40, -0.06). It is beside the rack rather than inside it.
+- Several grasps slipped or closed on nothing (turns 2, 9, 14, 15, 17, 18). The bridge reported `grasp_failed` for each and I re-observed and retried.
+
+**What remains on the table, per the final wrist camera view:**
+- One red cup near the far top-left edge, around (0.43, 0.20). Four attempts failed, and one grasp succeeded but slipped during transit.
+- The black bowl at the top right, around (0.40, -0.18). I never attempted it, because it looked wider than the gripper's 9.5 cm opening.
+- The banana, which I left in place because it is food rather than a dish.
+
+**Assumptions I made:**
+- Red items, the black bowl and the blue flat item count as dishes. The blue item may be a tray or placemat rather than a dish.
+- The wire rack is the dish rack, and the banana does not need to be cleared.
+
+I did not edit any files or read the simulator source.

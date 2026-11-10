@@ -1,0 +1,7 @@
+I put the blocks into the yellow tray and ended the episode with `SELF_REPORT: partial`. I'm sure about three blocks, and the other two are probably in but I couldn't confirm it.
+
+- **Red, green and blue:** I could see these inside the tray in the wrist camera. A few grasps failed or the block bounced out, so I retried (red needed a yaw adjustment).
+- **Yellow:** It was pinned under the tray's edge, so I nudged the tray away with a sweep. I then grasped the yellow block and dropped it in the tray. It's yellow on a yellow tray, so I couldn't see it land.
+- **Pink:** I never moved it. It looked like it was already inside the tray, resting near the edge.
+
+No loose blocks were visible on the table at the end. I used about 10 of the 30 plan turns.

@@ -1,0 +1,19 @@
+I moved the desk's stationery into the orange organizer and ended the episode with `SELF_REPORT: success`. The final wrist-camera view shows the desk clear of stationery.
+
+**What I moved (5 items, all into the organizer):**
+- Yellow pen (diagonal, about -35°). The first grasp at yaw 90° failed because the jaws were misaligned, so I re-centred the view and grasped at yaw -35°.
+- Red-and-white striped item (glue stick or marker).
+- Red round item.
+- Yellow block (sticky-note pad).
+- Small white-blue item (eraser or glue stick).
+
+**What I left alone:**
+- The mug, which isn't stationery.
+- The blue-grey flat slab, which looks like a tablet or phone.
+- The black-and-white item, which is a screwdriver.
+
+Those three were my judgement calls. If the blue-grey slab is a notebook, it's the one object I'd move next.
+
+**Caveat:** the red round item was not clearly visible in the final view. It was visible in the organizer earlier, so it is probably hidden under the other items, but I did not confirm it directly.
+
+Whether the task succeeded depends on how "stationery" is read. Under the reading that the pens, markers, glue, pad and eraser count, it succeeded. Two ambiguous items remain on the desk. The episode used 10 of the 30 plan turns.

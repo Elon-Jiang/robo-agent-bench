@@ -1,0 +1,15 @@
+I moved most of the stationery to the dark organizer at the top-left of the desk and reported the episode as **partial**.
+
+**What I did (8 plan turns, plus a look and a return home):**
+- **Striped marker**: moved into the organizer.
+- **Dark pen**: moved into the organizer.
+- **Yellow ruler**: the first grasp missed (I had its X position about 2–3 cm off). On retry it went to the organizer's front edge and is only partly on it.
+- **Blue box**: moved to the top-left corner beside the organizer, not clearly inside it.
+- **Yellow sticky-note pad**: moved to the far top-left corner, just outside the organizer.
+- **Glue-stick-like item**: moved beside the organizer's top edge.
+
+**What I left alone:** the red ball (not clearly stationery), the mug, and the white-grey object at the top-right, which turned out to be a laptop on a close look.
+
+**Interpretation:** "put away" had no explicit container, so I took the dark organizer at the top-left as the destination. The bridge reported `done` for every chain, but I judged success from the wrist camera, since the status alone didn't show whether each object was actually stored.
+
+**Why partial:** the ruler and the yellow pad aren't fully inside the organizer, and the blue box and glue stick are only close to it.

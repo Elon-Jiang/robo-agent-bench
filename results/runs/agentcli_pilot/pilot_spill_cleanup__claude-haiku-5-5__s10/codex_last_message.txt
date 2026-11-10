@@ -1,0 +1,10 @@
+I ended the episode with a **partial** self-report. The fallen cup is fixed, but the water is still visibly on the table.
+
+**What I did (15 plan turns):**
+- **Cup:** Picked up the red cup that was lying on its side and set it upright on clear wood near (0.28, -0.10), away from the spill. I confirmed it stands upright in a close-up view.
+- **Napkins:** Laid two white napkins on the puddle to soak it up. I binned the first one in the black bin at the top-right and left the second one there as well.
+- **Puddle:** The light-blue puddle (about x 0.28–0.34, y 0.06–0.14) is still clearly visible after both napkins and a low closed-jaw wipe. The napkins did not visibly change it.
+
+**Not done:**
+- The puddle is not cleaned. I don't know whether the simulator models absorption at all, so this may need a different approach.
+- I didn't tidy the other objects (the yellow block, the white ring, and the other red object near the bin). I judged them not to be spill-related, but the task wording could be read to include them.

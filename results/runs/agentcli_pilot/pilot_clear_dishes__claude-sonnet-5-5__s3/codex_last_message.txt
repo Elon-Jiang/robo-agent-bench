@@ -1,0 +1,3 @@
+The task is only partly done. I moved both red bowls and the cup onto the dish rack, but the black plate is still on the table next to the rack.
+
+I couldn't grip the plate despite three attempts, once from the side and once from the front rim. The banana and the blue item were left where they were, since I wasn't sure they counted as dishes. I used about 18 of the 30 turns. I filed the report as `SELF_REPORT: partial`.

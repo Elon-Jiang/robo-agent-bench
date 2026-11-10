@@ -1,0 +1,13 @@
+I ended the episode with a **partial** self-report. The task was vague, and I only got the items roughly onto the cyan tray.
+
+**Reading of the task:** "Set up my breakfast" meant gathering the breakfast items (a red plate, a small red mug, and a banana) onto the cyan tray.
+
+**What I did:**
+- **Banana:** picked up and placed on the tray's top edge. The first two grasp attempts didn't move it, and a sweep knocked it off the tray. The third attempt put it back on.
+- **Red mug:** the grasp attempt dragged it to the tray's left edge rather than lifting it. It now straddles that edge.
+- **Red plate:** too wide to grasp reliably by its rim, so I swept it toward the tray. It now sits over the tray's right edge.
+- Several earlier grasps failed with `grasp_failed`, and I misidentified the plate as a sphere at first.
+
+**Final scene (from the last wrist-camera view):** all three items are at or on the tray, but the mug and plate overhang its edges and the banana sits on the top edge. I did not get a clean arrangement, so the label is partial, not success.
+
+Turns used: 13 of 30. I did not check elapsed time against the 1500 s limit.

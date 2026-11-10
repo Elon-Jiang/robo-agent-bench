@@ -1,0 +1,21 @@
+The episode is closed with a **partial** self-report. I put three pieces of stationery in the orange organizer tray; the task wasn't finished.
+
+**Done (confirmed on the wrist camera):**
+- Yellow highlighter, now lying in the orange tray
+- Black pen, now in the tray
+- White-and-red striped marker, now in the tray
+
+**Not done:**
+- Pink/blue/white eraser at about (0.22, 0.16). Four grasps missed, and the eraser was nudged out of place.
+- Red cylinder. My one attempt missed and knocked it toward the far corner of the tray.
+- Yellow block at about (0.20, 0.20), which I didn't attempt.
+- The teal box and the white paper at the top right. I didn't classify them as stationery, so I left them alone.
+
+**What went wrong:**
+- The highlighter took about six turns. The first two grasps stalled, and the arm later reported `holding: True` when it wasn't holding the bar. I only caught that by checking the camera.
+- For the eraser and cylinder, the verified grasp kept failing and the unverified attempts missed. I ran out of time before finding a reliable approach for small items.
+
+**Notes:**
+- I used port 8098 throughout, as instructed. I didn't edit files or read the simulator source.
+- I went with a reasonable reading of "put away": moving the small pens and markers into the organizer tray, leaving non-stationery items alone.
+- Total: 18 plan turns out of 30, within the time limit.

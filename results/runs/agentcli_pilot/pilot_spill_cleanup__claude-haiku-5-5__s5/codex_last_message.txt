@@ -1,0 +1,16 @@
+I ended the episode with a **partial** self-report. The table is only partly tidied, and the water puddle is still there.
+
+**What I did (11 plan turns, port 8096):**
+1. Looked over the table from above, then moved closer to the spill and the loose objects.
+2. Moved the red mug (the one nearest the spill) into the black container on the right.
+3. Moved the white block beside the puddle into the same container.
+4. The first grasp on the flat white key missed (`grasp_failed`). I retried aimed at its shaft, grasped it, and placed it in the container.
+5. Confirmed in the wrist camera that the mug, block and key are in the container.
+
+**What's left:**
+- The water puddle (light blue, around x 0.28–0.34, y 0.08–0.14). The gripper can't wipe it up.
+- A white cup near (0.40, 0.14), another red mug at the container's edge near (0.40, -0.06), and a yellow block near (0.20, -0.12). I left these in place because it wasn't clear they were clutter.
+
+**Choices I made that you may want to redirect:**
+- I read "tidy up" as clearing loose objects into the black container, not wiping the spill.
+- I assumed the black container was a bin. It looked like one in the images, but I didn't verify it.

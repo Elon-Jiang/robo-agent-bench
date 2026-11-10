@@ -1,0 +1,6 @@
+I'd call this partial. The puddle is mostly gone, but the knocked-over cup is still lying on its side.
+
+- **Puddle:** I picked up the yellow sponge and wiped over the puddle in strokes. A final wipe left one tiny droplet near x≈0.26, y≈0.08 in the last wrist-camera image.
+- **Cup:** The red cup got pushed from about (0.29, 0.01) to about (0.37, 0.07) during the first wipe. I never stood it upright.
+- **Sponge:** I put it down at about (0.22, 0.12).
+- **Report:** I submitted `/done` with `SELF_REPORT: partial`.

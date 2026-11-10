@@ -1,0 +1,5 @@
+I put all five blocks (green, blue, red, yellow and pink) into the yellow toy box, and I think the task succeeded.
+
+In the final wrist camera view no blocks are left on the table. I could only clearly see green, blue and pink in the box. The yellow block blends into the yellow box floor and the red one looks partly hidden under the pink, so I'm slightly unsure about those two.
+
+Along the way the box got nudged and rotated, and two grasps on the red block failed before it worked, since it sat near the edge of the reachable area. I reported `SELF_REPORT: success`.

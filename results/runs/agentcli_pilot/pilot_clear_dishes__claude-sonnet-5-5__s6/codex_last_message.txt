@@ -1,0 +1,3 @@
+I partly cleared the table: the two red bowls and the red cup went into the dish rack, and the black plate ended up next to the rack rather than in it. The last wrist-camera image shows the plate sitting on the table beside the rack, so I reported `SELF_REPORT: partial` in `/done`.
+
+I left the banana and the phone where they were, since they aren't dishes. The plate took several failed grasps (the jaws kept landing on its rim) before one worked. The rack was full by then, so I dropped it beside the rack.

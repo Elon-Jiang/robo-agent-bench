@@ -1,0 +1,8 @@
+I got part of the desk tidied. I put the marker, the red eraser, the yellow highlighter and the blue pen on the organizer tray at the upper left. The last wrist-camera image shows all four on the tray.
+
+- **Left on the desk:** the yellow sticky-note pad and a small white item (it looks like tape or an eraser). I didn't move them.
+- **Left alone:** a flat blue item, because I wasn't sure it counts as stationery.
+- **Retries:** the highlighter needed a retry, and the blue pen needed two retries. Both were hard to grasp at first.
+- **Eraser:** I never grasped the red eraser. It ended up on the tray after the marker move, apparently pushed there.
+
+I reported the task as `partial`.

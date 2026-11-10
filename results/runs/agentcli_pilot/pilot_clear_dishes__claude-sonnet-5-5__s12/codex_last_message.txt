@@ -1,0 +1,10 @@
+The table is only partly cleared, so I reported `SELF_REPORT: partial`.
+
+- **Cleared:** the red cup and the small red bowl are in the black bin.
+- **Not cleared:** the large red bowl keeps slipping out of the gripper. It last sat on the table at about (0.41, -0.12), next to the bin.
+- **Banana:** five grasp attempts closed the jaws on nothing, so it is still on the table.
+- **Not attempted:** the blue item (probably a sponge or tray) and the small white item. I wasn't sure whether they count as dishes.
+
+I treated the black bin as the place to put things. If it was something else, like a tray, the cup and bowl may not count as cleared.
+
+I used about 22 of the 30 plan turns before stopping.

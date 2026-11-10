@@ -1,0 +1,10 @@
+I ended the episode with a self-report of `partial`.
+
+**What I did (8 turns):**
+1. Surveyed the table from the home pose and with close-up `look_at` views. The objects were a yellow banana, two dark-red spheres, and a large cyan plate or tray. There was also an unidentified brown block and a small cyan object.
+2. Picked the banana (yaw 90°, verified grasp) and placed it on the cyan plate.
+3. Picked one red sphere and placed it on the plate. Its edge sat close to the plate rim, so I checked it with a close-up view.
+4. Picked the second red sphere and placed it on the plate.
+5. Called `/done` with `SELF_REPORT: partial`.
+
+**Result:** The banana and both red fruits are on the cyan plate in the final wrist-camera view, and the gripper is open and empty. I labelled it partial because "breakfast" is vague. I couldn't tell what else the setup needs: the brown block and small cyan object might be a cutting board, toast, or a glass, and I didn't pick them up or identify them.

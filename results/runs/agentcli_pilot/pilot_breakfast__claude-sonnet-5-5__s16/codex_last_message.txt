@@ -1,0 +1,7 @@
+I put the banana on the cyan plate, left the mug and bowl where they were, and ended the episode. I rated it `partial`.
+
+The scene had a banana, a red mug, a red bowl and the cyan plate. I picked up the banana and placed it on the plate. The wrist camera confirms it is sitting there.
+
+The mug and bowl were already on the table, so I didn't move them. I couldn't tell what a finished breakfast setup should look like, so I may have done less than intended.
+
+I used 4 plan turns, and the `/done` call returned `episode_end`.

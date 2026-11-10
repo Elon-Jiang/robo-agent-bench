@@ -1,0 +1,6 @@
+I only partly cleared the table. I called `/done` with `SELF_REPORT: partial`.
+
+- **Done:** I moved the mug and the small red bowl next to the dish rack. I also picked up the dark tray and dropped it closer to the rack, but not into it.
+- **Not done:** The large red bowl would not grasp and barely moved when I pushed it, so it is still near the robot. The banana and the blue item are untouched.
+
+I didn't count the banana and the blue item as dishes to clear.

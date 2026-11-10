@@ -1,0 +1,20 @@
+I moved most of the desk's small stationery into the slotted organizer at the top-left of the view, then ended the episode with a self-report of **partial**.
+
+**What's in the organizer now (verified in the final wrist-cam image):**
+- Yellow highlighter pen
+- Red-and-white marker
+- Black marker
+- Small blue block (eraser-like)
+- Red item
+- Yellow block
+
+**What I left:**
+- The white flat item at the top-right of the desk. I wasn't sure it counts as stationery (it could be a notepad or card). My one grasp attempt closed on nothing, so I left it there. I didn't retry.
+- The mug, which I treated as not stationery.
+
+**Other notes:**
+- The first few grasps missed. Top-down `look_at` and wrist-cam pixel coordinates (`u, v`) worked better than the world coordinates I first estimated from the oblique home view.
+- The red item got knocked out of the organizer once and I re-placed it. The yellow block and red item sit near the organizer's edge and are not perfectly seated.
+- I used about 19 plan turns, well within the 30-turn budget.
+
+I read `AGENT_PROMPT.md` and sent commands to port 8098 as instructed. I didn't edit files or read simulator source.

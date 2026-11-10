@@ -1,0 +1,7 @@
+I moved most of the stationery into the tray on the left of the desk. I'm calling it partial, not a clean success.
+
+- **Moved:** the highlighter, the red-and-white marker (the red ball came with it), the sticky notes, the small white-and-blue item (I took it for an eraser), and the blue pen.
+- **Placement problems:** the highlighter overlaps the tray's edge instead of sitting fully inside. I also can't see the thin white pen in the tray, so I can't confirm it landed there.
+- **Left alone:** the mug, the white paper and the blue rectangular device. I judged them not to be stationery, but the blue device could be a notepad.
+
+I used 5 plan turns and closed the episode with `/done`.

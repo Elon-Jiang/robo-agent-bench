@@ -1,0 +1,7 @@
+The table is only partly tidied: I moved the tipped red cup off the puddle, but the puddle is still there. I reported it as `partial`.
+
+- **Cup:** I pushed it onto the puddle's edge by accident with a sweep, then picked it up and put it down at about (0.32, 0.03), clear of the spill. It is still lying on its side, not upright.
+- **Napkin:** The white patch at about (0.28, 0.12) never moved. Two grasps closed on nothing and two sweeps went past it. I couldn't wipe the puddle with it, so I stopped.
+- **Puddle:** The brown puddle looks unchanged in the last wrist-camera image.
+
+I used 7 of the 30 plan turns before calling `/done`.

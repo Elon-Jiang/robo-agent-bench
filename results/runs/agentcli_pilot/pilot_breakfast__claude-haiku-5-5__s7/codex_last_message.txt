@@ -1,0 +1,12 @@
+I finished the episode with a **partial** self-report. Only one item is clearly set up.
+
+**What I did (12 turns, well within the 30-turn and 1500 s limits):**
+- Surveyed the table with top-down and close `look_at` views, then identified the scene: a banana, two red dishes, a cyan flat tray or plate, and a brown object.
+- Picked the banana and placed it on the cyan tray. Visually confirmed in `wrist_cam.png` that it is there and the arm is home.
+- Tried to move the "apples" onto the tray. Several grasp attempts (world coordinates, higher and lower heights, and a pixel-based grasp) all failed. A close look and a reachability test showed the red objects are shallow dishes, not apples, so the jaws could not grip them.
+
+**Interpretation I took:** "set up my breakfast" meant putting the food items on the plate. I did not know what else a breakfast setup should include, so I stopped rather than guess at the dishes.
+
+**Not done:** the two red dishes are still in their original positions. The brown object and the cyan tray's exact identity are unconfirmed.
+
+**Self-report:** `SELF_REPORT: partial`. If you tell me what the breakfast should contain (for example, a dish as the plate and fruit on it), I can continue from the current state.

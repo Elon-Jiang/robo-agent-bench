@@ -1,0 +1,14 @@
+I finished the episode with a **partial** self-report. I cleared two items off the spill, but the spill itself is still there.
+
+**What I did (6 bridge turns on port 8097):**
+1. Looked at the table from above, then closer over the spill area.
+2. Moved the upright red cup from the water puddle to dry wood near (0.30, -0.10). The wrist camera confirmed it was clear of the puddle.
+3. Moved the white ring-shaped object from the brown wet patch to dry wood near (0.24, -0.18). The camera confirmed it.
+4. Returned the arm home and called `/done` with `SELF_REPORT: partial`.
+
+**What remains:**
+- The light-blue water puddle near (28, +8) cm.
+- The brown wet stain running from about (16, 0) to (24, +8) cm.
+- Other objects I did not touch because the task didn't clearly call for it: a second red cup near (44, -4), a white cup near (24, +18), a white item near (42, +14), a white flat item near (32, -16), and a yellow block near (20, -12).
+
+**Assessment:** I think this is partial. The gripper can't wipe or absorb liquid, so the spill is not cleaned up. I also interpreted "tidy up" as moving loose objects off the wet area, which is one reasonable reading; the task didn't specify a target state. A paper towel or sponge would be needed to finish the spill cleanup.

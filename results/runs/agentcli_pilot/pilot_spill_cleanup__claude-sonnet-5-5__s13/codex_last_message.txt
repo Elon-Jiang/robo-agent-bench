@@ -1,0 +1,6 @@
+I wiped up the spilled water with the sponge, and the final wrist-camera view shows no puddle left. I think the task succeeded.
+
+- **Wiping:** I grasped the yellow sponge, made two passes over the puddle, then a third pass over a small leftover patch. I put the sponge back each time.
+- **Side effect:** My first wipe pushed the red cup aside, so it now sits upright near the left edge of the table.
+- **Not done:** I didn't set the knocked-over cup back upright or move anything else.
+- **Self-report:** I closed the episode with `SELF_REPORT: success`. It used 5 plan turns.

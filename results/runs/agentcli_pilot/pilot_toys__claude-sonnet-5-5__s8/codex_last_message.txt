@@ -1,0 +1,3 @@
+All five blocks (green, pink, red, cyan, yellow) are now in the yellow bin, and I reported success. The last wrist-camera image shows no blocks left on the table. Pink, red, green and cyan are clearly visible in the bin. The yellow one was dropped in too, but it's hard to tell apart from the bin's yellow floor.
+
+It took longer than it should have. My first grasp of the green block got the bin caught in the gripper instead. I released it, then dragged the bin to a spot the arm could reach. The cyan block missed the bin on the first try, and the yellow one took three grasp attempts. In the end the bin is a bit off from where it started.

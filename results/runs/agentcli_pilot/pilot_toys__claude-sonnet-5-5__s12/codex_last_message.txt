@@ -1,0 +1,7 @@
+I put the blocks into the yellow box, but I couldn't confirm the yellow block is in it, so I reported it as partial.
+
+- **Seen in the box:** the pink, cyan, green and red blocks are visible inside it in the last wrist-camera image.
+- **Yellow block:** I picked it up and placed it in the box earlier. It is yellow on a yellow floor, so I can't see it in the final images.
+- **Side effect:** the arm bumped the box several times and pushed it across the table. It ended up tilted near the left edge of the view rather than where it started.
+
+I used 11 of the 30 plan turns.

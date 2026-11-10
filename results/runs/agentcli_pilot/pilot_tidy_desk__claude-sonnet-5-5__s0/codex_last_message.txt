@@ -1,0 +1,8 @@
+I moved the stationery onto the wooden tray, but I rated the result "partial" because the desk is messier than I'd like.
+
+- **Moved:** the red/white pen, the eraser, the sticky notes, the small red item and the yellow highlighter. In the last wrist-camera image all five are on the tray.
+- **Left alone:** the screwdriver, phone and laptop, which I didn't count as stationery.
+- **Side effects:** my first two highlighter grasps failed and knocked the mug over. Later placements also nudged the tray, which is now rotated and shifted.
+- **Not verified:** I didn't check closely whether the highlighter is fully inside the tray or resting on its edge.
+
+I used 12 plan turns and called `/done` with `SELF_REPORT: partial`.

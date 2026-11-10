@@ -1,0 +1,6 @@
+The table is only partly tidied. The puddle is still there, so I reported `SELF_REPORT: partial`.
+
+- **Cup:** I picked up the tipped red cup and moved it off the puddle to about (0.34, -0.07). It is still lying on its side rather than standing upright.
+- **Puddle:** I tried to use the white block as a cloth, but my grasps were unreliable. It ended up touching the puddle's edge without covering it or wiping anything. The last wrist-camera image still shows the water.
+
+I ended the episode after 5 plan turns.

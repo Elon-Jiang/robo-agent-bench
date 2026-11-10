@@ -1,0 +1,14 @@
+I finished the episode with a **partial** self-report. Most of the stationery is in the wooden rack, but I could not fully verify it.
+
+**What I did (28 of 30 turns):**
+- **Pencil:** grasped it and dropped it toward the mug, but it landed across the mug rim. I re-grasped it and placed it in the rack. It now rests across the rack's rails rather than standing inside a slot.
+- **Red-white marker, dark pen, and dark blue item:** each was picked from the desk and placed in the rack.
+- **Eraser:** the first grasp closed empty (`grasp_failed`). On retry it was knocked into a new spot and ended up in the rack. During this, the jaws stalled at about 0.45 and would not open until I sent an explicit `gripper(1.0)`.
+- **Overview check:** the final overview shows the rack holding the pencil, marker, pen, eraser, a small red item, and the dark blue item.
+
+**What's left or uncertain:**
+- The yellow sticky-note pad and a white box are still on the desk. I left them, since the pad's placement was unclear and the box may not be stationery.
+- Several placements were judged from wrist-camera perspective, which shifts with arm pose, so exact positions are approximate.
+- The pencil lies across the rails rather than inside a compartment.
+
+**Self-report:** `SELF_REPORT: partial`. The episode ended with `status: episode_end`.

@@ -1,0 +1,15 @@
+The episode ended with a **failure** label (`SELF_REPORT: failure`), and the spill was not cleaned up.
+
+**What I read the task as:** "I knocked over my water. Please tidy up the table" meant wiping up the light-blue water puddle, probably with a cloth.
+
+**What happened:**
+1. Surveyed the table from above with `look_at`.
+2. Turn 2: my first grasp targeted the brown patch but actually picked up a white cup. I set it down at about (0.30, -0.13), off the spill.
+3. Turns 4–6: I tried three grasps on the flat brown patch (at z=0.010 twice and z=0.004 once). The jaws closed fully each time, so nothing was held. I concluded the patch is a stain or texture, not a graspable cloth.
+4. Returned home and called `/done` with the failure label.
+
+**Result:** The water puddle at roughly x 0.26–0.34, y +0.04 to +0.20 is still there. No cloth or sponge was found, and the available primitives can't wipe a liquid. The only change to the scene is the moved white cup.
+
+**What would help:** If the wipe cloth is an object I haven't identified, a note on where it is or what it looks like would let me retry. I did not confirm the brown patch is a stain beyond the failed grasps.
+
+I used port 8097 throughout, as you asked, rather than the 8081 in the prompt's examples.

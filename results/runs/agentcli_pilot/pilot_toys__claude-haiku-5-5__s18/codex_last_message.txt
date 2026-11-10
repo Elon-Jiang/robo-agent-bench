@@ -1,0 +1,16 @@
+The episode is over. I submitted `SELF_REPORT: partial`, which was more cautious than the visual evidence supports. Every loose block is now in the yellow box and the table in front of the arm is clear, so I'd call the task achieved, with the caveat below.
+
+**What I did (26 turns of 30):**
+- Picked and placed the pink, yellow, cyan (blue), red and green blocks into the yellow box, checking the wrist camera after each step.
+- The place primitive did not release the jaws on its own. Each drop needed an explicit `open_gripper()`.
+- Several grasps reported `grasp_failed` or stalled at about z≈7.6 cm near the box edge. The green block was nudged twice before a plain grasp (without `verify_grasp`) worked.
+
+**Final state:**
+- The pink, yellow, cyan, red and green blocks are all visible inside the box in the last wrist-camera view.
+- No blocks remain on the table.
+- The dark red cup at the left edge was not a block and I left it alone.
+
+**Caveats:**
+- The box was knocked and is now tilted, close to the robot base, at roughly x 0.14–0.20 m. Blocks could spill if it is bumped.
+- I did not confirm the blocks are seated, only that they are visible inside the box.
+- I labelled the run `partial` out of caution about the tilted box and the failed grasps. If you judge the goal by what the camera shows, `success` is the fairer label.

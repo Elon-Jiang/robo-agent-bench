@@ -1,0 +1,9 @@
+I ended the episode with a **partial** self-report. The table is not fully tidied, and I could not clean the water.
+
+**What I did (14 turns, about 15 minutes):**
+- **Fallen red cup:** I moved it from the spill edge to clean wood around (26, −18) cm, using a verified grasp. It is still lying on its side, because the arm can't stand it upright.
+- **Flat key:** It was lying in the brown area near (20, −3) cm. The first two grasps missed. On the third try it moved to about (44, +14) cm, on clean wood as far as I can tell.
+- **Flat white paper-like item:** I shifted it from about (39, +12) cm to around (32, −10) cm, where it is still on the brown area. I did not get it onto clean table.
+- **Water:** The light-blue puddle at roughly x 28–36, y +8 to +12 cm is still there. The gripper can't wipe it.
+
+**Mistakes:** I used `verify_grasp=True` on a flat key, which failed. I also assumed the brown patches were spill. They may be the arm's shadow, which I could not rule out from the camera alone. I did not read the simulator source to check.

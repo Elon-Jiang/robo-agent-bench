@@ -1,0 +1,7 @@
+I wiped up most of the spilled water, but a small damp patch is still left, so I'm calling it partial.
+
+- **What I did:** I picked up the yellow sponge and wiped back and forth over the light-blue puddle near (0.29, 0.10). I then put the sponge back on the table near where it started.
+- **What I saw:** The final wrist-camera image shows the puddle mostly gone. A small patch remains near (0.31, 0.08).
+- **Not touched:** I left the red cup where it was. I couldn't tell from the image whether it was knocked over.
+
+I used 2 plan turns, then called `/done` with `SELF_REPORT: partial`.

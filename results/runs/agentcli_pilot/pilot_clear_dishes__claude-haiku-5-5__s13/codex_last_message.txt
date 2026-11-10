@@ -1,0 +1,14 @@
+I ended the episode with **SELF_REPORT: partial**. The table is not cleared.
+
+**What I did (15 turns, all via port 8097):**
+- Moved the central red plate toward the blue bin. It slipped out and landed beside the bin, near the workspace edge.
+- Four attempts to grasp that bowl at its rim failed. The gripper closed on nothing each time, and the arm stalled at z ≈ 0.06–0.08.
+- Grasped a second red dish at (0.20, 0.17) and released it over the bin. It appears to be in or on the bin.
+- Grasped a third red dish at (0.40, -0.04) and released it over the bin. The wrist view shows the bin area with red items in it.
+- Grasped a dark glass at (0.38, 0.04). It was dropped in transit and ended up on the table near (0.17, -0.06). A retry closed on nothing.
+
+**What's left on the table:** the red bowl at the right edge (about (0.24, -0.24), just past the y limit), a black dish at the top right, the grey glassware cluster at the top left, the dropped glass near the base, and the banana (not a dish, so I left it).
+
+**Caveats:** I judged dishes from the overhead wrist view only, so the bin contents are not verified. The label is partial because the table is not clear and several grasps failed.
+
+**Possible next steps:** the edge bowl needs a sweep or a grasp from a different approach angle, since it sits past the y limit. The glassware needs a lower grasp with `verify_grasp` off, or a different approach height.

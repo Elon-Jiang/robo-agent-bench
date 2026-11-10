@@ -1,0 +1,3 @@
+I moved the banana onto the cyan plate and left everything else where it was, so I reported the task as partial.
+
+The table had a banana, a cyan plate, a red bowl and a small red mug. After a top-down look, I picked up the banana and set it on the plate. The final wrist camera image shows it resting on the plate. I didn't move the bowl or mug, because I couldn't tell what should go where. I used 2 plan turns, then called `/done` with `SELF_REPORT: partial`.

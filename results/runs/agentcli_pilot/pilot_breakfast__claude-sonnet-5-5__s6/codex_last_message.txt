@@ -1,0 +1,3 @@
+I moved the banana onto the blue plate and then ended the episode, reporting it as partial.
+
+The wrist camera shows the banana sitting on the plate. I did not move the red bowl or the dark mug, which were already next to the plate. I didn't check whether the grasp was verified beyond seeing the banana on the plate. I'm unsure whether that arrangement counts as a complete breakfast setup, so I labelled it `SELF_REPORT: partial`.

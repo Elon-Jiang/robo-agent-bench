@@ -1,0 +1,11 @@
+I ended the episode with a **failure** self-report. I don't think the task succeeded: no item is confirmed put away.
+
+**What I did (22 turns, bridge on port 8097):**
+- Identified the stationery from the wrist camera: a red-and-white pen, a yellow highlighter, a yellow sticky-note pad, a white eraser, and a blue item. The brown wooden tray near (0.40–0.48, −0.02) was my target container. I first took it for a cup, then found it was an open tray.
+- Repeatedly grasped the red-and-white pen (several grasps reported `holding: true`) and tried to drop it into the tray at several points and heights.
+- Each release landed the pen on the table just short of the tray or bounced it out. The last high view showed it still outside the tray, and the final overview was too cut off to confirm where it ended up.
+- One early attempt returned `grasp_failed` at the wrong spot. I didn't attempt the highlighter or the other items.
+
+**Final state:** the pen is not verifiably in the tray, and the highlighter, sticky notes, eraser, and blue item are still on the desk. I labelled it `SELF_REPORT: failure` because nothing is confirmed put away. The `/done` call returned `episode_end`.
+
+**What would help next time:** the drop point seems to be near the front wall of the tray rather than its open interior. A closer look at the tray's exact footprint before dropping, and releasing from a lower height, would be the first things to try.

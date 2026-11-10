@@ -1,0 +1,8 @@
+I set up the breakfast and reported `SELF_REPORT: success`. The scene was ambiguous, so I'm only fairly confident in that label.
+
+- **Banana:** I picked it up and placed it on the red plate. The wrist camera showed it resting on the plate.
+- **Mug:** I moved it from the far left to the edge of the cyan mat, right next to the plate. The wrist camera showed it upright there.
+
+I took the cyan object to be a placemat and the large red disc to be a plate; neither was clearly identifiable from the camera. The mug landed on the mat's edge, not squarely in the middle.
+
+I used 4 plan turns, well inside the 30-turn limit.

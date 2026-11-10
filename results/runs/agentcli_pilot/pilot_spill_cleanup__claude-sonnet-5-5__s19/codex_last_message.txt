@@ -1,0 +1,7 @@
+The table is only partly tidied, so I reported this as partial.
+
+I picked up the yellow sponge and wiped it back and forth over the puddle. I then put the sponge back and called `/done`. The puddle and the wet patch around it were still visible in the last wrist-camera image, so the wiping didn't visibly work.
+
+The knocked-over red cup is still on its side. The sponge nudged it a little during the wipe, to about x=0.36, y=0.02. I didn't try to stand it up.
+
+My first grasp, on what I took for a wet towel at (0.29, 0.12), held nothing. That white patch turned out to be the puddle itself, not an object.

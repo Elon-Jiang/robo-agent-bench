@@ -1,0 +1,11 @@
+The episode is over and I labelled it **partial**, not success. The table is not tidy yet.
+
+**What I did (5 bridge turns, 0 failed commands):**
+1. Looked at the table from above and found a light-blue water spill around x 0.28–0.32, y 0.08–0.14, a knocked-over red mug, an upright red mug further right, and some loose objects (a yellow block, a white cylinder, a white handle).
+2. Tried to grasp the knocked-over mug at (0.28, 0.02) and place it upright on clear wood at (0.30, -0.09). The grasp did not hold (`holding: false`, gripper fully open). The mug ended up lying on its side at about (0.34, -0.10), with its handle pointing toward -Y. I think the grasp pushed or dropped it, but I did not confirm the exact cause.
+3. Re-surveyed and took a close-up. The spill is still there and I left it alone. A gripper cannot wipe water up, and I saw no cloth or sponge on the table.
+4. Stopped rather than attempt a risky re-orientation of the lying mug, since I could not stand it up reliably with this API.
+
+**Left undone:** the spill remains, the mug is still on its side, and the loose white and yellow objects were not moved.
+
+**Self-report sent:** `SELF_REPORT: partial`, with a `# Thought:` line describing the above.

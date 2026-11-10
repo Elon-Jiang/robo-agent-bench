@@ -1,0 +1,11 @@
+I ended the episode at turn 17 with a self-report of **failure**. The table is not tidied: the water spill is still visible and clutter remains.
+
+What I did:
+- **Surveyed the table** with several `look_at` views and identified the brown spill, the yellow sponge, the fallen red mug, and white napkin-like items.
+- **Wiped the spill with the sponge** in several passes at table height (pinch z≈0.008–0.02), including one pressed lower. The spill shrank only slightly and was never fully cleared.
+- **Stood the red mug upright.** I grasped it across its body (verified grasp), moved it clear, and set it down. In the final view it sits upright near the workspace edge.
+- **Returned the sponge** to its starting spot and sent the arm home.
+
+What remains: the brown spill patch at the bottom-centre of the table, the white napkin-like pieces, the white cup and the white ring-shaped object, the standing red cup at the far side, and the black object at the top right. I did not move any of these.
+
+I'm not sure why wiping had so little effect. Either the sponge wasn't making effective contact, or this spill can't be cleared by wiping in this simulator. Telling those apart would need a different approach, such as the napkins or a different sweep method, or access to the simulator's cleanup criterion, which I was not allowed to read.

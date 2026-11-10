@@ -1,0 +1,18 @@
+I moved five stationery items into the orange organizer at the top-left of the desk, but I'm labelling the episode **partial**. The white eraser is not clearly visible in the final overview, so I couldn't confirm it's there.
+
+**What I did (12 turns, bridge on port 8098):**
+- **Dark pen** → organizer. Confirmed in the image.
+- **Striped pen** → organizer. Confirmed.
+- **Yellow ruler/highlighter** → organizer, lying diagonally across it. Confirmed.
+- **Yellow block (sticky-note style)** → organizer top corner. The first grasp was aborted (`grasp_failed`) and knocked the block over. I re-observed it and it went in on the retry.
+- **Blue-grey box** → organizer. The first grasp closed on nothing (`grasp_failed`). The retry at a lower height (z=0.008) worked.
+
+**Left on the desk, on purpose:**
+- The red cup and the coffee mug, which aren't stationery.
+- A white standing box with a dark panel. I couldn't tell whether it's stationery, so I left it.
+
+**Open issue:** The white eraser near (0.20, 0.14) disappeared from view after my first attempt to grasp the red cup. I think it was pushed or hidden under the arm's shadow, and I never confirmed it's in the organizer.
+
+**Judgement calls:** I took "stationery" to mean pens, a ruler, sticky pads, an eraser and a stapler-like box, and I used the orange organizer as the put-away location. If you meant a different item set or storage place, let me know.
+
+The `/done` call went through with `SELF_REPORT: partial`.

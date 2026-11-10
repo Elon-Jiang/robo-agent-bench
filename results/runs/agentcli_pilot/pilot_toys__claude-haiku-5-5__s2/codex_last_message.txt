@@ -1,0 +1,13 @@
+The episode is over and I labelled it **partial**. The blocks are not fully put away.
+
+**What happened**
+- **Red, green, yellow and cyan blocks:** each was picked and dropped into the yellow/orange tray. The red one needed a second try after my first drop landed just outside the tray.
+- **Tray:** it moved during the yellow-block transfer, from the right side of the view to right in front of the robot base. It was then knocked out of view, probably off the table edge near the base. I could not see it in any later camera view, so I did not confirm where it went. The four blocks should be in it, but I could not verify that.
+- **Pink block:** still loose on the table at about (0.16, 0.06). Three grasp-and-drop attempts near the tray edge failed: one grasp closed on nothing, and the drops landed on the table beside the tray.
+
+**Choices I made**
+- Used port 8096 throughout and did not touch the simulator or benchmark files.
+- Checked the wrist camera after each turn, and used `look_at` to verify placements when the view was unclear.
+- Ended with `SELF_REPORT: partial`, since the tray is out of view and one block remains on the table.
+
+**Next steps if you want to continue:** find the tray (likely near or below the base edge) and recover it, then retry the pink block with a grasp closer to its visible position.

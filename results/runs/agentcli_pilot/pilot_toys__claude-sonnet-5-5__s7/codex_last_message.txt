@@ -1,0 +1,7 @@
+I put four of the five blocks into the yellow box, but I couldn't confirm the green one, so I reported the task as partial.
+
+- **Box displaced:** my first chained pick-and-place knocked the box out of position and tilted it. The red block was dropped outside it, and the green block disappeared from view at that point.
+- **Blocks in the box:** I re-located the box and placed red, yellow, cyan and pink into it. In the last overview I can clearly see pink, cyan and yellow. Red is probably hidden under pink, and I didn't confirm it.
+- **Green block:** it isn't visible anywhere on the table. It is probably inside or under the box, but I didn't verify that.
+
+I called `/done` with `SELF_REPORT: partial`.

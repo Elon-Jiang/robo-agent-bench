@@ -1,0 +1,11 @@
+I think the task succeeded: all five colored blocks are in the yellow tray and the table is clear. I ended the episode with `SELF_REPORT: success` after 14 plan turns, well within the budget of 30.
+
+The task was "put the blocks away," so I took it to mean moving the red, green, pink, yellow and blue blocks into the tray.
+
+- **Red** went in cleanly on the first try.
+- **Green** and **blue** each landed outside the tray at first. I regrasped each one and placed it inside.
+- **Pink** landed in the tray on the first try.
+- **Olive-yellow** went to the tray floor, but it was hard to confirm at first because it blends with the tray's yellow. A close-up look showed it inside, partly behind the blue block.
+- **Blue** is the one I'm least sure about. It sits near the tray's lower corner rim and may be overhanging slightly.
+
+Two things went wrong along the way. My first blue regrasp shifted the tray, and I didn't notice until the next image. I re-measured with a top-down look before continuing. I also never did a dedicated check of the tray after the tray moved, so the blue block's exact seating is a visual judgment, not a measured one.

@@ -1,0 +1,12 @@
+The episode is closed with a **partial** self-report. I cleared two items off the spill, but the water itself is still on the table.
+
+**What I did (11 bridge turns, within the limits):**
+1. Looked at the spill area from above.
+2. Moved the white ring-shaped item off the spill to the dry right-hand side. The first grasp closed on nothing, so I lowered it to z=0.010 and grasped it on the second try.
+3. Moved the red mug off the spill to about (0.30, -0.12).
+4. Tried three times to grasp the light-blue towel so I could wipe the spill. Each attempt closed the jaws on nothing, and I didn't find a grasp that worked. I stopped there rather than keep trying.
+5. Returned home and checked the final wrist-camera view.
+
+**Final state, from the wrist-camera image:** the tan wet area (roughly x 0.16–0.28, y −0.04…0.04) is still there. The two items are off it, and the towel is still on the table, unused. I didn't use the yellow block or the white box, since they weren't on the spill.
+
+**Assumptions:** I read the tan area as the water spill and the light-blue patch as a towel. I also read "tidy up" as clearing the items off the spill, not as wiping it. The towel grasp failures suggest it is too thin for the jaws at the minimum workspace height (z=0.010), but I didn't confirm that.

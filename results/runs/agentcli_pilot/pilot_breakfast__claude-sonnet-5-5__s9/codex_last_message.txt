@@ -1,0 +1,7 @@
+I set up the breakfast by moving the mug, the red plate and the banana onto the cyan placemat. The final wrist-camera image shows all three on it, so I reported success. I didn't check that the items are well arranged, only that they're on the mat. The plate is the weak spot: it hangs slightly over the mat's edge.
+
+- **Mug:** picked up from the left side and placed on the mat. This worked first time.
+- **Plate:** the first grasp failed (the status said `grasp_failed`), but the plate still ended up on the mat. I didn't establish how it got there. I didn't call it a clean grasp because I never saw it held.
+- **Banana:** my first attempt knocked it to near the robot base. I regrasped it from there and placed it on the mat.
+
+I used 8 plan turns, then called `/done` with `SELF_REPORT: success`.

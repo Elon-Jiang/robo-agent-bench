@@ -1,0 +1,6 @@
+I put the five colored blocks into the yellow bin and ended the episode with `SELF_REPORT: success`.
+
+- **Blocks moved:** green, red, yellow, cyan and pink are all inside the bin in the final close-up. No colored blocks remain on the table.
+- **Not moved:** the dark red round object on the left. It doesn't look like a block, so I left it alone.
+- **Trouble along the way:** several grasps aborted with `grasp_failed`. The cyan and pink blocks were knocked out of the bin or onto the rim and needed re-grasps, sometimes from a tilted approach. The final placement was checked visually, not by the bridge's status.
+- **Turns used:** about 21 of the 30 plan turns. I didn't track wall-clock time against the 1500 s limit.

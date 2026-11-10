@@ -1,0 +1,5 @@
+I put the stationery into the orange tray, and the final wrist-camera image shows five items in it. I rate the task a success and sent `SELF_REPORT: success`.
+
+- **In the tray:** the marker, a red eraser-like item, the yellow highlighter, the glue stick and the yellow sticky notes. The red item landed in the tray along with the marker, so I didn't pick it up separately.
+- **Left on the desk:** the screwdriver, the blue notebook, the mug and the paper, which I judged not to be stationery.
+- **Misses:** a few grasps failed or only nudged items, so the glue and the sticky notes took a couple of retries. I used 9 of the 30 plan turns.

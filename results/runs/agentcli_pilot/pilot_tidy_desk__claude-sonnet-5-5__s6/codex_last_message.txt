@@ -1,0 +1,8 @@
+I only partly finished: the marker and eraser are in the tray, but the sticky notes are still on the desk. I used about 17 of the 30 turns and called `/done` with `SELF_REPORT: partial`.
+
+- **Marker and eraser:** I placed the marker in the tray (the black-walled orange tray at the back-left of the desk). The eraser needed a retry after the first grasp nudged it, and it ended up in the tray too.
+- **Pencil:** I placed it in the tray; my last view showed it at the tray's front edge, and it was no longer visible by the end.
+- **Marker wedged in the jaws:** The marker later got wedged in the gripper and dragged the tray toward the desk centre. A close/open gripper cycle freed it. In the final view the marker and eraser sit at the tray's near edge, partly poking out.
+- **Sticky notes and red item:** The sticky notes are still on the desk, because the grasp on a flat pad didn't work. The small red item is also still outside the tray. I wasn't sure it counted as stationery, so I never tried to move it.
+
+I didn't move the screwdriver, which I took to be a tool rather than stationery.

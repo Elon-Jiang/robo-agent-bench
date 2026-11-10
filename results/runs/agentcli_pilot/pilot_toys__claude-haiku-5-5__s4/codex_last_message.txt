@@ -1,0 +1,13 @@
+I partially completed the task: three of the five blocks are in the yellow bin, and the other two are still on the table, just outside the arm's reach. I submitted the episode with `SELF_REPORT: partial`.
+
+**What happened**
+- **In the bin (verified in the wrist camera):** green, pink and red.
+- **Still on the table:** yellow and blue, both at about x≈0.14–0.15, just past the workspace's near edge at x=0.16. Straight-down grasps and a tilted approach both stalled at x≈0.16, z≈0.07 and reported `grasp_failed`.
+- **Side effects:** the bin was dragged toward the robot base during failed attempts, and my first red-block chain reported `grasp_failed` even though the block ended up in the bin. The blue block was also moved out of the bin during a re-check and didn't get placed back.
+
+**Choices I made**
+- Read "put the blocks away" as putting them into the yellow bin.
+- Used straight-down grasps with `verify_grasp=True`, with yaw matched to each block's rotation where needed, and chained place-and-home calls.
+- Placed into the bin's open interior, dropping from height when the bin was crowded.
+
+**Result:** partial. Three of five blocks are put away; the yellow and blue blocks would need a grasp location inside the workspace box, or the bin moved within reach, to finish.

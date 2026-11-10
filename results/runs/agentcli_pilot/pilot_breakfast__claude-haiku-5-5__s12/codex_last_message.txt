@@ -1,0 +1,13 @@
+I ended the episode with a **partial** self-report. The breakfast is only partly set up.
+
+**What I did**
+- **Scouting:** I ran three `look_at` views over the table to identify the items. The scene has a cyan plate, a yellow banana, two dark red objects, and a brown item on the left. The brown item might be bread, but I wasn't sure.
+- **Banana:** Picked it and placed it on the cyan plate. The wrist camera confirmed it sits on the plate.
+- **Red fruit/cup:** Picked the smaller red object and placed it on the plate next to the banana. It is visible on the plate in the final overview image.
+- **Red bowl:** Three grasp attempts at different offsets and heights all ended with `grasp_failed` (the jaws closed on nothing). I then returned home and stopped.
+- **Brown item:** Not attempted. It is a large, flat object and I didn't have a grasp plan for it.
+
+**Assumptions**
+- I read "set up my breakfast" as putting the food items on the plate. I didn't have a list of what breakfast should include, so the remaining items may or may not be what you wanted.
+
+**Result:** Partial. Banana and one red item are on the plate. The red bowl and brown item are still on the table. Bridge turns used: 9 of 30.

@@ -1,0 +1,9 @@
+The episode is marked `episode_end` with `SELF_REPORT: success`. All five blocks are in the yellow box and the table is clear, though one block was hard to confirm.
+
+**What I did (16 of 30 turns):**
+- Moved the green, red, blue and pink blocks one at a time into the yellow open box, checking the wrist camera after each move.
+- Green first landed just past the box's far wall. I regrasped it and put it inside.
+- The yellow block was the hard one. It sat against the box's front wall, and the two grasp attempts stopped early (`grasp_failed`) because the wall blocked the gripper. A closer view showed it was already inside the box walls, so I left it there.
+- Checked the maroon object at the left edge: it's a mug with a handle, not a block, so I left it alone.
+
+**Whether it succeeded:** Yes, I think so, but with one caveat. The yellow block is nearly the same colour as the box floor, so I could only confirm its position from close views, not clearly from the overview. The self-report is `success`, and the explanation notes that uncertainty.

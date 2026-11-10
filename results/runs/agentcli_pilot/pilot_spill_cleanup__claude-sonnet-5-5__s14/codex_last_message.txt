@@ -1,0 +1,5 @@
+I wiped up the water spill but did not stand the knocked-over red cup back up, so I reported the task as partial.
+
+I picked up the yellow sponge, wiped the puddle in two passes, and set the sponge back near where it started. The last wrist-camera image shows no puddle left. The red cup is still lying on its side, now at about (0.35, 0.0), a little way from where it was. The sponge may have nudged it.
+
+I used 5 of the 30 plan turns. I sent `/done` with `SELF_REPORT: partial`.

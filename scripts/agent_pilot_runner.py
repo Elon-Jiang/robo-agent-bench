@@ -17,6 +17,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 sys.path.insert(0, str(ROOT))
 from rab.versions import SUITE_VERSION, scene_version
+sys.path.insert(0, str(ROOT / "scripts"))
+import agent_clis
 
 
 def request(port, body=None):
@@ -135,23 +137,13 @@ def main():
         else:
             raise RuntimeError("bridge startup timed out")
         agent_start = time.monotonic()
-        with (out / "codex_session.log").open("w") as log:
+        argv, cwd, env = agent_clis.build(a.model, out, (out / "prompt.txt").read_text())
+        meta["agent_cli"] = agent_clis.cli_for(a.model)
+        with (out / agent_clis.LOG).open("w") as log:
             agent = subprocess.Popen(
-                [
-                    "codex",
-                    "exec",
-                    "-m",
-                    a.model,
-                    "--approve-for-me",
-                    "--skip-git-repo-check",
-                    "-c",
-                    "sandbox_workspace_write.network_access=true",
-                    "-C",
-                    str(out),
-                    "-o",
-                    str(out / "codex_last_message.txt"),
-                    (out / "prompt.txt").read_text(),
-                ],
+                argv,
+                cwd=cwd,
+                env=env,
                 stdin=subprocess.DEVNULL,
                 stdout=log,
                 stderr=log,
@@ -198,12 +190,12 @@ def main():
             if (out / "codex_session.log").exists()
             else ""
         )
-        matches = re.findall(r"tokens used\s*\n([\d,]+)", text)
+        tokens, _ = agent_clis.finish(a.model, out, text)
         ep = episodes[-1] if episodes else {}
         meta.update(
             codex_rc=rc,
             wall_s=time.monotonic() - start,
-            tokens=int(matches[-1].replace(",", "")) if matches else None,
+            tokens=tokens,
             agent_called_done=ep.get("end_reason") == "agent_done",
             turns_used=ep.get("turns_used"),
             end_reason=ep.get("end_reason"),

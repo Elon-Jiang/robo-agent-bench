@@ -1,0 +1,11 @@
+I cleared the blocks into the yellow bin and ended the episode with `SELF_REPORT: success`. That label rests on the wrist-camera images, which are not a precise check.
+
+What I did, using 8 plan turns on port 8098:
+- **Red, yellow, cyan and magenta** were each picked with `verify_grasp=True` and dropped into the bin. The last wrist-camera view shows them inside the bin outline.
+- **Green** first landed just outside the bin's right wall. My regrasp bumped the bin, which then tilted and shifted. Green was regrasped with jaws closing along X and dropped into the bin.
+- After that, I saw no blocks left on the table.
+
+Caveats:
+- The bin was shoved several times and ended up rotated. The red and green blocks sit near its upper rim, so they may not be fully settled inside.
+- The dark red round object on the left of the table is not a block, so I left it alone.
+- I did not verify that every block is fully inside the bin, only that none are visibly on the table.

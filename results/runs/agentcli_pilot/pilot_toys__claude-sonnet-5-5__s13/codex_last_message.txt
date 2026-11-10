@@ -1,0 +1,9 @@
+I put all five blocks (green, red, blue, yellow, pink) into the yellow toy box, and I think it succeeded. The final top-down wrist-camera view shows all five inside it, and I reported `SELF_REPORT: success`.
+
+Two things didn't go cleanly:
+- **Blue block:** it first landed on the box's far wall, so I moved it to the middle of the box.
+- **Pink block:** while I was fixing blue, the box was bumped and rotated slightly, and pink ended up outside it. I picked pink up and put it back in.
+
+The yellow block is hard to see against the yellow floor of the box, so I'm less certain about it than the other four. It's the only block I could never see clearly once it was in the box.
+
+I used 7 of the 30 plan turns.

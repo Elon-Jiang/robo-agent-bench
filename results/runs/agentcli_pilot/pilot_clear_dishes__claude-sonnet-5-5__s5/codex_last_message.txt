@@ -1,0 +1,8 @@
+The table is only partly cleared, so I reported this as partial.
+
+I read "clear the table" as putting the dishes into the drying rack and leaving the banana and the blue item where they were.
+
+- **In the rack:** two large red bowls, which I could see in the wrist camera view.
+- **Not in the rack:** the small red bowl and the black plate. My last attempt to move the plate went wrong. It left the plate at the far left edge and put a bowl on the table beside the rack, at about (0.33, +0.25). That is just outside the workspace limit of y = 0.22, so I didn't try to retrieve it.
+
+I used about 15 of the 30 plan turns.

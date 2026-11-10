@@ -1,0 +1,19 @@
+I put away the stationery and ended the episode with a self-report of `success`.
+
+I moved six items from the desk into the orange tray at the top left of the wrist camera view:
+- Yellow highlighter
+- Red-and-white marker
+- Black pen
+- Yellow sticky-note pad
+- Small white-and-blue item
+- Flat blue item
+
+Each pick was checked against the wrist camera image before the next one. All six are visibly inside the tray in the final image.
+
+Two things were left on the desk:
+- **White object at the top right:** it could be a notepad, but it looked more like a tissue box, so I didn't move it. If it is stationery, the episode is incomplete.
+- **Mug at the top middle:** not stationery, so I left it alone.
+
+I also did not use `verify_grasp` on the flat sticky pad or blue item, since flat objects read like empty jaws. Visual checks confirmed both ended up in the tray.
+
+The bridge was on port 8098 throughout. I used 8 of the 30 plan turns.

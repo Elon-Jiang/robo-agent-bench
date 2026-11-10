@@ -1,0 +1,14 @@
+The episode is over and I labelled it **failure**: the table is not cleared.
+
+**What I did**
+- Took overview and close-up `look_at` views to find the dishes and the blue box.
+- Moved two red dishes off the table area: one onto the blue box at the bottom-right, and one from the left side to the same area.
+- Moved one glass (it now sits in the bottom-right, mixed with the red pile).
+- Tried the banana three times and the bottom-right red dish pile several times. Each of these grasps closed on nothing, so they didn't move.
+- Submitted `/done` with `SELF_REPORT: failure`, as the wrist camera still shows the red dish pile, the banana, glassware and the black bowl/cup on the table.
+
+**Caveats**
+- I was never sure what the blue box is (a bin, a rack, or something else), so I used it as the drop target without confirming. I also couldn't verify that the dishes that landed on it are inside it.
+- Several of my grasp reports came back as `done` even when the gripper closed empty, so the status field alone was not a reliable signal. I relied on the wrist camera and `holding` instead.
+- Dishes resting on the blue box and the tall objects distort the grid reading, which likely explains the repeated misses in the bottom-right corner.
+- I used 16 of 30 plan turns and a bit under 25 minutes of the 1500-second budget.

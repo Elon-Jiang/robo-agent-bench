@@ -1,0 +1,6 @@
+I put all five blocks (pink, yellow, blue, green, red) into the yellow tray, and I rate it a success. The last camera view shows pink, red, blue and green inside it. I can't see the yellow block on its own because it blends into the tray, but nothing is left on the table.
+
+- **Tray got moved:** On the first try the tray shifted from its original spot and the green block missed it. Later I re-measured where the tray was and carried on from there.
+- **Blocks stuck to the gripper:** After the second batch, blue and green seemed to be stuck at the fingertips. Closing and reopening the gripper over the table freed them, and they ended up in the tray.
+
+I used 6 of the 30 allowed plan turns, then called `/done` with `SELF_REPORT: success`.

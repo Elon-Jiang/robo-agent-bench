@@ -1,0 +1,11 @@
+The task is only partly done, so I reported `SELF_REPORT: partial`.
+
+I treated the wooden tray on the desk as the place to put stationery away.
+
+- **In the tray:** the marker and the red eraser.
+- **Not in the tray:** I made three grasp attempts on the highlighter and each failed. It was diagonal and at the edge of the reachable area, and each attempt pushed it further away. It is now outside the tray.
+- **Dropped outside the tray:** I tried to move the small blue and white eraser, but it ended up near the robot base, not in the tray.
+- **Untouched:** the sticky notes, the blue notebook and the screwdriver.
+- **Tray moved:** the tray was knocked and rotated several times during the grasps. I didn't verify the final tray contents beyond the last camera view, which showed the marker and red eraser still on it.
+
+I used 13 of the 30 plan turns before stopping.

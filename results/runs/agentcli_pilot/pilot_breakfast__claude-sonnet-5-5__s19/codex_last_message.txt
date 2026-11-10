@@ -1,0 +1,5 @@
+I set up the breakfast by putting the banana on the plate and moving the mug onto the cyan placemat. The last wrist-camera image shows the banana on the plate and the mug on the placemat, so I reported success.
+
+I took "set up my breakfast" to mean exactly that arrangement. The plate stayed where it was, off the placemat, and I didn't try to move it.
+
+It took 3 plan turns, and I called `/done` with `SELF_REPORT: success`.

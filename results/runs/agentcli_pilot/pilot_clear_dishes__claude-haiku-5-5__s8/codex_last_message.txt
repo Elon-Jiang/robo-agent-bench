@@ -1,0 +1,14 @@
+I ended the episode with a **partial** self-report. The table is not clear.
+
+**What I did (about 24 plan turns):**
+- **Plate 1:** Grasped the red plate near (0.215, 0.16) and placed it on the drying rack. I confirmed it on the rack in the wrist camera.
+- **Plate 2 (from ~0.42, -0.04):** The grasp reported success and the plate left the table. I could not confirm on the rack whether it landed there or stacked on plate 1.
+- **Red cup/bowl:** Repeated grasp attempts failed. Verified grasps aborted, and unverified closes often read fully closed (empty). One close did catch it briefly, but it was lost during the move and dropped near the rack.
+- **Remaining:** A red bowl is still on the table near (0.20, 0.02). A black pan, a tall black item, a yellow object and a blue sponge also appear to be on the table. I did not attempt them.
+
+**Problems:**
+- My first estimates of object positions from the overview were off by several centimetres. I corrected them from the close-up views.
+- `robot.deproject` in the plan produced no response, so I fell back to estimated coordinates.
+- The `grasp` primitive aborts on this bowl. Manual hover-lower-close also closed empty at every estimate I tried.
+
+**Next steps:** Look at the bowl from a closer, higher-resolution view, or try a side (horizontal) approach to its wall. Then handle the other items, which I haven't verified as dishes.

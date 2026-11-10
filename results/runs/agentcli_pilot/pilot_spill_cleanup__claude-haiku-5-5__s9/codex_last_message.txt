@@ -1,0 +1,14 @@
+I ended the episode with a **partial** self-report. The table is not fully tidied.
+
+**What I did (9 turns):**
+- Read the prompt file and checked the observation. The task was "I knocked over my water. Please tidy up the table."
+- Took top-down and close-up views. I read the red cup lying beside the blue water puddle as the knocked-over container.
+- Grasped the red cup and placed it upright on dry table at about (0.25, -0.06). The later overview shows it standing upright, clear of the spill.
+- Tried to use the yellow block as a sponge to wipe the puddle. The first grasp missed, and the block was pushed onto the puddle edge. A second grasp also missed.
+- Most of the blue puddle is gone, but a thin water streak remains near (0.28, +0.08 to +0.16). A wide brown wet-looking stain is still on the table, and I could not wipe it.
+
+**Why partial:** The wipe failed twice, and I could not confidently identify the sponge (the large orange object with a yellow edge at the lower right is ambiguous). I stopped rather than keep pushing objects around blind.
+
+**Judgment calls:** I treated the red cup as the knocked-over item and the blue area as the spill. If the intended "water" was something else, the placement and wipe targets would differ.
+
+I did not edit any files or read the simulator source.

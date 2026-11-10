@@ -1,0 +1,11 @@
+The episode is over and I labelled it **failure**. The spill was never cleaned up, so the core of "tidy up the table" is not done.
+
+**What I read the task as:** the brown wet-looking patch in the middle of the table is the spill, and the rest is clutter to clear off it.
+
+**What I did (11 bridge turns, out of the 30 allowed):**
+- **Red cup:** it was lying on its side in the spill. I grasped it, moved it, and set it down on clean wood at about (0.24, -0.16). It is still lying on its side, not upright.
+- **Pale blue cloth:** I tried to use it as a towel for the spill. Four grasps at different positions and orientations all closed on nothing.
+- **White key:** I grasped it successfully and lifted it. The transport then aborted with `grasp_failed` and the key dropped onto clean wood near (0.17, -0.05), outside the puddle.
+- **Final state:** the arm is home. The brown spill is still on the table, and the cup and key are on clean wood.
+
+**Self-report:** `SELF_REPORT: failure`. I did not finish the cleanup, and I did not fully read the scene. I first took the brown patch to be the spill and the blue patch to be a towel, but the blue patch could also be the water itself. I did not confirm that. If the blue patch is the water, my approach was wrong.

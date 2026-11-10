@@ -1,0 +1,10 @@
+The table is not cleared, so I reported this as **partial**.
+
+- **Done:** the small red cup is off the table. It seems to have ended up near the black tub at the top right, but I never confirmed it landed inside.
+- **Not done:**
+  - Both large red bowls are still on the table. My grasps missed and pushed them around, and one tipped over. They now sit near the robot base, close to the edge of its reach.
+  - The banana is still on the table after two grasp attempts.
+  - The blue item, which I took to be a phone and not a dish, is still on the table.
+- **Likely cause:** the bowls are wide, and the grid positions I read off the camera image seem to be slightly off. That would explain the repeated misses.
+
+I used about 16 of the 30 turns before calling `/done`.

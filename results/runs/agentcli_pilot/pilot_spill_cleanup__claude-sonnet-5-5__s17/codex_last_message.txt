@@ -1,0 +1,7 @@
+I think the table is only partly tidied. I wiped up most of the spilled water, but not all of it, and I didn't right the tipped cup.
+
+- **What I did:** I picked up the yellow sponge and wiped back and forth over the blue puddle. I then set the sponge down on the right side of the table and took an overview image.
+- **What's left:** The final image still shows a small puddle near the spot I wiped (about x=0.26, y=+0.10). The brown stain is also still there. I don't know whether that stain is a mark that wiping can remove.
+- **The cup:** The red cup that looked knocked over is still lying where it was. I didn't try to stand it up.
+
+I used 5 of the 30 plan turns. I called `/done` with `SELF_REPORT: partial`.

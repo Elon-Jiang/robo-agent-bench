@@ -1,0 +1,15 @@
+I moved most of the stationery on the desk into the black-framed tray at the upper left and ended the episode with a **partial** self-report.
+
+**What I did (11 plan turns, bridge on port 8097):**
+- **Yellow pencil:** The first grasp closed on nothing. I took a top-down look, regrasped at about (0.24, -0.095), and placed it in the tray.
+- **Pink-and-blue eraser:** The first attempt missed. The retry at about (0.175, 0.055) worked.
+- **Red sharpener:** I picked it up and placed it in the tray. It was not clearly visible in the final close-up.
+- **Glue tube (red and white), yellow sticky-note pad, blue case, long thin tool:** Each was grasped and dropped into the tray.
+- **Final check:** A close-up of the tray shows the pencil, eraser, glue tube, sticky pad, blue case and tool. The desk has no stationery left that I could identify. The remaining items are a mug and a white box, which I judged not to be stationery.
+
+**Judgment calls:**
+- I treated the pink-and-blue block as an eraser and the red object as a sharpener. Both readings come from the image only.
+- I counted the blue case and the long thin tool as stationery. The tool could also be a screwdriver or cutter.
+- I labelled the run partial because the red sharpener is unconfirmed and I could not verify the final placement of every item.
+
+I did not edit any files or read simulator source. The grid labels in the wrist camera image shifted with camera pose, so my coordinate estimates were approximate, and that caused the two initial grasp misses.

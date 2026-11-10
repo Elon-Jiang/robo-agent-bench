@@ -1,0 +1,23 @@
+Partial success: I moved four dishes off the table, but the banana and the blue tray are still on it, so the table is not fully cleared. I ended the episode with `SELF_REPORT: partial`.
+
+**What I did:**
+- **Moved (verified visually):**
+  - Two red plates, grasped at the rim with full opening.
+  - The black bowl, grasped at its wall.
+  - The dark cylinder, grasped with verify on.
+  
+  Each was set down in open space at the left and upper-left of the table. None went into a bin, since I didn't find one.
+- **Not cleared:**
+  - The banana. I tried five grasps at different positions and yaw angles, and every one closed the jaws to zero.
+  - The blue tray at about (0.22, -0.17). One grasp attempt, which also closed empty.
+  - The tan wooden block in the centre, which I didn't identify as a dish and didn't try.
+- **Left alone:** the glass rack items.
+
+**Choices I made:**
+- "Dishes" meant plates, bowls and cups. The banana I counted as food to clear.
+- The destination was never specified, so I used empty spots near the left edge.
+
+**Caveats:**
+- The bridge reports `holding` and the gripper value after each lift, and I checked the wrist camera each turn. The first red plate ended up tilted near the second, and the bowl was set down roughly.
+- I used about 19 of the 30 plan turns. I didn't measure elapsed time against the 1500-second limit.
+- The blue tray may be a bin, which would be where the dishes belong. I didn't confirm that.

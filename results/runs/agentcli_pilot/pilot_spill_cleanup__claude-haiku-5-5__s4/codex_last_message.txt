@@ -1,0 +1,14 @@
+I ended the episode with a self-report of **partial**. I cleared some clutter off the spill, but I did not clean up the water.
+
+**What I did (8 turns, 7 plan calls plus `/done`):**
+- Looked at the table from above, then zoomed in on the brown and light-blue spill areas.
+- Moved the red cup from the brown spill trail to clear wood at about (0.28, -0.18).
+- Moved the white box from the brown spill to clear wood at about (0.40, 0.06).
+- The first attempt to move the flat white key failed (`grasp_failed`). The retry with a lower grasp worked, and the key is now at about (0.30, -0.07), off the spill.
+- After each move I checked the wrist-camera image. The brown trail and light-blue puddle have no objects on them now.
+
+**What's left:**
+- The spill itself is still there. The gripper can't wipe it, so I didn't attempt that.
+- I never found a knocked-over water bottle. Everything I could identify was upright or flat: red cups, a yellow box, a white box, a key and a dark bowl. The "knocked over" item may be one I didn't identify, so the table may not be fully tidied.
+
+Whether this counts as success depends on what "tidy up" means for this task. My judgment is that it's only partly done.

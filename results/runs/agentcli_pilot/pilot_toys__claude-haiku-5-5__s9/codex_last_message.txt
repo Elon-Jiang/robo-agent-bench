@@ -1,0 +1,16 @@
+I ended the episode with a **partial** self-report. The blocks are not all put away, and I can't confirm where the ones I did move ended up.
+
+**What I did**
+- Read the prompt file and used port 8097 throughout. I didn't edit files or read simulator source.
+- Moved the red block into the yellow tray, and the green block into the tray at a spot beside it. Both looked correct in a top-down view at the time.
+- Grasping the yellow block failed the first time (`grasp_failed`). Two retries reported `done`, but the block was still on the table and had been nudged. I then saw the yellow block in the tray in one top-down view, but a later close look showed the tray empty.
+- Attempted the cyan block. The move reported `done`, but the cyan block still appears at its original spot.
+- Several wide and top-down views showed the tray and blocks in different places from frame to frame. The home-pose calibration view was the most consistent reference, and I used it for the final check.
+
+**Where things stand (from the last views)**
+- Still on the table: cyan, pink, purple, and a small yellow block near the robot's middle-right.
+- Red, green and yellow: I can't locate them with confidence. They may have been knocked out of the tray. The close look shows the tray empty.
+
+**Why it's partial:** Not all blocks were put away, and I couldn't verify the final scene. I also got my own coordinate reading wrong early on (the top-down grid labels didn't match the calibration card), which made the later placements less reliable.
+
+**Next steps if you want to continue:** Check the scene directly or reset the episode. The bridge's reported `done` status after several chains also didn't reliably mean the pick succeeded, so I'd verify each pick visually rather than trusting that status.

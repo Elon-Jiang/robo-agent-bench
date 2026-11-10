@@ -1,0 +1,11 @@
+I only partly cleared the table, so I reported `SELF_REPORT: partial`. I moved the dishes toward the dish rack at the top-left, but several ended up beside it rather than in it.
+
+- **Moved:**
+  - The small red bowl, which landed at the rack's edge and not on it.
+  - The large red plate, which is now on the rack.
+  - The red cup, which ended up tipped over next to the rack.
+  - The black bowl, which is on the table near the rack.
+- **Left alone:** the banana and the blue item, because I took them to be food and a non-dish object.
+- **Failed grasps:** a few grasps failed first on the plate and the black bowl. I retried, and they worked.
+
+I used 11 of the 30 plan turns.

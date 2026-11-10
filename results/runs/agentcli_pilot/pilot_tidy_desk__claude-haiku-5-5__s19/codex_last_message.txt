@@ -1,0 +1,14 @@
+I put the desk's stationery into the orange pencil tray and ended the episode with `SELF_REPORT: success`.
+
+**What I moved (six items):** yellow pen, red-and-white marker, white/blue eraser, blue sharpener, black marker, and yellow block. I checked the final overview image, and the desk outside the tray is clear.
+
+**What I left alone:** the mug and the white laptop. I judged neither to be stationery; I looked at the laptop up close to confirm it.
+
+**Difficulties:**
+- The pen grasp missed twice, and the first failed attempts pushed the pen and the eraser. I recovered by returning to the home overview and re-measuring from the grid before each retry.
+- The close-up wrist view is rotated relative to the overview, so I relied on the overview for positions.
+- One deprojection request I sent did nothing; I didn't retry it.
+
+**Assumptions:** the orange open-topped tray at upper left was the intended "put away" location, and the yellow block was stationery (likely sticky notes or a highlighter). Both are my reading of the scene, not something the task stated.
+
+**Turns used:** 14 of 30 plan turns, well under the time limit.

@@ -1,0 +1,7 @@
+Partial success: four of the five blocks are in the yellow toy box, and the blue one is lost.
+
+- **In the box:** the green, red, pink and yellow blocks. I checked this in the wrist camera, including an overview after the last move.
+- **Blue block:** I couldn't find it after my second placement attempt. It most likely fell off the table edge. I dropped it too close to the box's right wall, where the box is narrower than I'd estimated, and that is how it ended up outside the box. I couldn't see it anywhere on the table in the later views, including a close look at the right side of the box.
+- **Side effects:** the box got nudged and rotated a bit during the run, and a couple of grasps failed and needed retries. The red cup on the left was never touched.
+
+I ended the run with `SELF_REPORT: partial`.

@@ -1,0 +1,13 @@
+I ended the episode with a **partial** self-report. Most of the stationery is in the organizer tray, but one yellow item is still out on the desk.
+
+**What I did (26 bridge calls on port 8096):**
+- **Moved into the wooden organizer tray (top-left of the wrist view):** the white-and-red dry-erase marker (with its red cap), the black pen, the blue notebook, the light-blue eraser, and the yellow sticky-note pad. I checked each one visually after release.
+- **Not moved:** the laptop at the back-right, and the mug. I treated them as non-stationery.
+- **Still outstanding:** the yellow ruler. It got knocked toward the far workspace edge (about x≈0.50, y≈0.17–0.19) during an early missed grasp. I tried twice there and both grasps failed. Its visible end is now against the tray's near edge, and the yellow block at the tray's outer corner may be the ruler or the sticky pad. I couldn't confirm which from the images.
+
+**Things to know:**
+- Several first grasps missed (ruler, pen, eraser). I recovered by re-observing and retrying with yaw matched to each object's tilt. Failed grasps were logged as `grasp_failed` and the arm reopened each time.
+- The bridge `/done` status came back as `episode_end` with turn 25 of 30.
+- The `AGENT_PROMPT.md` examples use port 8081; I used 8096 as you asked.
+
+**Verdict:** partial. The task is not fully complete because the ruler is still on the desk, and I couldn't confirm whether the yellow block at the tray's corner is the ruler or the sticky pad.

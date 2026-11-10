@@ -1,0 +1,12 @@
+I ended the episode as **partial**. The breakfast setup is only partly done, and "breakfast" was open to interpretation.
+
+**What I did (18 bridge turns, port 8097):**
+- Surveyed the table from above and identified: a cyan plate (translucent), a yellow banana, a red mug (handle toward +X), and a large red dish or bowl (about 9–10 cm wide), plus a second red object.
+- **Banana → plate:** succeeded on the first try. The wrist cam shows it resting on the plate.
+- **Red mug → plate:** succeeded, but it took about five placements. Early drops landed a few cm off the plate's edge. The last attempt, placed by image pixel, left it upright on the plate beside the banana.
+- **Large red dish:** not moved. Three grasp attempts (two world-coordinate, one pixel-based) closed on nothing, so the 9.5 cm jaws don't seem to fit it. I didn't find a working approach.
+
+**Assumptions I made:**
+- "Breakfast" = the banana and mug on the plate. I didn't know whether the red dish should hold something, be moved, or stay put.
+
+**Caveat:** the success label rests on the wrist-cam images, not on anything measured. The mug's final position looked on-plate but close to the edge.

@@ -1,0 +1,18 @@
+The table is only partly cleared, so I labelled the run `partial` and ended the episode after 15 turns (limit was 30).
+
+**What got done (verified in the wrist camera):**
+- The small red cup and the small red bowl were moved onto the wire dish rack.
+- The blue item was moved from the middle of the table to a clearer spot near (0.24, -0.14), though it is still on the table.
+
+**What's still on the table:**
+- The large red plate near (0.30, -0.10). It was knocked onto its side early on, and every grasp attempt failed (`grasp_failed` or a fully closed gripper). It looks wider than the 9.5 cm jaw opening, so I stopped trying.
+- Two black dishes (near (0.36, 0.04) and (0.44, -0.16)).
+- The yellow utensil near (0.28, -0.16).
+
+**Choices I made that you may want to change:**
+- The task doesn't say where dishes go. I used the wire rack as the dish spot and clear wood for overflow.
+- I treated all red and black round items as dishes and did not inspect the black items closely.
+
+**Self-report:** `SELF_REPORT: partial` was sent with `/done`. The episode status came back as `episode_end`.
+
+I didn't edit any files or read simulator source; everything was done through the bridge API and visual checks of `wrist_cam.png`.

@@ -1,0 +1,19 @@
+The episode is closed with a **partial** self-report. The table is not clear.
+
+**What I did**
+- Surveyed the table with `look_at` from above and from the left and right sides.
+- Read the scene as dishes: three red bowls or cups, plus black items. The banana and the blue box were less clear, and I treated the gray wire rack as the drying rack.
+- Moved about three red items onto or near the wire drying rack. Grasps worked only with rotated jaws (`yaw_deg=90`, z≈0.012); the top-down grasps mostly came back `grasp_failed`.
+- Tried the banana and the tall black item. Both grasps failed or dropped, and I did not clear either.
+
+**Where it stands (final overview image)**
+- Red items: most are on or near the wire rack. One red bowl is still on the table at the far-left edge, and one sits at the rack's edge.
+- Still on the table: the banana, the tall black item, and the large black bowl in the top-right corner.
+- The blue box is still there. I never settled whether it was a bin, so I did not use it.
+
+**Caveats**
+- I guessed what counts as a dish and where things go. The rack was my choice, and the blue box was never used.
+- Several placements were imprecise. Some bowls may only be resting on the rack's edge.
+- I used 25 of 30 turns. Most of the time went to failed grasps on the banana and black items.
+
+Final call: `SELF_REPORT: partial`. Some dishes were moved, but the table is not cleared.

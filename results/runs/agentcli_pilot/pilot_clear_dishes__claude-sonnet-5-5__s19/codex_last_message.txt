@@ -1,0 +1,7 @@
+The table is only partly cleared. I've called `/done` with `SELF_REPORT: partial`.
+
+- **Done:** I moved the two small red bowls onto the dish rack. One of them looks tilted and may not be sitting properly.
+- **Not done:** The large red plate is still on the table, near x≈0.22, y≈-0.11. It's about as wide as the jaws open, so none of my grasp attempts worked, and each attempt nudged it around. I stopped after four failed tries.
+- **Left alone:** I didn't touch the banana or the blue phone-like object. I treated them as not dishes to put away.
+
+I used about 14 of the 30 plan turns.

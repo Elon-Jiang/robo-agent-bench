@@ -1,0 +1,15 @@
+I ended the episode with a **partial** self-report. Most of the stationery is put away, but one large white item on the right edge of the desk is still out.
+
+**What I did (19 bridge turns, all on port 8096):**
+- **Cup (pen holder, about x 0.36–0.40, y −0.04 to −0.08):** the red-white marker, the black/blue marker and the white pen went in. The red-white marker and the dark marker are visible inside the cup. The white pen's final location is less certain; I believe it went in, but I did not confirm it visually.
+- **Orange organizer (about x 0.36–0.48, y 0.04–0.20):** the yellow ruler, the yellow sticky pad, the small blue-white block, the blue case and the red item are in it. The ruler, pad and block are clearly visible there. The red item is at its upper edge.
+- **Not done:** the large white notebook/card at about x 0.40–0.44, y −0.12 to −0.20. Two grasp attempts closed empty, so I left it on the desk.
+
+**Things that went wrong:**
+- The first ruler grasp missed and nudged the ruler. A second attempt on the ruler worked.
+- The blue-white block grasp at y 0.17 missed because I misread its position. I then re-observed it and it went in on the second try.
+- One chain reported `status: done` even though the grasp had closed on nothing. I checked the wrist camera and had to recover from that.
+
+**Interpretation choices:** I treated the cup as a pen holder and the orange open box as the organizer for flat items. I also counted the blue case, the red item and the block as stationery.
+
+**Self-report:** `SELF_REPORT: partial`. Judged from the wrist-camera views, the markers and flat items are put away, but the white notebook/card is still on the desk.

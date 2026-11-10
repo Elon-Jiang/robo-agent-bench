@@ -1,0 +1,11 @@
+I ended the episode with a self-report of **partial**. I moved two items onto the plate, but I can't confirm the breakfast is fully set.
+
+**What I did:**
+- Scouted the table with several `look_at` views and checked the wrist camera each time.
+- Grasped the yellow banana at about (0.24, -0.10), set it on the cyan plate at about (0.27, 0.00), and returned home. The turn reported no grasp failure, and the camera shows the banana on the plate.
+- Grasped the small dark-red round object at about (0.245, 0.14), placed it beside the banana on the plate, and returned home. The camera shows it on the plate.
+
+**Why partial:**
+- "Breakfast" was ambiguous, so I took it to mean putting the food items on the plate.
+- A larger red object and a brown object near the plate were visible, but I couldn't tell whether they are breakfast items, so I left them alone.
+- The camera views were close-range and partly occluded, so I checked placement visually rather than against measured positions.

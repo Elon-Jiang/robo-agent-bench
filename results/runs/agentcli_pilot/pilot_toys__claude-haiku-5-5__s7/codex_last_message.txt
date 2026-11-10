@@ -1,0 +1,15 @@
+The task is partly done. I put five colored blocks in the tray and left two black cylinders on the table. I ended the episode with `SELF_REPORT: partial`.
+
+**What's in the tray:** green, cyan (light blue), red, yellow, and magenta blocks. I confirmed each one visually from the wrist camera.
+
+**What's left:**
+- Two black cylinders sit just past the tray's far wall. I tried to pick the nearer one three times with the jaws closing along X, and every attempt reported `grasp_failed`. I stopped at turn 27 of 30 rather than keep guessing.
+- I treated the cylinders as uncertain "blocks" and didn't force it. If they count, the task is incomplete.
+- The dark red goblet on the left is not a block, so I left it alone.
+
+**Problems along the way:**
+- My first green-block grasp was at 0° yaw, but the block was rotated about 36°. The jaws jammed and dragged the tray out of place. After that I matched the yaw to each block.
+- The tray moved several times while I worked, so my tray coordinates were estimates. Most drops landed inside, but I never confirmed the tray's exact final position.
+- The red block once straddled the tray wall. I re-grasped it at yaw 90 to clear the wall, and it ended up inside.
+
+I did not edit any files or read simulator source.

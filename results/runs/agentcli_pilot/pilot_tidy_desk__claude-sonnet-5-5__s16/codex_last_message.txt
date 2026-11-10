@@ -1,0 +1,7 @@
+The task is only partly done. I moved most of the stationery onto the wooden tray, but the eraser is still on the desk.
+
+- **On the tray:** the pencil, the sticky notes, the red item and the marker. The marker sits partly over the tray's edge.
+- **Still on the desk:** the eraser. It lies at the near edge of the arm's workspace, and my grasp attempts either failed or didn't move it.
+- **Left alone:** the phone, screwdriver, mug and laptop, since I didn't count them as stationery. I assumed the wooden tray was the desk organizer.
+
+I used 11 of the 30 plan turns. I called `/done` with `SELF_REPORT: partial`.

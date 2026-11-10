@@ -1,0 +1,6 @@
+I'd call this partial. Three of the five blocks are visibly in the yellow tray, and I couldn't confirm the other two.
+
+- **In the tray:** green, cyan and red are visible there in the final top-down view.
+- **Not confirmed:** the pink and yellow blocks. The tray ended up shifted, and my first grasp attempts probably nudged it. The pink block wasn't grasped (that grasp reported `grasp_failed`), and neither it nor the yellow block is visible now. They may be inside or under the tray, but I couldn't tell.
+
+I used 8 plan turns and filed `SELF_REPORT: partial` with `/done`.

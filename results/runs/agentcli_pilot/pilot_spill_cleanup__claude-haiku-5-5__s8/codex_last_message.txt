@@ -1,0 +1,12 @@
+I ended the episode with a **partial** self-report. The table is not fully tidied.
+
+**What I did (3 plan turns, 4 bridge calls including `/done`):**
+1. Read `AGENT_PROMPT.md` and checked the observation. The arm is a YAM, and the task was "I knocked over my water. Please tidy up the table."
+2. Ran two `look_at` surveys to identify the objects. The water is a brown trail running across the wood, with a light-blue puddle at roughly x≈0.28, y≈+0.08 to +0.16.
+3. Picked up the red block that sat in the water trail at about (0.28, 0.03) and placed it on dry wood at (0.32, -0.12). The wrist camera confirmed it was moved to a dry area and no longer sits in the spill.
+
+**What's left:**
+- The water puddle and trail are still on the table. A gripper can't wipe, so I could not clean them up.
+- I didn't move the other objects (white cubes, the white handled item near (0.20, 0.00), the yellow block, the red die). I didn't identify them with certainty, so I left them alone.
+
+**Judgment calls:** I read "tidy up" as clearing objects out of the spill zone. I did not treat the spill itself as something the arm could fix. If you wanted a different outcome, such as standing the knocked-over item upright or moving everything to one spot, tell me and I can keep going with the remaining turn budget.

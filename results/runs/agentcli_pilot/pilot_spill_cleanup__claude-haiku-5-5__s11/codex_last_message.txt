@@ -1,0 +1,16 @@
+The episode is over and I labelled it **failure**: the water puddle is still on the table.
+
+**What I did (22 bridge calls, 21 plan turns; the 30-turn budget was not reached):**
+- Surveyed the table from above and close up. The spill is a light-blue water puddle with a brown wet trail running down the centre. Clutter nearby: a yellow box, a white ring-handled item, a white carton, and red cups/mugs.
+- Moved the red cup off the spill to the right side. It was placed as intended.
+- Picked up the flat white paper and tried to wipe the puddle with it, dragging it at table height. The puddle looked unchanged after each pass. The paper then slipped out of the jaws and landed on the puddle.
+- Several grasps on the flat paper closed on nothing (`grasp_failed` on two attempts). Its position drifted each time the jaws touched it.
+- Released the paper and returned home. I stopped there rather than keep trying a wipe I could not confirm was working.
+
+**Current state:** the puddle is still visible at roughly x 0.24–0.32, y 0.04–0.14. The paper sits near its edge. The yellow box, white ring, white carton and red mug are still on the table. Only the red cup was moved to a clear spot.
+
+**Interpretation I took:** "tidy up" meant clearing the spill and the loose items. I assumed the flat white paper was a towel-like wiping item, which the sim did not confirm.
+
+I did not verify the paper's identity or the puddle's cleanup mechanic, so a different approach (for example, a different grasp for the paper or a sweep primitive) might work. I did not try it.
+
+I submitted `SELF_REPORT: failure` with the explanation above.

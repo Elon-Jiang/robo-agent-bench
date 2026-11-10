@@ -1,0 +1,13 @@
+The episode ended with a `partial` self-report. Most of the blocks are in the yellow toy box, but I couldn't finish the job.
+
+**What I did**
+- Picked and placed the red, green, cyan, small yellow, and pink blocks into the yellow box, plus a dark block and the green block after a few misses. All grasps used `verify_grasp=True`.
+- Two grasps went wrong. One pink drop landed outside the box and I retrieved it. A grasp near the box wall bumped the box, which ended up tilted.
+- The final top-down view shows the box holding purple, pink, red, green, light blue, and navy blocks.
+
+**What's unresolved**
+- Two dark cylinders sit against the box's left wall. I couldn't confirm whether they're blocks. They didn't look like the cubes, and they stayed in place when the box moved, so they may be fixed fixtures.
+- The small yellow block is not clearly visible against the yellow box floor, so I couldn't confirm it's inside.
+- The wrist-camera grid readings shifted with each home pose, which caused several missed grasps. I corrected by hovering and checking the close-up before grasping.
+
+I used 26 of the 30 plan turns. I didn't track wall-clock time against the 1500-second limit.

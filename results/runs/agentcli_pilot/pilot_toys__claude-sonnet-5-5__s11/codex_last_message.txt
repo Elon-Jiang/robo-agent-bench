@@ -1,0 +1,7 @@
+I cleared all five blocks off the table and put them in the yellow toy box, but I could only confirm three of them inside it. I reported the result as `partial`.
+
+- **Confirmed in the box:** green, blue and yellow, seen in the wrist camera view.
+- **Not clearly seen:** pink and red. Some orange patches inside the box may be them, but I couldn't tell.
+- **What went wrong:** my first drops of red, pink and yellow landed on or over the box's right rim. I picked those three back up and re-placed them further inside. During that, the box got nudged and partly moved out of the camera view.
+
+No blocks are left on the table. The mug in the scene is untouched.

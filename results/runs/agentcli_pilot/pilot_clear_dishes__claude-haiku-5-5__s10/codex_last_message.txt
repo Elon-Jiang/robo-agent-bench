@@ -1,0 +1,18 @@
+I ended the episode with a **partial** self-report. The table is mostly cleared, but I could not confirm the final layout.
+
+**What I did (11 plan turns, bridge on port 8096):**
+- Moved about four dishes off the table. The red round dishes went into the blue box, and so did the large black dish. I also grabbed a tall black object and moved it as well.
+- Placed and released each item from a hover height above the blue box. Every grasp reported `holding: true`, and the releases returned `status: done` with no `grasp_failed`.
+- I checked the wrist camera after each turn.
+
+**What remains:**
+- A gray cylindrical item on the table, near the center-right at roughly x≈20 cm, y≈−4 to −8 cm.
+- A banana at roughly x≈28 cm, y≈−12 to −20 cm.
+- A wire rack/basket. I think it came from the top-left of the table during one of my moves, but I am not sure.
+
+**Uncertainties:**
+- I could not tell which objects count as dishes. I treated the red and black round items as dishes and left the banana and the gray item alone.
+- The blue box and the wire rack are hard to tell apart in the close-up view, so I can't say for sure where all the items ended up.
+- My last grasp of the black object seems to have moved the wire rack too. I didn't verify that.
+
+Whether the task succeeded depends on whether the gray item and banana count as things to clear. I'd say it's probably not finished.

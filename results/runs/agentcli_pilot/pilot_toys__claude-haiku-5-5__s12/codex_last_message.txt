@@ -1,0 +1,11 @@
+I put all five blocks in the yellow bin and submitted the episode with `SELF_REPORT: success`.
+
+**What I did (14 plan turns):**
+- Picked and placed the red, green, blue, yellow and magenta blocks into the bin, one at a time, checking the wrist camera after each move.
+- Three drops landed just outside the bin wall (blue, magenta, and once more) and needed re-grasping.
+- The magenta block took several failed grasps (`grasp_failed`) before a grasp with the jaws closing along X worked. The earlier failures were likely a mix of my misreading the block position and the black cylinder beside the bin.
+- A final close-up over the bin shows all five blocks inside. The yellow block was hard to confirm against the yellow bin, so I checked it with that close-up rather than from the home view.
+
+**Left alone:** a dark-red round object at the left edge of the table. It doesn't look like a block, so I didn't move it. If it counts as one of the kid's toys to put away, the task isn't complete.
+
+**Caveat:** the bin shifted position several times during the episode, so my coordinates were approximate and the success call rests on the final visual check.

@@ -1,0 +1,19 @@
+I did not clear the table. The episode ended with a failure self-report, and nothing was moved off the table.
+
+**What I did**
+- Read the agent prompt and checked the observation. The task was "We're done eating, please clear the table." The wrist camera showed several items: a banana, a blue object near the front, a black pan or mug, a wire basket, red round objects, and a tan box. I could not confirm which of these count as dishes, so I focused on the banana, the most obvious food item.
+- Made about 19 plan turns. Every grasp attempt on the banana either closed on nothing or returned `grasp_failed`.
+
+**Why it failed**
+- The banana kept getting knocked out of place by the jaws on each attempt, so the grasp landed beside it.
+- The blue object sat right next to the banana, and the descent often stalled near z≈0.08 close to it.
+- Descent was only reliable at certain poses (pitch 60–75 around x≈0.25–0.265). Poses further toward +X (x≈0.28+) stalled.
+- I got the jaw yaw wrong several times. The banana's orientation changed each time it was disturbed, so my yaw choice was often off.
+
+**Result**
+- Final visual check: the banana is still on the table, and no item was placed in a clear spot.
+- Submitted `SELF_REPORT: failure` via `/done`.
+
+**What would help next**
+- Confirm which objects are dishes and where they should go (for example, a bin or a specific spot). The tan box or the blue object may be the target.
+- Clear the blue object first, or pick a different object that is not next to it, since it blocks low descent.

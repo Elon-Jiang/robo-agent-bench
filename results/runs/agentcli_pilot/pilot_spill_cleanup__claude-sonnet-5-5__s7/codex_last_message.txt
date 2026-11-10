@@ -1,0 +1,7 @@
+I think the table is mostly tidy, so I reported it as partial rather than success.
+
+- **Cup:** I moved the knocked-over red cup out of the spill area. It is still lying on its side, not upright.
+- **Puddle:** I wiped the water with the yellow sponge in two passes. The puddle is nearly gone, but a small streak remains near (0.26, 0.09).
+- **Sponge:** I left it on the table at about (0.34, 0.10) instead of returning it to its original spot.
+
+I used about 6 plan turns out of 30 and called /done with `SELF_REPORT: partial`.

@@ -1,0 +1,7 @@
+The breakfast is mostly set up, so I reported it as partial.
+
+- **Done:** the red plate is on the cyan placemat and the banana is on the plate. The mug is beside the mat, clear of the plate.
+- **Not ideal:** the plate sits a little off-centre on the mat. The mug ended up lying on its side instead of upright, because I put it down while it overlapped the plate. I didn't try to stand it up.
+- **Wasted turns:** my first grasp estimates were off by 2–3 cm. That pushed the plate around and dropped the banana once, which cost several turns. Close top-down looks fixed the positions.
+
+I used about 18 of the 30 plan turns.

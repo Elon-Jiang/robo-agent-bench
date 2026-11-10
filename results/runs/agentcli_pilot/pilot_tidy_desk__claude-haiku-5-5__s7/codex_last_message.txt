@@ -1,0 +1,16 @@
+I moved the stationery into the organizer tray and ended the episode with a self-report of `partial`.
+
+**What's in the tray now (verified in the wrist camera):**
+- Yellow pencil
+- Red-and-white marker
+- Black pen
+- Blue-and-white item (small, likely a glue stick or eraser)
+- Yellow flat pad
+
+**Problems:**
+- **Red block moved:** a red block that wasn't stationery was on the desk at the start, and it is now in the tray. I don't know which of my moves dragged it there, and I didn't move it back.
+- **Items left alone:** a white box at the top-right and a blue book at the bottom-right stayed on the desk. I judged them not to be stationery, but I didn't verify that closely.
+- **Failed grasps:** several grasps missed, and the pencil was knocked once. The arm recovered each time, and I retried after re-observing from above.
+- **Turn budget:** 17 of 30 plan turns used, well under the time limit.
+
+The bridge's `holding` flag was unreliable during the early attempts, so I confirmed each pick visually before placing it.

@@ -1,0 +1,12 @@
+I ended the episode with a **partial** self-report. The table is not clear.
+
+**What I did (5 plan turns, all on port 8097):**
+1. Surveyed the table with a high `look_at`.
+2. Moved a small red item into the blue bin near (0.22, -0.18). The wrist camera confirmed it.
+3. Tried to grasp a large red plate at (0.20, -0.04). The grasp closed on nothing and returned `grasp_failed`, which is a flat-object problem.
+4. Regrasped the plate lower (z=0.012, yaw 0) and moved it to open space near (0.26, -0.12). The camera confirmed the move.
+5. Moved a second red plate from (0.20, 0.16) to open space near (0.34, 0.00). The camera confirmed it.
+
+**What's left on the table:** a black plate near the top-right, a yellow utensil, a black cylinder, and a grey rack on the left. The last red plate is still near (0.26, -0.12), and the earlier red item sits in the blue bin, so the table is only partly cleared.
+
+**Why partial:** The task doesn't say where dishes should go. I used the blue object as a bin, but it was unclear whether it is a real container and whether it can hold more than one item. I stopped rather than guess a destination for the remaining items. If you tell me where the dishes should go, I can finish the job.

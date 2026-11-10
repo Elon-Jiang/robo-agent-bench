@@ -1,0 +1,7 @@
+The table is only partly cleared. I moved one red bowl into the dish rack and verified it in the wrist camera. The large red plate is still on the table.
+
+I tried about 10 grasps on the plate: rim and centre grasps, different yaws, and top-down and default pitch. The jaws either closed on nothing or nudged the plate around. At one point the plate was tilted on its edge, and it ended up lying flat near (0.23, 0.10).
+
+I did not move the small red cup in the rack area. I also left the black tray, the banana and the phone where they were, because I judged they weren't dishes.
+
+I called `/done` with `SELF_REPORT: partial`. I used about 21 of the 30 plan turns.

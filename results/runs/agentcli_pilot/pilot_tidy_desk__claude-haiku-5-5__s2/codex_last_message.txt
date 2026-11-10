@@ -1,0 +1,12 @@
+The episode is closed with a self-report of **partial**.
+
+**What I did (19 turns, all through the bridge on port 8097):**
+- Picked up and placed into the organizer tray: the yellow highlighter, the striped pen, the dark pen, the red round item, and the white-cyan item.
+- Picked up the yellow block and tried to set it in the tray's top compartment.
+- Left the blue box and white paper on the desk, which I judged not to be stationery.
+
+**Problems along the way:**
+- I misread the Y sign on the first attempt at the red item and missed it (`grasp_failed`). I corrected it on the next try.
+- Partway through, the tray's layout looked different from the earlier overviews, and I couldn't fully work out why. I only confirmed the tray contents with a top-down look at the end.
+
+**Why partial:** In the final top-down view, the yellow block rests on the tray's rim rather than clearly inside it, and I didn't nudge it in. The other stationery items are visibly in the tray. I also didn't verify the blue box, which sits in the tray, as stationery or not.

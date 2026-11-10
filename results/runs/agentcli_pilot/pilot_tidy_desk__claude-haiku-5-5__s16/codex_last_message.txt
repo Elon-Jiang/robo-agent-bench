@@ -1,0 +1,20 @@
+I ended the episode with a **partial** self-report. Most of the stationery is in the orange tray, but the EXPO marker is still on the desk.
+
+**What's in the tray (confirmed in the wrist-cam images):**
+- Yellow pencil
+- Black pen
+- White/blue eraser
+- Yellow sticky-note pad
+- Blue box (I treated this as a stapler, but I wasn't certain what it is)
+
+**What's left:**
+- **EXPO marker (red and white):** knocked to the left edge of the view at roughly y ≈ +0.26 m, beyond the workspace limit of y = 0.22. Grasps at the edge and past it had no effect, so I couldn't reach it.
+- **White sheet of paper (top right):** I left it alone. It's ambiguous whether paper counts as stationery.
+- **Mug and red ball:** not stationery, so I left them.
+
+**Other things to know:**
+- Several grasps reported `grasp_failed`, and some chains reported `done` even when nothing was picked. I checked the wrist camera after each move and relied on the images rather than the status fields.
+- Some placements landed on the tray's edge or outside it before I corrected them. The tray also seemed to shift a little as I worked, so my position estimates were rough.
+- The mug appears to have been knocked over during the work.
+
+I used 23 of the 30 plan turns. The episode ended with status `episode_end`.

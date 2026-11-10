@@ -1,0 +1,5 @@
+I picked up the banana and placed it on the red plate, then called `/done` with `SELF_REPORT: partial`.
+
+The final wrist camera image shows the banana mostly on the plate, near its left edge. I left the mug and the cyan mat where they were. I read "set up my breakfast" as getting the banana onto the plate, so a fuller setup (for example moving the mug beside the plate) wasn't attempted.
+
+I used 2 plan turns out of the 30 allowed.

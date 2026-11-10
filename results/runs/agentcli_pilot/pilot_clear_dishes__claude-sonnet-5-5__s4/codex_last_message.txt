@@ -1,0 +1,10 @@
+The task is only partly done: the table is not cleared. I reported it as `SELF_REPORT: partial`.
+
+I read "clear the table" as moving the dirty dishes into the dish rack.
+
+- **Left bowl:** I moved it into the rack, and the last wrist-camera image still shows it there.
+- **Big center bowl:** The grasp failed three times with `verify_grasp` on. Without it, one attempt just shifted the bowl a few centimetres, and a second attempt left it where it was.
+- **Small bowl:** I picked it up, but it dropped on the table next to the rack instead of landing in it. My re-grab and gentle place attempt didn't get it in either. It still lies on its side on the table near (0.25, 0.13).
+- **Not touched:** The black plate at the top right, the banana and the phone. I left the banana and phone alone because they aren't dishes, and I never got to the plate.
+
+I used 10 of the 30 plan turns.

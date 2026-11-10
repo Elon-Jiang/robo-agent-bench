@@ -1,0 +1,7 @@
+The table is only partly cleared, so I reported `SELF_REPORT: partial`.
+
+- **Moved:** I picked up the small red bowl at the left, about (0.225, 0.14), and set it down next to the dish rack at about (0.30, 0.17). I checked the camera afterwards and it is there.
+- **Not moved:** The large red bowl, the small red cup and the big black plate are still where they were. The bowl is wider than the gripper's maximum opening of about 9.5 cm. Four rim-grasp attempts (far rim, left rim, with and without grasp verification) closed on nothing, and the bowl only got nudged. I stopped there and didn't try the cup or the plate.
+- **Left alone:** I treated the banana and the blue phone as not being dishes, so I didn't touch them.
+
+I used 11 of the 30 plan turns.

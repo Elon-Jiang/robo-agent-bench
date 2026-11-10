@@ -1,0 +1,12 @@
+I ended the episode with a self-report of **partial**. The cup is fixed, but the spill is still on the table.
+
+**What I did (10 plan turns, all via port 8097):**
+1. Looked at the table from above, then close up on the spill.
+2. Grasped the red cup that had fallen on its side and lifted it. Setting it down on clean wood at (0.26, -0.08) left it on its side again, so I re-grasped it and moved it to (0.40, -0.02).
+3. Checked the wrist camera afterward. The cup at (0.40, -0.02) now appears upright from above, with its opening visible.
+
+**What remains:**
+- The light-blue water puddle (around x 0.28–0.32, y 0.08–0.12) and the brown wet stain running across the middle of the table are still there. The robot has no wiping tool, so I could not clean them.
+- Other loose items are still on the table: a white key-like piece near (0.20, 0.00), a yellow block near (0.20, -0.12), and white cubes near the edges. I did not move them because I wasn't sure they were part of "tidying up."
+
+I judged the cup upright from the top-down view only, not from a side view, so that call rests on one image.

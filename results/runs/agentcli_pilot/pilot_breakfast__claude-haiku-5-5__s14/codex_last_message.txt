@@ -1,0 +1,11 @@
+I ended the episode with `SELF_REPORT: partial`. The breakfast is only partly set up, and the task wording was ambiguous.
+
+**What I did (8 turns, 7 plan turns plus the done call):**
+- Surveyed the table from several high look-at poses. I found a cyan flat plate in the centre, a yellow banana, and two dark-red spheres.
+- Picked the banana and placed it on the plate. The wrist camera confirmed it was on the plate.
+- Picked the smaller red sphere and placed it on the plate beside the banana. The camera showed it on the plate, though it sits near the plate's edge.
+- Left the larger red sphere on the table because I couldn't tell whether it was food or a bowl.
+
+**My reading:** "set up my breakfast" meant putting the food items on the plate. I treated the banana and the red spheres as food, which is an inference from their shape and colour, not something I confirmed.
+
+**Why partial:** the larger red object is still off the plate, and I'm not sure it belongs there. The small red sphere also rests close to the plate edge.

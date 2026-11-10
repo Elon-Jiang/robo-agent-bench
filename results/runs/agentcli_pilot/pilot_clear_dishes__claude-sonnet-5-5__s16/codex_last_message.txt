@@ -1,0 +1,9 @@
+The table is only partly cleared, so I reported the task as partial.
+
+- **Moved:** one red bowl and one red cup went into the dish rack. I confirmed the bowl in the wrist camera. The cup had left the table, but I couldn't see it in the rack.
+- **Not moved:**
+  - **Second red plate:** it is too wide for the jaws to grip. My grasp attempts pushed it to the table edge next to the robot base, just outside the workspace. It is still on the table.
+  - **Large black dish:** the grasp failed.
+  - **Banana and blue item:** I left them alone. I wasn't sure they counted as dishes.
+
+I used about 14 of the 30 turns.

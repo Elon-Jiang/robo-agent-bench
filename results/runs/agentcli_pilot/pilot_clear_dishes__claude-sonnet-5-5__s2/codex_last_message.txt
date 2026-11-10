@@ -1,0 +1,7 @@
+I only partly cleared the table. I moved the mug and the smaller red bowl into the dish rack, and the rest is still out.
+
+- **Mug and small bowl:** I picked up each one and placed it in the wire rack. I saw both there in the wrist camera.
+- **Large red bowl:** it's still on the table. About eight grasp attempts failed. They included rim grips on both sides, grips at different heights, and a front-to-back grip. The jaws kept closing on nothing, or the gripper never closed.
+- **Not attempted:** the black plate, the blue item and the banana. I wasn't sure what the blue item is. I left the banana alone because it's food, not a dish.
+
+I closed out with `/done` labelled `SELF_REPORT: partial`.

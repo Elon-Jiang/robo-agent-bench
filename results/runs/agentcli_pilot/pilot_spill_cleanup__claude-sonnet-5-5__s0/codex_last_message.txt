@@ -1,0 +1,7 @@
+I wiped up most of the spill, but a faint residue is left, so I reported the task as partial.
+
+- **Spill:** I picked up the yellow sponge and wiped back and forth over the puddle near (0.29, 0.10). In the final wrist camera view the puddle is gone, apart from a small white patch near (0.28, 0.08).
+- **Sponge:** I put it back near where I found it.
+- **Fallen cup:** I did not right the red cup that lies on its side near (0.36, 0.00).
+
+The episode is closed with `SELF_REPORT: partial`. I used 4 plan turns.

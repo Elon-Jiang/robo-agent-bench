@@ -1,0 +1,10 @@
+I ended the episode with a self-report of **partial**. The breakfast is only partly set up.
+
+**What I did**
+- Read the prompt file and surveyed the table from above and at home pose. I found a yellow banana, a cyan plate, and two dark red round items. I couldn't tell what the red items are, so I assumed they were breakfast food.
+- Moved the banana onto the cyan plate. The first two grasps failed and knocked the banana toward the table edge. A third grasp succeeded, and the banana now rests on the plate in the final overview image.
+- Tried three times to move one red item onto the plate. Each grasp missed, and the last one nudged the item. I stopped there and did not move the second red item.
+
+**Assessment**
+- Banana on plate: done and verified visually.
+- Red items: not moved. Partial at best. Whether the red items belong on the plate depends on what the user meant, which I could not confirm from the scene.

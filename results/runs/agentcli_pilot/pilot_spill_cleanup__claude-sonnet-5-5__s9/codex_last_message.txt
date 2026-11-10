@@ -1,0 +1,7 @@
+I wiped up the spilled water with the yellow sponge and put the sponge back on the table. The last wrist-camera view shows no puddle left, so I reported `SELF_REPORT: success`.
+
+My first wipe attempt used `sweep`, which pushed the sponge away instead of wiping. I then re-grasped the sponge and wiped with low `goto` passes, with two extra passes for the leftover strip and droplet.
+
+I left the red cup lying near (24, 0) cm, since the task only mentioned the water. If "tidy up" was meant to include setting the cup upright, that part isn't done.
+
+I used 6 of the 30 plan turns.

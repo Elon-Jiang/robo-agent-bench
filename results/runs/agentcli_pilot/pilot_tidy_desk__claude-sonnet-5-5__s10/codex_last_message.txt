@@ -1,0 +1,8 @@
+I moved the stationery from the desk onto the orange tray and ended the episode. I judge it a success from the final wrist-camera view.
+
+- **In the tray:** the yellow highlighter, the red-and-white marker tube, the red cap, the blue-and-white eraser and the blue-handled pen.
+- **Sticky notes:** the pad sits on the tray's left edge, partly overhanging it.
+- **Left alone:** the mug, the laptop, the paper and the blue phone, since I didn't count them as stationery.
+- **Retries:** the highlighter and the red cap each needed a second attempt after a failed grasp.
+
+I used 8 of the 30 plan turns and reported `SELF_REPORT: success`.

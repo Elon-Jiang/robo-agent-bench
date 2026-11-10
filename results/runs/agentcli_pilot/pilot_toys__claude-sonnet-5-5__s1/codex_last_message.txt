@@ -1,0 +1,6 @@
+I put the five blocks into the yellow tray and called `/done` with `SELF_REPORT: success`. That is based on my last overview image, and I'm only fairly sure about the yellow block.
+
+- **Blocks:** red, blue, green and pink are clearly visible in the tray.
+- **Yellow block:** it is no longer on the table. The last grasp reported `status: done` rather than `grasp_failed`, so it is probably in the tray. Yellow on the yellow tray floor is hard to see, so I couldn't confirm it.
+- **Tray drift:** the tray kept sliding toward the robot and sideways, probably from my arm bumping it. That is why several grasps failed or needed a retry, and the yellow cube ended up against the tray's handle and then near the edge of the reachable area.
+- **Budget:** I used about 22 of the 30 plan turns.

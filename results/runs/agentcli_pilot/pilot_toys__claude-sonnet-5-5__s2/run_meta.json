@@ -1,0 +1,19 @@
+{
+  "task": "pilot_toys",
+  "model": "claude-sonnet-5-5",
+  "seed": 2,
+  "suite_version": "0.2.1",
+  "scene_version": 1,
+  "turn_cap": 30,
+  "time_cap_s": 1500,
+  "port": 8096,
+  "completed": true,
+  "agent_cli": "claude",
+  "codex_rc": 0,
+  "wall_s": 339.9941592499963,
+  "tokens": 622945,
+  "agent_called_done": true,
+  "turns_used": 15,
+  "end_reason": "agent_done",
+  "error": null
+}

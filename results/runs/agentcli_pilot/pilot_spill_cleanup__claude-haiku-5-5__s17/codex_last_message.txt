@@ -1,0 +1,15 @@
+I wiped up the spilled water, but the table isn't fully tidy yet, so I ended the episode with `SELF_REPORT: partial`.
+
+**What I did (13 bridge turns):**
+1. Looked at the table from above and identified the spill: a light-blue water puddle near (0.28–0.32, +0.06 to +0.14).
+2. Moved the red cup that was lying on its side. I grasped it, carried it to (0.38, -0.14), and set it down away from the spill. It is still on its side.
+3. Picked up the yellow sponge. The first grasp missed (the jaws closed on nothing), so I reopened the jaws, re-observed, and grasped it at the corrected position.
+4. Wiped the puddle with the sponge. The first `sweep` released the sponge, so I re-grasped it and wiped with low `goto` strokes instead. Final overview shows no blue water left.
+5. Set the sponge back down at (0.18, -0.10) and returned home.
+
+**Why partial:**
+- The red cup is still lying on its side. A parallel gripper couldn't easily stand it upright, so I moved it clear instead.
+- A brown damp-looking stain remains across the centre of the table. I couldn't wipe it further and it may be a wet-wood tint rather than standing liquid.
+- The key and the white items were left where they were, since I wasn't sure they needed moving.
+
+I'm not certain the simulator's success criteria match my reading of "tidy up." If it means the cup must be upright and the stain gone, the episode isn't complete.

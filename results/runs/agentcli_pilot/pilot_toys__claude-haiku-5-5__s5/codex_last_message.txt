@@ -1,0 +1,16 @@
+I ended the episode with a **partial** self-report. Most blocks were moved toward the tray, but the job isn't cleanly finished.
+
+**What I did (8 turns, port 8098):**
+- Read the prompt file and used the bridge at 8098 throughout.
+- Moved the green block into the yellow tray. Verified in the wrist view.
+- Moved the red block into the tray. Verified.
+- Tried to move the blue block into the tray. It landed just outside the tray edge.
+- Re-grasp of the blue block failed (`grasp_failed`). That failed grasp appears to have knocked the tray over toward the table's right edge.
+- Recovered the blue block and moved it, then moved the pink and yellow blocks. The bridge reported `done` for those moves.
+- Took a higher `look_at` view. The tray lies on its side at the table edge. Blue, pink, green, and a small purple block are at or beyond its edge. Some items may be off the table, and I couldn't confirm that the red block is still in the tray.
+
+**Assessment:** Partial. The table surface looks mostly clear, but the blocks aren't reliably in the tray, and the tray is knocked over. I stopped rather than keep pushing a tipped tray around, since that risked more knocks.
+
+**Other notes:**
+- Coordinates were estimated from the 2 cm grid labels. My first estimate for the blue block was off, which caused the first failure.
+- The prompt's examples use port 8081; I used 8098 as instructed.

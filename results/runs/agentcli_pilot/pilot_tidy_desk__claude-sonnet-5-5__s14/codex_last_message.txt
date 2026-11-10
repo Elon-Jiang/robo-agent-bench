@@ -1,0 +1,7 @@
+I moved the stationery from the desk onto the orange tray and called `/done` with `SELF_REPORT: success`. I checked the final wrist-camera image, and the one imperfection is that the yellow pencil lies partly across the tray edge.
+
+- **On the tray:** the marker, eraser, sticky notes, black pen, a second pencil and the yellow pencil.
+- **Retries:** the eraser took a second attempt, and the yellow pencil took three more after the first grasps missed.
+- **Left alone:** the blue phone-like item, the mug and the paper. I judged them not to be stationery.
+
+I used 8 plan turns out of 30.

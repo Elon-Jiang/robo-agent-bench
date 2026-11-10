@@ -1,0 +1,1 @@
+I picked up the banana and put it on the plate, then called `/done` with `SELF_REPORT: partial`. The last wrist-camera image shows the banana on the plate. I judged "set up my breakfast" to mean plating the banana, and left the red bowl and the mug where they were. If you wanted the bowl and mug arranged too, that part isn't done.

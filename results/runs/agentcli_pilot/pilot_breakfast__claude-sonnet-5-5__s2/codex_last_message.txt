@@ -1,0 +1,5 @@
+I set up the breakfast: the banana is on the red plate and the cup is on the blue placemat. I checked this in the wrist camera image after each move and then called `/done` with `SELF_REPORT: success`.
+
+I took "set up my breakfast" to mean serving the food on the plate and putting the cup on the placemat. It took 3 plan turns. The first was a top-down look at the table. Then I moved the banana to the plate and the cup to the placemat.
+
+The grasps weren't verified separately. The cup's grasp height was a guess, and `holding` read false after each chain, as expected after the release. The final image shows both items where I wanted them.

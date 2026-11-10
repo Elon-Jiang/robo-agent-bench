@@ -1,0 +1,13 @@
+The blocks are in the tray and the table is clear, so I ended the episode with `SELF_REPORT: success`. I checked the final state visually in the wrist camera.
+
+**What I did:** I put the five colored blocks (green, red, pink, cyan, yellow) into the yellow-walled tray, one at a time. Each block was picked with `verify_grasp` and dropped into the tray, then the arm went home. I checked the wrist camera after each step.
+
+**Rough edges:**
+- The tray was shoved and rotated several times, most likely by the arm when it descended near it. My first few drops landed just outside the tray, and I re-grasped those blocks.
+- Several grasps returned `grasp_failed` (turns 10 and 17), and the gripper sometimes stayed partly closed after a release. A close-then-open gripper cycle cleared it each time.
+- The pink block was grasped but not released on one turn, so I had to open the jaws again over the tray.
+- I didn't count the turns exactly, but I used 23 of the 30 plan turns and was well inside the 1500 s limit.
+
+**Judgment calls:**
+- I treated the dark red round object on the left of the table as a non-block (a goblet or cup) and left it alone.
+- The final view shows all five blocks inside the tray, but the tray is rotated and I couldn't confirm the exact contact of each block from the top-down view alone.

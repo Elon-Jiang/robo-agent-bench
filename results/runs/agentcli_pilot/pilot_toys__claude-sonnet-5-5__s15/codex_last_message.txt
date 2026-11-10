@@ -1,0 +1,7 @@
+I put the five blocks (green, blue, red, yellow, pink) into the yellow toy box, but I could only confirm four of them. I reported the result as partial.
+
+- **Pink block:** It landed on the box's back wall on the first try. I regrasped it and dropped it inside. That dropped the box slightly and rotated it.
+- **Red block:** It was in the box earlier, but it isn't visible in the last close-up. It is probably under the pink block. I saw no red block on the table, but I didn't confirm where it is.
+- **Visible in the final view:** Green, pink, blue and yellow, all inside the box. Yellow is hard to tell apart from the box floor.
+
+I used 8 plan turns, well under the 30-turn limit.

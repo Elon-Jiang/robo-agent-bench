@@ -1,0 +1,13 @@
+The table is only partly cleared, so I ended the episode with `SELF_REPORT: partial`.
+
+**What I did (24 turns used of 30):**
+- **Moved to the wire dish rack:** the small red mug, and the dark blue dish after a first drop, which slipped during a long carry.
+- **Moved to clear table space:** a red dish, and the banana. I set the banana down on clear wood near the rack rather than in a bin, since no bin was visible.
+- **Failed attempts:** several grasps on the large red bowl (~10–12 cm) closed on nothing. The large bowls look wider than the 9.5 cm jaw opening, so I stopped trying them.
+- **Other failed attempts:** a grasp on the large black bowl and a second try on the blue dish both ended with the item lost during transit.
+
+**What remains on the table** (from the last overview image): a large black bowl, a large red bowl, a tall black item, and the banana. I have not verified which of these count as dishes.
+
+**Interpretation choices:** I treated the wire rack as the drop-off area for dishes, and the banana as something to clear, but placed it on the table rather than in a bin.
+
+**Likely cause of the failures:** the wrist-camera grid reads a few centimetres off from the actual pinch point, so I had to adjust targets by trial and error. I did not confirm this more rigorously.

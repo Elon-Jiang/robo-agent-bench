@@ -1,0 +1,3 @@
+I picked up the banana and put it on the red plate. I'd call this partial: the task was vague, and I only did the banana-on-plate part. I checked the wrist camera afterward. The banana is on the plate, with its far tip slightly over the rim.
+
+I left the small red bowl and the cyan mat where they were. I couldn't tell what the full breakfast setup should look like, so I didn't guess further. I used 2 plan turns and then called `/done` with `SELF_REPORT: partial`.

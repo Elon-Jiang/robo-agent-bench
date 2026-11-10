@@ -1,0 +1,20 @@
+Result: partial. The table is not clear, so I reported `SELF_REPORT: partial` through `/done`.
+
+**What I did (20 plan turns, bridge on port 8098):**
+- Read `AGENT_PROMPT.md`, then surveyed the table with top-down `look_at` views and checked the wrist camera after each move.
+- **Moved to the dish rack (wire rack, far side of the table):**
+  - Red mug: grasped and placed. It appears to sit on the rack wires.
+  - Blue flat tray: grasped at table height and placed on the rack. It appears to be standing on the rack.
+- **Red plate or bowl:** the first attempts missed or closed empty. A later low grasp on the lower wall also closed empty. I then pushed it sideways with `sweep` to about (25, +10) cm. It is still on the table, so it has not been cleared.
+- **Banana:** several grasp attempts at its visible position failed to pick it up. In the last overview I could not find it on the table, so I don't know where it is.
+
+**What remains:**
+- Two red bowls, about 9.8 cm across. They are wider than the 9.5 cm jaw opening, so I could not grip them.
+- A large black bowl or cup near the table edge, which I did not attempt.
+- The banana, whose location is unconfirmed.
+
+**Choices I made that you may want to change:**
+- I treated the rack as the destination for dishes.
+- I treated the banana as food to move aside, not as a dish for the rack. No trash location was visible.
+
+**Issues with my own process:** my first `/plan` chained `home()` after `look_at`, which replaced the survey image. Later, my "plate" and "bowl" identifications were ambiguous from the images, so I made more grasp attempts than I needed to.

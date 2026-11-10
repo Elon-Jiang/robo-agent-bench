@@ -1,0 +1,6 @@
+I think the task is only partly done, so I reported `SELF_REPORT: partial`.
+
+- **In the tray:** the pink, red and cyan blocks are visibly in the yellow tray.
+- **Yellow block:** it is probably in the tray too, but I couldn't tell it apart from the yellow tray floor.
+- **Green block:** I picked it up on the first turn and can't find it in any later view. I don't know where it ended up.
+- **Tray:** several of my grasps hit the tray's dark corner posts and dragged it across the table. That scattered some blocks and cost me turns. I used 17 of the 30 turns.

@@ -1,0 +1,15 @@
+I ended the episode with a self-reported **partial** result.
+
+**What I did (15 plan turns):**
+- Surveyed the table with `look_at` and identified the dishes: three red plates or cups and a black bowl. A yellow banana and a blue block were also on the table.
+- My first grasp missed (the jaws closed on nothing), so I reopened and re-surveyed from home.
+- Moved the three red dishes one at a time onto the wire dish rack at the top-left. One had fallen on its side near the rack and needed a second grasp.
+- Moved the black bowl from the right side and set it down beside the rack, around (0.38, 0.20). It is not inside the rack.
+
+**Where it stands:**
+- The center and left of the table are clear of dishes.
+- The red dishes are in or at the rack, as far as I could tell from the wrist camera. The last view was partly cut off at the top-left edge, so I could not fully confirm them.
+- The black bowl is next to the rack, not in it.
+- I left the yellow banana and the blue block on the table. I read the task as "clear the dishes" and treated the banana as food and the block as unclear. If the banana should also be cleared, that is one more move.
+
+I did not read any simulator or benchmark source code, and I did not edit any files.

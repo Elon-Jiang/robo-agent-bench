@@ -1,0 +1,14 @@
+The table is not tidied, so I ended the episode with `SELF_REPORT: failure`.
+
+**What I did (10 turns):**
+- Surveyed the table with `look_at` and the overview. I could not clearly tell which items were the spill-cleanup target, and the bridge has no sponge or wipe primitive, so I treated the goal as clearing loose objects off the table.
+- Moved the yellow block off its spot at about (0.20, -0.12). The overview confirmed it was gone from that spot.
+- The block was dropped near the black bowl at the far right, but it ended up on the table at the workspace edge. Three grasp attempts there (at (0.49, -0.10), (0.49, -0.15) and (0.50, -0.13)) all returned `grasp_failed`. The last one reached x = 0.512, just past the workspace limit of 0.5.
+- Returned to the overview pose and sent `/done`.
+
+**Final state, as far as I could see:**
+- The water puddle (light blue, around x 0.28–0.32, y 0.04–0.16) is still there. I had no way to wipe it.
+- The red and white cups and the white flat item are still on the table.
+- The yellow block is on the table at the far-right edge, not in the bowl.
+
+I did not verify the bowl's contents directly, so the block's exact location is inferred from the wrist camera images. The episode ended with the table untidied.

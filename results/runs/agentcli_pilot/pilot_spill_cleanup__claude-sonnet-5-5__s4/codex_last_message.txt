@@ -1,0 +1,7 @@
+I wiped up the spill, but I did not set the knocked-over glass upright, so I reported the task as partial.
+
+I picked up the yellow sponge and wiped the water puddle in several passes. The last wrist-camera view showed no water left on the table. I then put the sponge back near where I found it and returned the arm to its home pose.
+
+The red glass is still lying on its side near (0.35, 0.0). My wiping nudged it a little from where it started.
+
+I called `/done` with `SELF_REPORT: partial`.

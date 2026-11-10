@@ -1,0 +1,19 @@
+I put six stationery items into the open box and then ended the episode with a **partial** self-report. I don't think the task is fully complete.
+
+**Placed in the box:**
+- Yellow highlighter
+- Black pen
+- Red-and-white marker
+- Yellow block
+- White-and-blue eraser
+- Blue flat notebook
+
+**Still on the desk:**
+- **White flat card:** I'm not sure it's stationery. I tried to grasp it twice and it slipped both times during transport, so it never went into the box.
+- **Red ball:** I left it because it looks like a toy rather than stationery.
+
+**Side effect:** the mug at around x 0.36–0.40, y −0.04 to −0.08 got knocked over, probably during the card attempts. It is lying on its side now. I didn't try to right it.
+
+**Other notes:**
+- The first highlighter grasps closed on nothing. A top-down grasp (pitch 90, azimuth 0) worked, and I used that for the remaining pick-and-place steps.
+- I interpreted "put away" as moving the items into the open cardboard box at the top-left of the desk.

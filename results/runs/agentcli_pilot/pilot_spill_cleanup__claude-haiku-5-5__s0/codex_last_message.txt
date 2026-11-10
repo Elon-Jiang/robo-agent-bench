@@ -1,0 +1,12 @@
+I cleaned up the spilled water and called the episode done with `SELF_REPORT: success`. The final top-down view shows no light-blue puddles left.
+
+What I did, in 12 plan turns:
+1. Surveyed the table with `look_at`. I read the red cup lying near (0.28, 0.00) as the knocked-over item and the yellow object at (0.20, -0.12) as a sponge.
+2. Moved the red cup off the spill to about (0.36, -0.12).
+3. Grasped the sponge, carried it over the puddle, and wiped it in several passes at about 1.8 cm height.
+4. Re-grasped the sponge for a final wipe of the leftover blue spots, then returned it to (0.20, -0.12) and went home.
+
+Caveats:
+- The brown cross-shaped area in the views looks like the arm's shadow, not residual water. I did not confirm that directly.
+- I did not check the red cup's final orientation closely. The "success" label rests on the spill being gone and nothing else looking out of place.
+- Some plan calls issued multiple `goto` segments and the bridge reported them as one turn, so I judged the wipe paths from the wrist-camera images rather than from the per-segment status.

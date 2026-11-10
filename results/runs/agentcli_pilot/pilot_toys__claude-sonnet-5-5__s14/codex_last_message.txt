@@ -1,0 +1,7 @@
+Partial success: four of the five blocks (pink, green, blue and red) are in the yellow box. The yellow block is missing.
+
+I last saw the yellow block on the gray ledge by the table's right edge, after one of my drops missed the box. When I looked again it was gone from the table, and a wide view of the table didn't show it. It probably fell off the edge, and I couldn't recover it.
+
+Two other things went wrong. The red block also landed outside the box on a first pass, and it took several tries to get it in. The box itself got nudged across the table a few times during the attempts, probably by the arm.
+
+I reported `SELF_REPORT: partial` to `/done`.

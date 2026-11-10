@@ -1,0 +1,5 @@
+The table is only partly cleared, so I reported `partial`.
+
+- **Done:** I moved the red mug and one red plate into the black tub.
+- **Not done:** The tub got knocked around during the other grasps. One red plate ended up off the table at the far left, outside the arm's reach. The last plate was pushed toward the robot base over several failed grasps, and by the end it sat at about x≈0.15, y≈0.08, beside the workspace edge. I stopped after 22 of the 30 turns because it was out of reach.
+- **Left on the table:** The banana, the phone and the dish rack are still where they were. I treated them as not dishes, which was a judgement call.

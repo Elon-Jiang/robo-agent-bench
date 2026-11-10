@@ -1,0 +1,14 @@
+The task is only partly done: the blocks are not all put away, so I reported `SELF_REPORT: partial` and ended the episode at turn 22 of 30.
+
+**What I did**
+- Read `AGENT_PROMPT.md` and used port 8098 with `curl --noproxy '*'` throughout. I did not edit files or read the simulator source.
+- Placed the first red block in the yellow tray and checked it visually. That worked.
+- Several grasps failed (`grasp_failed`) because my position estimates were off by a few centimetres. Some of those attempts pushed the tray toward the robot base, so the tray is now at the edge of the reachable workspace.
+- Once I could see the tray, I got the green block inside it. The red block was then placed just beyond the tray's back edge and is not in the tray.
+
+**Current state (from the wrist camera and overhead views)**
+- Green: in the tray.
+- Red: on the table just beyond the tray rim.
+- Pink, yellow, and cyan: still on the table, roughly at (0.40, -0.04), (0.36, -0.12), and (0.44, -0.16).
+
+**Why it's partial:** I ran out of time before finishing the placements. The next steps would be to pull the red block into the tray, then move pink, yellow, and cyan in, checking the tray's exact bounds first. Also, the arm's `gripper` read about 0.81 for a while after a failed grasp, which I couldn't fully explain. It returned to 1.0 by the end.
