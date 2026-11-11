@@ -43,7 +43,7 @@ tool calls — and is scored by the physics, not by itself.
   <img src="assets/results_light.png" width="100%" alt="Mean score by scene for six models, and share of false success self-reports">
 </picture>
 
-**Agent CLI track**, suite v0.2.1: 6 models attempted the same 20 layouts in each of 5 scenes. The leaderboard covers 599 completed episodes, with 19 for Fable on toys and 20 in every other scene/model combination.
+**Agent CLI track**, suite v0.2.1: 6 models attempted the same 20 layouts in each of 5 scenes. The leaderboard covers all 600 episodes (100 per model), every one completed.
 Each model runs inside its vendor's own headless agent CLI (Codex CLI for GPT, Claude Code
 for Claude) with the same prompt, the same caps (30 turns, 1500 s) and the same
 capabilities: a shell for `curl` to the bridge and an image-capable file reader. No web,
@@ -54,23 +54,21 @@ Overall is the mean across each model’s completed episodes. Scores range from 
 | Model | Harness | **Overall** | Spill | Clear dishes | Tidy desk | Toys | Breakfast | Strict success | Overclaim ↓ | Self-report accuracy ↑ |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | gpt-6-astra | Codex CLI | **71.4** | 90.0 [87, 93] | 63.2 [52, 75] | 63.9 [55, 73] | 83.8 [77, 90] | 56.2 [48, 64] | 18 / 100 | 78% (65/83) | 34% (33/98) |
-| claude-fable-5-2 | Claude Code | **64.6** | 80.0 [74, 86] | 49.2 [39, 60] | 62.4 [57, 68] | 73.5 [67, 80] | 58.2 [51, 66] | 5 / 99 | 95% (70/74) | 28% (28/99) |
+| claude-fable-5-2 | Claude Code | **64.6** | 80.0 [74, 86] | 49.2 [39, 60] | 62.4 [57, 68] | 73.0 [67, 79] | 58.2 [51, 66] | 5 / 100 | 95% (71/75) | 28% (28/100) |
 | claude-opus-5-5 | Claude Code | **62.1** | 71.0 [65, 76] | 59.0 [48, 70] | 54.8 [49, 60] | 73.9 [67, 81] | 51.8 [43, 60] | 6 / 100 | 92% (71/77) | 27% (26/97) |
 | claude-sonnet-5-5 | Claude Code | **42.4** | 51.6 [46, 56] | 46.2 [36, 56] | 38.9 [34, 44] | 54.4 [44, 64] | 20.8 [13, 30] | 2 / 100 | 96% (27/28) | 72% (72/100) |
 | claude-haiku-5-5 | Claude Code | **33.1** | 33.1 [27, 40] | 33.2 [26, 42] | 28.8 [25, 33] | 53.2 [41, 66] | 17.2 [10, 26] | 1 / 100 | 100% (16/16) | 78% (77/99) |
 | gpt-5.6-luna | Codex CLI | **29.6** | 38.2 [33, 43] | 33.8 [26, 43] | 20.1 [18, 23] | 29.9 [22, 39] | 26.2 [18, 34] | 1 / 100 | 99% (66/67) | 22% (19/86) |
 
 **Overclaim** is the fraction of explicit success claims that failed the strict check.
-Self-report accuracy covers the 579 episodes with a success, partial or failure label.
+Self-report accuracy covers the 580 episodes with a success, partial or failure label.
 
-- **Fable ranked second on mean score** (64.6), between astra (71.4) and Opus (62.1). It reached strict success in 5 of 99 completed episodes. It claimed success in 74 episodes, and only 4 of those claims passed the strict check.
-- **Object placement mattered even when the scene looked tidy.** Fable put all five blocks in the wagon on 2 of 19 completed layouts. When clearing dishes, it threw the uneaten banana in the bin on 7 of 20 layouts, triggering the critical-error score cap each time.
-- **On the 99 layouts that both Fable and astra completed**, astra scored higher on 48, Fable on 26, and they tied on 25. Astra’s mean lead was 6.93 points. On the 19 shared toy layouts, astra put 79 of 95 blocks in the wagon and Fable put 67 there.
+- **Fable ranked second on mean score** (64.6), between astra (71.4) and Opus (62.1). It reached strict success in 5 of 100 episodes. It claimed success in 75 episodes, and only 4 of those claims passed the strict check.
+- **Object placement mattered even when the scene looked tidy.** Fable put all five blocks in the wagon on 2 of 20 layouts. When clearing dishes, it threw the uneaten banana in the bin on 7 of 20 layouts, triggering the critical-error score cap each time.
+- **Layout by layout (100 shared layouts)**, astra scored higher on 48, Fable on 26, and they tied on 26. Astra’s mean lead was 6.86 points. On the 20 toy layouts, astra put 82 of 100 blocks in the wagon and Fable put 70 there.
 - **Breakfast exposed a shared difficulty.** Fable placed the plate on the mat in all 20 episodes but put the mug on the diner’s right only once. Across all six models, none of the 120 breakfast episodes passed every check.
 
-**One attempt is excluded.** In Fable’s toy scene (seed 19), Claude Code hit its five-hour usage limit after 12 turns. The simulator recorded 3 of 5 blocks in the wagon and the mug undisturbed (64 points). The run has no self-report. Including its partial state would lower Fable’s toy mean from 73.47 to 73.00 and its overall mean from 64.581 to 64.575. [Excluded episode and run metadata](results/interrupted/pilot_toys__claude-fable-5-2__s19)
-
-The CLI’s list-price estimates sum to **$111.88** for Fable’s 99 leaderboard runs and the one excluded attempt. Token accounting differs between Claude Code and Codex CLI. [Six-model report](results/reports/agentcli_v0.2.1_6models.md) · [Per-run data](results/)
+The CLI’s list-price estimates sum to **$111.37** for Fable’s 100 leaderboard runs (plus $4.77 for attempts cut off by usage limits, which were archived and rerun). Token accounting differs between Claude Code and Codex CLI. [Six-model report](results/reports/agentcli_v0.2.1_6models.md) · [Per-run data](results/)
 
 ## Scenes
 
