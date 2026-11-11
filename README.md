@@ -14,6 +14,8 @@
 manipulation scenes where a language/vision model drives a simulated robot arm through
 tool calls — and is scored by the physics, not by itself.
 
+> **New (Nov 2026): Claude Fable 5.2 results.** #2 of 6 models (64.6), behind gpt-6-astra (71.4) and level with Opus 5.5 (62.1) — and 71 of its 75 “success” claims were false. [Leaderboard ↓](#leaderboard)
+
 <p align="center">
   <img src="assets/toys_s5.gif" width="100%" alt="Same seed, two models: put the toys in the wagon"><br>
   <sub><b>“The kid is done playing, please put the blocks away.”</b> Same layout (seed 5), two models.
@@ -79,6 +81,14 @@ The CLI’s list-price estimates sum to **$111.37** for Fable’s 100 leaderboar
 | `pilot_tidy_desk` | “Please put away the stationery on my desk.” | Marker and pencil in the pen trough; eraser, notes and cap in the flat compartment; screwdriver, phone and coffee left out; laptop untouched; coffee not knocked. |
 | `pilot_toys` | “The kid is done playing, please put the blocks away.” | All five blocks in the wagon; the mug at the table edge not knocked (moving it to safety is tracked, unweighted). |
 | `pilot_breakfast` | “Please set up my breakfast.” | Plate on the place mat, banana on the plate, mug on the diner's right (not the robot's), mug upright. |
+
+### Fable 5.2 vs gpt-6-astra — same seed (4× speed)
+
+<p align="center">
+  <img src="assets/fable_clear_s3.gif" width="100%" alt="Clear dishes, seed 3: claude-fable-5-2 bins the uneaten banana; gpt-6-astra racks everything"><br>
+  <sub><b>“We're done eating, please clear the table.”</b> (seed 3): 30 vs 100 — Fable racks the bowl and mug but throws the
+  uneaten banana in the bin (critical error, score capped at 30), then reports <code>success</code>.</sub>
+</p>
 
 ### Gallery — same seed, both models (left: gpt-6-astra, right: gpt-5.6-luna, 4× speed)
 
